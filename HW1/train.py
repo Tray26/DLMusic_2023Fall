@@ -2,6 +2,7 @@ import torch
 from torch import nn
 from sklearn.metrics import accuracy_score, confusion_matrix
 from model_cnn import CNN
+from model_shortChunkCNN import ShortChunkCNN
 import numpy as np
 from dataloader import get_dataloader
 
@@ -9,16 +10,26 @@ from dataloader import get_dataloader
 
 if __name__ == "__main__":
     train_loader = get_dataloader(split='train', is_augmentation=True)
-    valid_loader = get_dataloader(split='valid', is_augmentation=True)
+    valid_loader = get_dataloader(split='valid', is_augmentation=False)
 
     # device_name = "mps" if torch.has_mps else "cpu"
     device_name = 'cuda' if torch.cuda.is_available() else 'cpu'
     device = torch.device(device_name)
     print(device_name)
     # device = torch.device('cuda:0' if torch.cuda.is_available() else 'cpu')
+
+    select_net = 'shortchunkCNN'
+
     cnn = CNN().to(device)
+    shortChunkCNN = ShortChunkCNN().to(device)
+
+    if select_net == 'shortchunkCNN':
+        net = shortChunkCNN
+    elif select_net == 'CNN':
+        net = cnn
+
     loss_function = nn.CrossEntropyLoss()
-    optimizer = torch.optim.Adam(cnn.parameters(), lr=0.001)
+    optimizer = torch.optim.Adam(net.parameters(), lr=0.001)
     valid_losses = []
     num_epochs = 30
 
@@ -28,13 +39,13 @@ if __name__ == "__main__":
         losses = []
 
         # Train
-        cnn.train()
+        net.train()
         for (wav, singer_index) in train_loader:
             wav = wav.to(device)
             singer_index = singer_index.to(device)
 
             # Forward
-            out = cnn(wav)
+            out = net(wav)
             loss = loss_function(out, singer_index)
 
             # Backward
@@ -45,7 +56,7 @@ if __name__ == "__main__":
         print('Epoch: [%d/%d], Train loss: %.4f' % (epoch+1, num_epochs, np.mean(losses)))
 
         # Validation
-        cnn.eval()
+        net.eval()
         y_true = []
         y_pred = []
         losses = []
@@ -58,7 +69,7 @@ if __name__ == "__main__":
 
             # reshape and aggregate chunk-level predictions
             # b, c, t = wav.size()
-            logits = cnn(wav)
+            logits = net(wav)
             # logits = logits.mean(dim=1)
             loss = loss_function(logits, singer_index)
             losses.append(loss.item())
@@ -75,4 +86,4 @@ if __name__ == "__main__":
         valid_losses.append(valid_loss.item())
         if np.argmin(valid_losses) == epoch:
             print('Saving the best model at %d epochs!' % epoch)
-            torch.save(cnn.state_dict(), 'best_model.ckpt')
+            torch.save(net.state_dict(), 'best_model.ckpt')

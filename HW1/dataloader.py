@@ -26,10 +26,14 @@ SINGERS = os.listdir(TrainDataPath)
 print(SINGERS)
 
 class SingerDataset(data.Dataset):
-    def __init__(self,data_path, split, num_samples, num_chunks, is_augmentation, split_path = './split_data'):
+    # def __init__(self,data_path, split, num_samples, num_chunks, is_augmentation, split_path = './split_data'):
+    # Need: sampling rate, sample time interval, augmentation, split_path
+    def __init__(self,data_path, split, num_chunks, is_augmentation, sample_interval, sample_rate=16000, split_path = './split_data'):
         self.data_path =  data_path if data_path else ''        # data path
         self.split = split                                      # train or valid
-        self.num_samples = num_samples                          # total sampling data point
+        self.num_samples = sample_rate * sample_interval                          # total sampling data point
+        self.sample_rate = sample_rate
+        self.sample_interval = sample_interval
         self.num_chunks = num_chunks
         self.is_augmentation = is_augmentation                  #
         singers_list = os.listdir(data_path)
@@ -46,10 +50,10 @@ class SingerDataset(data.Dataset):
             RandomApply([PolarityInversion()], p=0.8),
             RandomApply([Noise(min_snr=0.3, max_snr=0.5)], p=0.3),
             RandomApply([Gain()], p=0.2),
-            RandomApply([HighLowPass(sample_rate=22050)], p=0.8),
-            RandomApply([Delay(sample_rate=22050)], p=0.5),
-            RandomApply([PitchShift(n_samples=self.num_samples, sample_rate=22050)], p=0.4),
-            RandomApply([Reverb(sample_rate=22050)], p=0.3),
+            RandomApply([HighLowPass(sample_rate=self.sample_rate)], p=0.8),
+            RandomApply([Delay(sample_rate=self.sample_rate)], p=0.5),
+            RandomApply([PitchShift(n_samples=self.num_samples, sample_rate=self.sample_rate)], p=0.4),
+            RandomApply([Reverb(sample_rate=self.sample_rate)], p=0.3),
         ]
         self.augmentation = Compose(transforms=transforms)
 
@@ -113,18 +117,19 @@ class SingerDataset(data.Dataset):
 
 def get_dataloader(data_path='./artist20/mp3s-32k/',
                    split='train',
-                   num_samples=16000 * 29,
                    num_chunks=1,
                    batch_size=16,
                    num_workers=0,
-                   is_augmentation=False):
+                   is_augmentation=False,
+                   sample_interval = 30):
     is_shuffle = True if (split == 'train') else False
     batch_size = batch_size if (split == 'train') else (batch_size // num_chunks)
-    data_loader = data.DataLoader(dataset=SingerDataset(data_path,
-                                                       split,
-                                                       num_samples,
-                                                       num_chunks,
-                                                       is_augmentation),
+    data_loader = data.DataLoader(dataset=SingerDataset(data_path, 
+                                                        split, 
+                                                        num_chunks, 
+                                                        is_augmentation, 
+                                                        sample_interval,
+                                                       ),
                                   batch_size=batch_size,
                                   shuffle=is_shuffle,
                                   drop_last=True,
