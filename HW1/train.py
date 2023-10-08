@@ -31,7 +31,7 @@ if __name__ == "__main__":
     loss_function = nn.CrossEntropyLoss()
     optimizer = torch.optim.Adam(net.parameters(), lr=0.001)
     valid_losses = []
-    num_epochs = 30
+    num_epochs = 10
 
     for epoch in range(num_epochs):
         # device_name = 'cuda' if torch.cuda.is_available() else 'cpu'
