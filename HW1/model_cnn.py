@@ -21,10 +21,10 @@ class Conv_2d(nn.Module):
 
 class CNN(nn.Module):
     def __init__(self, num_channels=16,
-                       sample_rate=22050,
-                       n_fft=1024,
+                       sample_rate=16000,
+                       n_fft=512,
                        f_min=0.0,
-                       f_max=11025.0,
+                       f_max=8000,
                        num_mels=128,
                        num_classes=20):
         super(CNN, self).__init__()

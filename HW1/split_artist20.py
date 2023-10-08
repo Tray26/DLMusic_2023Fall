@@ -13,10 +13,11 @@
 #################################################
 
 import os
+import csv
 
 ########## adjust here ###############
 data_path = './artist20/mp3s-32k'       # set your artist20 path
-target_path = './split_data'             # you can change the output path of .txt file if you want
+target_path = './support_data'             # you can change the output path of .txt file if you want
 ######################################
 
 if not os.path.exists(target_path):
@@ -45,6 +46,14 @@ remove_exist_file(os.path.join(target_path, 'train.txt'))
 remove_exist_file(os.path.join(target_path, 'valid.txt'))
 
 singers = os.listdir(data_path)
+save_singers_filename = 'singers.csv'
+save_singers_filepath = os.path.join(target_path, save_singers_filename)
+with open(save_singers_filepath, 'w', newline='') as csvfile:
+    writer = csv.writer(csvfile)
+    writer.writerow(singers)
+
+
+
 for singer in singers:
     train = []
     validation = []
