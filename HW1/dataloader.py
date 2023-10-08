@@ -113,7 +113,7 @@ class SingerDataset(data.Dataset):
 
 def get_dataloader(data_path='./artist20/mp3s-32k/',
                    split='train',
-                   num_samples=16000 * 29,
+                   num_samples=16000 * 40,
                    num_chunks=1,
                    batch_size=16,
                    num_workers=0,

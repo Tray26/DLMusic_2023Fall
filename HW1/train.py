@@ -9,7 +9,7 @@ from dataloader import get_dataloader
 
 if __name__ == "__main__":
     train_loader = get_dataloader(split='train', is_augmentation=True)
-    valid_loader = get_dataloader(split='valid', is_augmentation=True)
+    valid_loader = get_dataloader(split='valid', is_augmentation=False)
 
     # device_name = "mps" if torch.has_mps else "cpu"
     device_name = 'cuda' if torch.cuda.is_available() else 'cpu'
