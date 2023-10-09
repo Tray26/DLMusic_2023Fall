@@ -5,13 +5,19 @@ from model_cnn import CNN
 from model_shortChunkCNN import ShortChunkCNN
 import numpy as np
 from dataloader import get_dataloader
+import os
+import csv
 
 
 
 if __name__ == "__main__":
-    train_loader = get_dataloader(split='train', is_augmentation=True)
-    valid_loader = get_dataloader(split='valid', is_augmentation=False)
-
+    support_data_path = './support_data'
+    with open(os.path.join(support_data_path, 'singers.csv'), newline='') as readsingers:
+        singers_list = csv.reader(readsingers)
+        singers_list = list(singers_list)
+        singers_list = singers_list[0]
+    num_classes = len(singers_list)
+    # print(num_classes)
     # device_name = "mps" if torch.has_mps else "cpu"
     device_name = 'cuda' if torch.cuda.is_available() else 'cpu'
     device = torch.device(device_name)
@@ -20,14 +26,17 @@ if __name__ == "__main__":
 
     select_net = 'shortchunkCNN'
     # select_net = 'CNN'
-
-    cnn = CNN().to(device)
-    shortChunkCNN = ShortChunkCNN().to(device)
-
     if select_net == 'shortchunkCNN':
-        net = shortChunkCNN
+        sample_interval = 3.69
+        net = ShortChunkCNN(n_class=num_classes).to(device)
     elif select_net == 'CNN':
-        net = cnn
+        sample_interval = 10
+        net = CNN(num_classes=num_classes).to(device)
+
+    train_loader = get_dataloader(split='train', is_augmentation=True, sample_interval=sample_interval)
+    valid_loader = get_dataloader(split='valid', is_augmentation=False, sample_interval=sample_interval)
+
+    
 
     loss_function = nn.CrossEntropyLoss()
     optimizer = torch.optim.Adam(net.parameters(), lr=0.001)
