@@ -8,4 +8,3 @@ with open(csv_path, newline='') as readfile:
     rows = csv.reader(readfile)
     rows = list(rows)
     rows = rows[0]
-    # print(len(rows))

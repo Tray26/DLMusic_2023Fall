@@ -19,6 +19,7 @@ if __name__ == "__main__":
     # device = torch.device('cuda:0' if torch.cuda.is_available() else 'cpu')
 
     select_net = 'shortchunkCNN'
+    # select_net = 'CNN'
 
     cnn = CNN().to(device)
     shortChunkCNN = ShortChunkCNN().to(device)
@@ -45,6 +46,7 @@ if __name__ == "__main__":
             singer_index = singer_index.to(device)
 
             # Forward
+            # print(wav.shape)
             out = net(wav)
             loss = loss_function(out, singer_index)
 

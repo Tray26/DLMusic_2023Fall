@@ -21,10 +21,10 @@ from torchaudio_augmentations import (
 
 
 
-TrainDataPath = './artist20/mp3s-32k/'
+# TrainDataPath = './artist20/mp3s-32k/'
 
-SINGERS = os.listdir(TrainDataPath)
-print(SINGERS)
+# SINGERS = os.listdir(TrainDataPath)
+# print(SINGERS)
 
 class SingerDataset(data.Dataset):
     # def __init__(self,data_path, split, num_samples, num_chunks, is_augmentation, 
@@ -45,7 +45,7 @@ class SingerDataset(data.Dataset):
             singers_list = singers_list[0]
         self.singers = singers_list                                 #singers list
         self.support_data_path = support_data_path
-        self._get_song_list()
+        self._get_song_info()
         if is_augmentation:
             self._get_augmentations()
 
@@ -62,8 +62,8 @@ class SingerDataset(data.Dataset):
         ]
         self.augmentation = Compose(transforms=transforms)
 
-    # def _get_song_list
-    def _get_song_list(self):
+    # def _get_song_info
+    def _get_song_info(self):
         list_filename = os.path.join(self.support_data_path, '%s.txt' % self.split)
         with open(list_filename) as f:
             lines = f.readlines()
@@ -148,5 +148,14 @@ if __name__ == "__main__":
     train_wav, train_singer = next(iter_train_loader)
 
     valid_loader = get_dataloader(split='valid')
+    iter_valid_loader = iter(valid_loader)
+    valid_wav, valid_singer = next(iter_valid_loader)
+
+
+    print('training data shape: %s' % str(train_wav.shape))
+    print('valid data shape: %s' % str(valid_wav.shape))
+
+    print(train_singer)
+
 
     # print('training data shape: %s' % str(train_wav.shape))

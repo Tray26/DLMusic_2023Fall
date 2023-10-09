@@ -16,7 +16,7 @@ class ShortChunkCNN(nn.Module):
                 f_min=0.0,
                 f_max=8000.0,
                 n_mels=128,
-                n_class=50):
+                n_class=20):
         super(ShortChunkCNN, self).__init__()
 
         # Spectrogram
@@ -50,6 +50,8 @@ class ShortChunkCNN(nn.Module):
         x = self.to_db(x)
         x = x.unsqueeze(1)
         x = self.spec_bn(x)
+
+        print(x.shape)
 
         # CNN
         x = self.layer1(x)
