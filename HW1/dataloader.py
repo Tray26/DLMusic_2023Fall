@@ -75,8 +75,9 @@ class SingerDataset(data.Dataset):
             random_index = random.randint(0, len(wav) - self.num_samples - 1)
             wav = wav[random_index : random_index + self.num_samples]
         else:
-            hop = (len(wav) - self.num_samples) // self.num_chunks
-            wav = np.array([wav[i * hop : i * hop + self.num_samples] for i in range(self.num_chunks)])
+            chunk_number = len(wav) // self.num_samples
+            hop = (len(wav) - self.num_samples) // chunk_number
+            wav = np.array([wav[i * hop : i * hop + self.num_samples] for i in range(chunk_number)])
             wav = wav[0,:]
             # print(wav.shape)
         return wav
@@ -95,6 +96,7 @@ class SingerDataset(data.Dataset):
         wav, fs = sf.read(audio_filename)
         # print(type(wav))
         if len(wav) < self.num_samples:
+            print('Audio not long enough:', line.split(', ')[2])
             len_mul = self.num_samples // len(wav)
             wav = np.repeat(wav, len_mul + 1)
 
@@ -114,7 +116,7 @@ class SingerDataset(data.Dataset):
             wav = self.augmentation(torch.from_numpy(wav).unsqueeze(0)).squeeze(0).numpy()
 
         
-
+        print(singer_name, singer_index, song_name)
         return wav, singer_index
 
     def __len__(self):

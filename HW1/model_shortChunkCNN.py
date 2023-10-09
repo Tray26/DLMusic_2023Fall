@@ -62,11 +62,13 @@ class ShortChunkCNN(nn.Module):
         x = self.layer6(x)
         x = self.layer7(x)
         x = x.squeeze(2)
+        # print(x.shape)
 
         # Global Max Pooling
         if x.size(-1) != 1:
             x = nn.MaxPool1d(x.size(-1))(x)
         x = x.squeeze(2)
+        # print(x.shape)
 
         # Dense
         x = self.dense1(x)

@@ -30,7 +30,7 @@ if __name__ == "__main__":
         sample_interval = 3.69
         net = ShortChunkCNN(n_class=num_classes).to(device)
     elif select_net == 'CNN':
-        sample_interval = 10
+        sample_interval = 29.1
         net = CNN(num_classes=num_classes).to(device)
 
     train_loader = get_dataloader(split='train', is_augmentation=True, sample_interval=sample_interval)
@@ -41,7 +41,7 @@ if __name__ == "__main__":
     loss_function = nn.CrossEntropyLoss()
     optimizer = torch.optim.Adam(net.parameters(), lr=0.001)
     valid_losses = []
-    num_epochs = 100
+    num_epochs = 1
 
     for epoch in range(num_epochs):
         # device_name = 'cuda' if torch.cuda.is_available() else 'cpu'

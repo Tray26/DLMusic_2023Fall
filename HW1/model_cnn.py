@@ -1,6 +1,6 @@
 from torch import nn
 import torchaudio
-from torchsummary import summary
+# from torchsummary import summary
 
 class Conv_2d(nn.Module):
     def __init__(self, input_channels, output_channels, shape=3, pooling=2, dropout=0.1):
@@ -89,4 +89,4 @@ class CNN(nn.Module):
     
 if __name__ == "__main__":
     cnn = CNN()
-    summary(cnn, (16, 59040))
+    # summary(cnn, (16, 59040))
