@@ -6,6 +6,8 @@ import numpy as np
 import soundfile as sf
 from torch.utils import data
 import csv
+import torchaudio
+from torchaudio.utils import download_asset
 from torchaudio_augmentations import (
     RandomResizedCrop,
     RandomApply,
@@ -91,15 +93,20 @@ class SingerDataset(data.Dataset):
 
         # get audio
         audio_filename = line.split(', ')[0]
-        # audio_filename = audio_filename[:-1]
+        audio_format = audio_filename[-3:]
+        # print(audio_format)
         wav, fs = sf.read(audio_filename)
+        # print('load')
+        # wav, fs = torchaudio.load(audio_filename, format=audio_format)
+        # audio_file = download_asset(audio_filename)
+        # wav, fs = torchaudio.load(audio_file, format = audio_format)
         # print(type(wav))
+
         if len(wav) < self.num_samples:
             len_mul = self.num_samples // len(wav)
             wav = np.repeat(wav, len_mul + 1)
 
 
-        # wav, fs = torchaudio.load(audio_filename)
 
         # adjust audio length
         song_name = line.split(', ')[2]
