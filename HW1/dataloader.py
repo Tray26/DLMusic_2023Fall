@@ -26,9 +26,9 @@ SINGERS = os.listdir(TrainDataPath)
 print(SINGERS)
 
 class SingerDataset(data.Dataset):
-    # def __init__(self,data_path, split, num_samples, num_chunks, is_augmentation, split_path = './split_data'):
-    # Need: sampling rate, sample time interval, augmentation, split_path
-    def __init__(self,data_path, split, num_chunks, is_augmentation, sample_interval, sample_rate=16000, split_path = './support_data'):
+    # def __init__(self,data_path, split, num_samples, num_chunks, is_augmentation, support_data_path = './split_data'):
+    # Need: sampling rate, sample time interval, augmentation, support_data_path
+    def __init__(self,data_path, split, num_chunks, is_augmentation, sample_interval, sample_rate=16000, support_data_path = './support_data'):
         self.data_path =  data_path if data_path else ''        # data path
         self.split = split                                      # train or valid
         self.num_samples = int(sample_rate * sample_interval)   # total sampling data point
@@ -39,7 +39,7 @@ class SingerDataset(data.Dataset):
         singers_list = os.listdir(data_path)
         singers_list.sort()
         self.singers = singers_list                                 #singers list
-        self.split_path = split_path
+        self.support_data_path = support_data_path
         self._get_song_list()
         if is_augmentation:
             self._get_augmentations()
@@ -59,7 +59,7 @@ class SingerDataset(data.Dataset):
 
     # def _get_song_list
     def _get_song_list(self):
-        list_filename = os.path.join(self.split_path, '%s.txt' % self.split)
+        list_filename = os.path.join(self.data_path, '%s.txt' % self.split)
         with open(list_filename) as f:
             lines = f.readlines()
         self.song_list = [line.strip() for line in lines]
