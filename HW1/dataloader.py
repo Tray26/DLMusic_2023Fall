@@ -6,8 +6,6 @@ import numpy as np
 import soundfile as sf
 from torch.utils import data
 import csv
-import torchaudio
-from torchaudio.utils import download_asset
 from torchaudio_augmentations import (
     RandomResizedCrop,
     RandomApply,
@@ -23,10 +21,6 @@ from torchaudio_augmentations import (
 
 
 
-# TrainDataPath = './artist20/mp3s-32k/'
-
-# SINGERS = os.listdir(TrainDataPath)
-# print(SINGERS)
 
 class SingerDataset(data.Dataset):
     # def __init__(self,data_path, split, num_samples, num_chunks, is_augmentation, 
@@ -77,8 +71,9 @@ class SingerDataset(data.Dataset):
             random_index = random.randint(0, len(wav) - self.num_samples - 1)
             wav = wav[random_index : random_index + self.num_samples]
         else:
-            hop = (len(wav) - self.num_samples) // self.num_chunks
-            wav = np.array([wav[i * hop : i * hop + self.num_samples] for i in range(self.num_chunks)])
+            chunk_number = len(wav) // self.num_samples
+            hop = (len(wav) - self.num_samples) // chunk_number
+            wav = np.array([wav[i * hop : i * hop + self.num_samples] for i in range(chunk_number)])
             wav = wav[0,:]
             # print(wav.shape)
         return wav
@@ -93,20 +88,16 @@ class SingerDataset(data.Dataset):
 
         # get audio
         audio_filename = line.split(', ')[0]
-        audio_format = audio_filename[-3:]
-        # print(audio_format)
+        # audio_filename = audio_filename[:-1]
         wav, fs = sf.read(audio_filename)
-        # print('load')
-        # wav, fs = torchaudio.load(audio_filename, format=audio_format)
-        # audio_file = download_asset(audio_filename)
-        # wav, fs = torchaudio.load(audio_file, format = audio_format)
         # print(type(wav))
-
         if len(wav) < self.num_samples:
+            print('Audio not long enough:', line.split(', ')[2])
             len_mul = self.num_samples // len(wav)
             wav = np.repeat(wav, len_mul + 1)
 
 
+        # wav, fs = torchaudio.load(audio_filename)
 
         # adjust audio length
         song_name = line.split(', ')[2]
@@ -121,7 +112,7 @@ class SingerDataset(data.Dataset):
             wav = self.augmentation(torch.from_numpy(wav).unsqueeze(0)).squeeze(0).numpy()
 
         
-
+        # print(singer_name, singer_index, song_name)
         return wav, singer_index
 
     def __len__(self):
@@ -135,6 +126,7 @@ def get_dataloader(data_path='./artist20/mp3s-32k/',
                    is_augmentation=False,
                    sample_interval = 3.69):
     is_shuffle = True if (split == 'train') else False
+    num_chunks = int(sample_interval * 16000) 
     batch_size = batch_size if (split == 'train') else (batch_size // num_chunks)
     data_loader = data.DataLoader(dataset=SingerDataset(data_path, 
                                                         split, 
@@ -154,13 +146,13 @@ if __name__ == "__main__":
     iter_train_loader = iter(train_loader)
     train_wav, train_singer = next(iter_train_loader)
 
-    valid_loader = get_dataloader(split='valid')
-    iter_valid_loader = iter(valid_loader)
-    valid_wav, valid_singer = next(iter_valid_loader)
+    # valid_loader = get_dataloader(split='valid')
+    # iter_valid_loader = iter(valid_loader)
+    # valid_wav, valid_singer = next(iter_valid_loader)
 
 
     print('training data shape: %s' % str(train_wav.shape))
-    print('valid data shape: %s' % str(valid_wav.shape))
+    # print('valid data shape: %s' % str(valid_wav.shape))
 
     print(train_singer)
 
