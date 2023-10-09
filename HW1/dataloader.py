@@ -59,7 +59,7 @@ class SingerDataset(data.Dataset):
 
     # def _get_song_list
     def _get_song_list(self):
-        list_filename = os.path.join(self.data_path, '%s.txt' % self.split)
+        list_filename = os.path.join(self.support_data_path, '%s.txt' % self.split)
         with open(list_filename) as f:
             lines = f.readlines()
         self.song_list = [line.strip() for line in lines]
