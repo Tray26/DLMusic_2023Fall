@@ -1,7 +1,19 @@
 from torch import nn
 import torchaudio
-from modules import Conv_1d, ResSE_1d, Conv_2d, Res_2d, Conv_V, Conv_H, Res_2d_mp
+# from modules import Conv_1d, ResSE_1d, Conv_2d, Res_2d, Conv_V, Conv_H, Res_2d_mp
 # , HarmonicSTFT
+
+
+class Conv_2d(nn.Module):
+    def __init__(self, input_channels, output_channels, shape=3, stride=1, pooling=2):
+        super(Conv_2d, self).__init__()
+        self.conv = nn.Conv2d(input_channels, output_channels, shape, stride=stride, padding=shape//2)
+        self.bn = nn.BatchNorm2d(output_channels)
+        self.relu = nn.ReLU()
+        self.mp = nn.MaxPool2d(pooling)
+    def forward(self, x):
+        out = self.mp(self.relu(self.bn(self.conv(x))))
+        return out
 
 class ShortChunkCNN(nn.Module):
     '''
@@ -51,8 +63,6 @@ class ShortChunkCNN(nn.Module):
         x = x.unsqueeze(1)
         x = self.spec_bn(x)
 
-        print(x.shape)
-
         # CNN
         x = self.layer1(x)
         x = self.layer2(x)
@@ -62,13 +72,11 @@ class ShortChunkCNN(nn.Module):
         x = self.layer6(x)
         x = self.layer7(x)
         x = x.squeeze(2)
-        # print(x.shape)
 
         # Global Max Pooling
         if x.size(-1) != 1:
             x = nn.MaxPool1d(x.size(-1))(x)
         x = x.squeeze(2)
-        # print(x.shape)
 
         # Dense
         x = self.dense1(x)

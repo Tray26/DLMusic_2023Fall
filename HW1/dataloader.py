@@ -21,10 +21,6 @@ from torchaudio_augmentations import (
 
 
 
-# TrainDataPath = './artist20/mp3s-32k/'
-
-# SINGERS = os.listdir(TrainDataPath)
-# print(SINGERS)
 
 class SingerDataset(data.Dataset):
     # def __init__(self,data_path, split, num_samples, num_chunks, is_augmentation, 
@@ -116,7 +112,7 @@ class SingerDataset(data.Dataset):
             wav = self.augmentation(torch.from_numpy(wav).unsqueeze(0)).squeeze(0).numpy()
 
         
-        print(singer_name, singer_index, song_name)
+        # print(singer_name, singer_index, song_name)
         return wav, singer_index
 
     def __len__(self):
@@ -149,13 +145,13 @@ if __name__ == "__main__":
     iter_train_loader = iter(train_loader)
     train_wav, train_singer = next(iter_train_loader)
 
-    valid_loader = get_dataloader(split='valid')
-    iter_valid_loader = iter(valid_loader)
-    valid_wav, valid_singer = next(iter_valid_loader)
+    # valid_loader = get_dataloader(split='valid')
+    # iter_valid_loader = iter(valid_loader)
+    # valid_wav, valid_singer = next(iter_valid_loader)
 
 
     print('training data shape: %s' % str(train_wav.shape))
-    print('valid data shape: %s' % str(valid_wav.shape))
+    # print('valid data shape: %s' % str(valid_wav.shape))
 
     print(train_singer)
 

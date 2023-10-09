@@ -41,7 +41,10 @@ if __name__ == "__main__":
     loss_function = nn.CrossEntropyLoss()
     optimizer = torch.optim.Adam(net.parameters(), lr=0.001)
     valid_losses = []
-    num_epochs = 1
+    num_epochs = 20
+
+    best_valid_accuracy = 0
+    best_epoch = 0
 
     for epoch in range(num_epochs):
         # device_name = 'cuda' if torch.cuda.is_available() else 'cpu'
@@ -95,6 +98,16 @@ if __name__ == "__main__":
 
         # Save model
         valid_losses.append(valid_loss.item())
-        if np.argmin(valid_losses) == epoch:
+        # if np.argmin(valid_losses) == epoch:
+        #     print('Saving the best model at %d epochs!' % epoch)
+        #     torch.save(net.state_dict(), 'best_model.ckpt')
+
+        if accuracy > best_valid_accuracy:
             print('Saving the best model at %d epochs!' % epoch)
             torch.save(net.state_dict(), 'best_model.ckpt')
+            best_valid_accuracy = accuracy
+            best_epoch = epoch
+
+    print(f'Best Valid Accuracy: {best_valid_accuracy}, Get at Epoch {best_epoch}')    
+
+
