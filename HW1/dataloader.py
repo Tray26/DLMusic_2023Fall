@@ -28,10 +28,10 @@ print(SINGERS)
 class SingerDataset(data.Dataset):
     # def __init__(self,data_path, split, num_samples, num_chunks, is_augmentation, split_path = './split_data'):
     # Need: sampling rate, sample time interval, augmentation, split_path
-    def __init__(self,data_path, split, num_chunks, is_augmentation, sample_interval, sample_rate=16000, split_path = './split_data'):
+    def __init__(self,data_path, split, num_chunks, is_augmentation, sample_interval, sample_rate=16000, split_path = './support_data'):
         self.data_path =  data_path if data_path else ''        # data path
         self.split = split                                      # train or valid
-        self.num_samples = sample_rate * sample_interval        # total sampling data point
+        self.num_samples = int(sample_rate * sample_interval)   # total sampling data point
         self.sample_rate = sample_rate
         self.sample_interval = sample_interval
         self.num_chunks = num_chunks
@@ -121,7 +121,7 @@ def get_dataloader(data_path='./artist20/mp3s-32k/',
                    batch_size=16,
                    num_workers=0,
                    is_augmentation=False,
-                   sample_interval = 60):
+                   sample_interval = 3.69):
     is_shuffle = True if (split == 'train') else False
     batch_size = batch_size if (split == 'train') else (batch_size // num_chunks)
     data_loader = data.DataLoader(dataset=SingerDataset(data_path, 
