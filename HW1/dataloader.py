@@ -31,7 +31,7 @@ class SingerDataset(data.Dataset):
     def __init__(self,data_path, split, num_chunks, is_augmentation, sample_interval, sample_rate=16000, split_path = './split_data'):
         self.data_path =  data_path if data_path else ''        # data path
         self.split = split                                      # train or valid
-        self.num_samples = sample_rate * sample_interval        # total sampling data point
+        self.num_samples = int(sample_rate * sample_interval)   # total sampling data point
         self.sample_rate = sample_rate
         self.sample_interval = sample_interval
         self.num_chunks = num_chunks
