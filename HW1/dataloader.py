@@ -5,6 +5,7 @@ import torch
 import numpy as np
 import soundfile as sf
 from torch.utils import data
+import csv
 from torchaudio_augmentations import (
     RandomResizedCrop,
     RandomApply,
@@ -26,9 +27,11 @@ SINGERS = os.listdir(TrainDataPath)
 print(SINGERS)
 
 class SingerDataset(data.Dataset):
-    # def __init__(self,data_path, split, num_samples, num_chunks, is_augmentation, support_data_path = './split_data'):
+    # def __init__(self,data_path, split, num_samples, num_chunks, is_augmentation, 
+    # support_data_path = './split_data'):
     # Need: sampling rate, sample time interval, augmentation, support_data_path
-    def __init__(self,data_path, split, num_chunks, is_augmentation, sample_interval, sample_rate=16000, support_data_path = './support_data'):
+    def __init__(self,data_path, split, num_chunks, is_augmentation, sample_interval, 
+                 sample_rate=16000, support_data_path = './support_data'):
         self.data_path =  data_path if data_path else ''        # data path
         self.split = split                                      # train or valid
         self.num_samples = int(sample_rate * sample_interval)   # total sampling data point
@@ -36,8 +39,10 @@ class SingerDataset(data.Dataset):
         self.sample_interval = sample_interval
         self.num_chunks = num_chunks
         self.is_augmentation = is_augmentation                  #
-        singers_list = os.listdir(data_path)
-        singers_list.sort()
+        with open(os.path.join(support_data_path, 'singers.csv'), newline='') as readsingers:
+            singers_list = csv.reader(readsingers)
+            singers_list = list(singers_list)
+            singers_list = singers_list[0]
         self.singers = singers_list                                 #singers list
         self.support_data_path = support_data_path
         self._get_song_list()

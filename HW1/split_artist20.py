@@ -46,6 +46,7 @@ remove_exist_file(os.path.join(target_path, 'train.txt'))
 remove_exist_file(os.path.join(target_path, 'valid.txt'))
 
 singers = os.listdir(data_path)
+singers.sort()
 save_singers_filename = 'singers.csv'
 save_singers_filepath = os.path.join(target_path, save_singers_filename)
 with open(save_singers_filepath, 'w', newline='') as csvfile:

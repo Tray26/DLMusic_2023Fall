@@ -1,240 +1,240 @@
-/home/guest/guest14/Wi-fi_b08901177/DLMusic_2023Fall/HW1/artist20/mp3s-32k/creedence_clearwater_revival/Pendulum/09-Molina.mp3, creedence_clearwater_revival, 09-Molina
-/home/guest/guest14/Wi-fi_b08901177/DLMusic_2023Fall/HW1/artist20/mp3s-32k/creedence_clearwater_revival/Pendulum/05-_Wish_I_Could_Hideaway.mp3, creedence_clearwater_revival, 05-_Wish_I_Could_Hideaway
-/home/guest/guest14/Wi-fi_b08901177/DLMusic_2023Fall/HW1/artist20/mp3s-32k/creedence_clearwater_revival/Pendulum/02-Sailor_s_Lament.mp3, creedence_clearwater_revival, 02-Sailor_s_Lament
-/home/guest/guest14/Wi-fi_b08901177/DLMusic_2023Fall/HW1/artist20/mp3s-32k/creedence_clearwater_revival/Pendulum/10-Rude_Awakening_2.mp3, creedence_clearwater_revival, 10-Rude_Awakening_2
-/home/guest/guest14/Wi-fi_b08901177/DLMusic_2023Fall/HW1/artist20/mp3s-32k/creedence_clearwater_revival/Pendulum/07-Hey_Tonight.mp3, creedence_clearwater_revival, 07-Hey_Tonight
-/home/guest/guest14/Wi-fi_b08901177/DLMusic_2023Fall/HW1/artist20/mp3s-32k/creedence_clearwater_revival/Pendulum/03-Chameleon.mp3, creedence_clearwater_revival, 03-Chameleon
-/home/guest/guest14/Wi-fi_b08901177/DLMusic_2023Fall/HW1/artist20/mp3s-32k/creedence_clearwater_revival/Pendulum/08-It_s_Just_A_Thought.mp3, creedence_clearwater_revival, 08-It_s_Just_A_Thought
-/home/guest/guest14/Wi-fi_b08901177/DLMusic_2023Fall/HW1/artist20/mp3s-32k/creedence_clearwater_revival/Pendulum/04-Have_You_Ever_Seen_The_Rain-.mp3, creedence_clearwater_revival, 04-Have_You_Ever_Seen_The_Rain-
-/home/guest/guest14/Wi-fi_b08901177/DLMusic_2023Fall/HW1/artist20/mp3s-32k/creedence_clearwater_revival/Pendulum/01-Pagan_Baby.mp3, creedence_clearwater_revival, 01-Pagan_Baby
-/home/guest/guest14/Wi-fi_b08901177/DLMusic_2023Fall/HW1/artist20/mp3s-32k/creedence_clearwater_revival/Pendulum/06-Born_To_Move.mp3, creedence_clearwater_revival, 06-Born_To_Move
-/home/guest/guest14/Wi-fi_b08901177/DLMusic_2023Fall/HW1/artist20/mp3s-32k/steely_dan/Pretzel_Logic/05-East_St_Louis_Toodle-Oo.mp3, steely_dan, 05-East_St_Louis_Toodle-Oo
-/home/guest/guest14/Wi-fi_b08901177/DLMusic_2023Fall/HW1/artist20/mp3s-32k/steely_dan/Pretzel_Logic/06-Parker_s_Band.mp3, steely_dan, 06-Parker_s_Band
-/home/guest/guest14/Wi-fi_b08901177/DLMusic_2023Fall/HW1/artist20/mp3s-32k/steely_dan/Pretzel_Logic/02-Night_by_Night.mp3, steely_dan, 02-Night_by_Night
-/home/guest/guest14/Wi-fi_b08901177/DLMusic_2023Fall/HW1/artist20/mp3s-32k/steely_dan/Pretzel_Logic/03-Any_Major_Dude_Will_Tell_You.mp3, steely_dan, 03-Any_Major_Dude_Will_Tell_You
-/home/guest/guest14/Wi-fi_b08901177/DLMusic_2023Fall/HW1/artist20/mp3s-32k/steely_dan/Pretzel_Logic/01-Rikki_Don_t_Lose_That_Number.mp3, steely_dan, 01-Rikki_Don_t_Lose_That_Number
-/home/guest/guest14/Wi-fi_b08901177/DLMusic_2023Fall/HW1/artist20/mp3s-32k/steely_dan/Pretzel_Logic/08-Pretzel_Logic.mp3, steely_dan, 08-Pretzel_Logic
-/home/guest/guest14/Wi-fi_b08901177/DLMusic_2023Fall/HW1/artist20/mp3s-32k/steely_dan/Pretzel_Logic/10-Charlie_Freak.mp3, steely_dan, 10-Charlie_Freak
-/home/guest/guest14/Wi-fi_b08901177/DLMusic_2023Fall/HW1/artist20/mp3s-32k/steely_dan/Pretzel_Logic/11-Monkey_in_Your_Soul.mp3, steely_dan, 11-Monkey_in_Your_Soul
-/home/guest/guest14/Wi-fi_b08901177/DLMusic_2023Fall/HW1/artist20/mp3s-32k/steely_dan/Pretzel_Logic/09-With_a_Gun.mp3, steely_dan, 09-With_a_Gun
-/home/guest/guest14/Wi-fi_b08901177/DLMusic_2023Fall/HW1/artist20/mp3s-32k/steely_dan/Pretzel_Logic/07-Through_With_Buzz.mp3, steely_dan, 07-Through_With_Buzz
-/home/guest/guest14/Wi-fi_b08901177/DLMusic_2023Fall/HW1/artist20/mp3s-32k/steely_dan/Pretzel_Logic/04-Barrytown.mp3, steely_dan, 04-Barrytown
-/home/guest/guest14/Wi-fi_b08901177/DLMusic_2023Fall/HW1/artist20/mp3s-32k/radiohead/Pablo_Honey/08-Vegetable.mp3, radiohead, 08-Vegetable
-/home/guest/guest14/Wi-fi_b08901177/DLMusic_2023Fall/HW1/artist20/mp3s-32k/radiohead/Pablo_Honey/03-How_Do_You_.mp3, radiohead, 03-How_Do_You_
-/home/guest/guest14/Wi-fi_b08901177/DLMusic_2023Fall/HW1/artist20/mp3s-32k/radiohead/Pablo_Honey/07-Ripcord.mp3, radiohead, 07-Ripcord
-/home/guest/guest14/Wi-fi_b08901177/DLMusic_2023Fall/HW1/artist20/mp3s-32k/radiohead/Pablo_Honey/04-Stop_Whispering.mp3, radiohead, 04-Stop_Whispering
-/home/guest/guest14/Wi-fi_b08901177/DLMusic_2023Fall/HW1/artist20/mp3s-32k/radiohead/Pablo_Honey/10-I_Can_t.mp3, radiohead, 10-I_Can_t
-/home/guest/guest14/Wi-fi_b08901177/DLMusic_2023Fall/HW1/artist20/mp3s-32k/radiohead/Pablo_Honey/01-You.mp3, radiohead, 01-You
-/home/guest/guest14/Wi-fi_b08901177/DLMusic_2023Fall/HW1/artist20/mp3s-32k/radiohead/Pablo_Honey/11-Lurgee.mp3, radiohead, 11-Lurgee
-/home/guest/guest14/Wi-fi_b08901177/DLMusic_2023Fall/HW1/artist20/mp3s-32k/radiohead/Pablo_Honey/02-Creep.mp3, radiohead, 02-Creep
-/home/guest/guest14/Wi-fi_b08901177/DLMusic_2023Fall/HW1/artist20/mp3s-32k/radiohead/Pablo_Honey/06-Anyone_Can_Play_Guitar.mp3, radiohead, 06-Anyone_Can_Play_Guitar
-/home/guest/guest14/Wi-fi_b08901177/DLMusic_2023Fall/HW1/artist20/mp3s-32k/radiohead/Pablo_Honey/12-Blow_Out.mp3, radiohead, 12-Blow_Out
-/home/guest/guest14/Wi-fi_b08901177/DLMusic_2023Fall/HW1/artist20/mp3s-32k/radiohead/Pablo_Honey/09-Prove_Yourself.mp3, radiohead, 09-Prove_Yourself
-/home/guest/guest14/Wi-fi_b08901177/DLMusic_2023Fall/HW1/artist20/mp3s-32k/radiohead/Pablo_Honey/13-Creep_Radio_Edit_.mp3, radiohead, 13-Creep_Radio_Edit_
-/home/guest/guest14/Wi-fi_b08901177/DLMusic_2023Fall/HW1/artist20/mp3s-32k/radiohead/Pablo_Honey/05-Thinking_About_You.mp3, radiohead, 05-Thinking_About_You
-/home/guest/guest14/Wi-fi_b08901177/DLMusic_2023Fall/HW1/artist20/mp3s-32k/u2/War/04-Like_A_Song_.mp3, u2, 04-Like_A_Song_
-/home/guest/guest14/Wi-fi_b08901177/DLMusic_2023Fall/HW1/artist20/mp3s-32k/u2/War/07-Two_Hearts_Beat_As_One.mp3, u2, 07-Two_Hearts_Beat_As_One
-/home/guest/guest14/Wi-fi_b08901177/DLMusic_2023Fall/HW1/artist20/mp3s-32k/u2/War/10-_40_.mp3, u2, 10-_40_
-/home/guest/guest14/Wi-fi_b08901177/DLMusic_2023Fall/HW1/artist20/mp3s-32k/u2/War/02-Seconds.mp3, u2, 02-Seconds
-/home/guest/guest14/Wi-fi_b08901177/DLMusic_2023Fall/HW1/artist20/mp3s-32k/u2/War/03-New_Year_s_Day.mp3, u2, 03-New_Year_s_Day
-/home/guest/guest14/Wi-fi_b08901177/DLMusic_2023Fall/HW1/artist20/mp3s-32k/u2/War/08-Red_Light.mp3, u2, 08-Red_Light
-/home/guest/guest14/Wi-fi_b08901177/DLMusic_2023Fall/HW1/artist20/mp3s-32k/u2/War/05-Drowning_Man.mp3, u2, 05-Drowning_Man
-/home/guest/guest14/Wi-fi_b08901177/DLMusic_2023Fall/HW1/artist20/mp3s-32k/u2/War/09-Surrender.mp3, u2, 09-Surrender
-/home/guest/guest14/Wi-fi_b08901177/DLMusic_2023Fall/HW1/artist20/mp3s-32k/u2/War/06-The_Refugee.mp3, u2, 06-The_Refugee
-/home/guest/guest14/Wi-fi_b08901177/DLMusic_2023Fall/HW1/artist20/mp3s-32k/u2/War/01-Sunday_Bloody_Sunday.mp3, u2, 01-Sunday_Bloody_Sunday
-/home/guest/guest14/Wi-fi_b08901177/DLMusic_2023Fall/HW1/artist20/mp3s-32k/metallica/Reload/01-Fuel.mp3, metallica, 01-Fuel
-/home/guest/guest14/Wi-fi_b08901177/DLMusic_2023Fall/HW1/artist20/mp3s-32k/metallica/Reload/07-Carpe_Diem_Baby.mp3, metallica, 07-Carpe_Diem_Baby
-/home/guest/guest14/Wi-fi_b08901177/DLMusic_2023Fall/HW1/artist20/mp3s-32k/metallica/Reload/03-Devil_s_Dance.mp3, metallica, 03-Devil_s_Dance
-/home/guest/guest14/Wi-fi_b08901177/DLMusic_2023Fall/HW1/artist20/mp3s-32k/metallica/Reload/10-Prince_Charming.mp3, metallica, 10-Prince_Charming
-/home/guest/guest14/Wi-fi_b08901177/DLMusic_2023Fall/HW1/artist20/mp3s-32k/metallica/Reload/09-Where_The_Wild_Things_Are.mp3, metallica, 09-Where_The_Wild_Things_Are
-/home/guest/guest14/Wi-fi_b08901177/DLMusic_2023Fall/HW1/artist20/mp3s-32k/metallica/Reload/04-The_Unforgiven_II.mp3, metallica, 04-The_Unforgiven_II
-/home/guest/guest14/Wi-fi_b08901177/DLMusic_2023Fall/HW1/artist20/mp3s-32k/metallica/Reload/06-Slither.mp3, metallica, 06-Slither
-/home/guest/guest14/Wi-fi_b08901177/DLMusic_2023Fall/HW1/artist20/mp3s-32k/metallica/Reload/02-The_Memory_Remains.mp3, metallica, 02-The_Memory_Remains
-/home/guest/guest14/Wi-fi_b08901177/DLMusic_2023Fall/HW1/artist20/mp3s-32k/metallica/Reload/08-Bad_Seed.mp3, metallica, 08-Bad_Seed
-/home/guest/guest14/Wi-fi_b08901177/DLMusic_2023Fall/HW1/artist20/mp3s-32k/metallica/Reload/11-Low_Man_s_Lyric.mp3, metallica, 11-Low_Man_s_Lyric
-/home/guest/guest14/Wi-fi_b08901177/DLMusic_2023Fall/HW1/artist20/mp3s-32k/metallica/Reload/12-Attitude.mp3, metallica, 12-Attitude
-/home/guest/guest14/Wi-fi_b08901177/DLMusic_2023Fall/HW1/artist20/mp3s-32k/metallica/Reload/13-Fixxxer.mp3, metallica, 13-Fixxxer
-/home/guest/guest14/Wi-fi_b08901177/DLMusic_2023Fall/HW1/artist20/mp3s-32k/metallica/Reload/05-Better_Then_You.mp3, metallica, 05-Better_Then_You
-/home/guest/guest14/Wi-fi_b08901177/DLMusic_2023Fall/HW1/artist20/mp3s-32k/aerosmith/Rocks/04-Combination.mp3, aerosmith, 04-Combination
-/home/guest/guest14/Wi-fi_b08901177/DLMusic_2023Fall/HW1/artist20/mp3s-32k/aerosmith/Rocks/01-Back_In_The_Saddle_Again.mp3, aerosmith, 01-Back_In_The_Saddle_Again
-/home/guest/guest14/Wi-fi_b08901177/DLMusic_2023Fall/HW1/artist20/mp3s-32k/aerosmith/Rocks/03-Rats_In_The_Cellar.mp3, aerosmith, 03-Rats_In_The_Cellar
-/home/guest/guest14/Wi-fi_b08901177/DLMusic_2023Fall/HW1/artist20/mp3s-32k/aerosmith/Rocks/07-Get_The_Lead_Out.mp3, aerosmith, 07-Get_The_Lead_Out
-/home/guest/guest14/Wi-fi_b08901177/DLMusic_2023Fall/HW1/artist20/mp3s-32k/aerosmith/Rocks/05-Sick_As_A_Dog.mp3, aerosmith, 05-Sick_As_A_Dog
-/home/guest/guest14/Wi-fi_b08901177/DLMusic_2023Fall/HW1/artist20/mp3s-32k/aerosmith/Rocks/06-Nobody_s_Fault.mp3, aerosmith, 06-Nobody_s_Fault
-/home/guest/guest14/Wi-fi_b08901177/DLMusic_2023Fall/HW1/artist20/mp3s-32k/aerosmith/Rocks/08-Lick_and_a_Promise.mp3, aerosmith, 08-Lick_and_a_Promise
-/home/guest/guest14/Wi-fi_b08901177/DLMusic_2023Fall/HW1/artist20/mp3s-32k/aerosmith/Rocks/09-Home_Tonight.mp3, aerosmith, 09-Home_Tonight
-/home/guest/guest14/Wi-fi_b08901177/DLMusic_2023Fall/HW1/artist20/mp3s-32k/aerosmith/Rocks/02-Last_Child.mp3, aerosmith, 02-Last_Child
-/home/guest/guest14/Wi-fi_b08901177/DLMusic_2023Fall/HW1/artist20/mp3s-32k/depeche_mode/Some_Great_Reward/03-People_Are_People.mp3, depeche_mode, 03-People_Are_People
-/home/guest/guest14/Wi-fi_b08901177/DLMusic_2023Fall/HW1/artist20/mp3s-32k/depeche_mode/Some_Great_Reward/07-Master_And_Servant.mp3, depeche_mode, 07-Master_And_Servant
-/home/guest/guest14/Wi-fi_b08901177/DLMusic_2023Fall/HW1/artist20/mp3s-32k/depeche_mode/Some_Great_Reward/02-Lie_To_Me.mp3, depeche_mode, 02-Lie_To_Me
-/home/guest/guest14/Wi-fi_b08901177/DLMusic_2023Fall/HW1/artist20/mp3s-32k/depeche_mode/Some_Great_Reward/06-Somebody.mp3, depeche_mode, 06-Somebody
-/home/guest/guest14/Wi-fi_b08901177/DLMusic_2023Fall/HW1/artist20/mp3s-32k/depeche_mode/Some_Great_Reward/01-Something_To_Do.mp3, depeche_mode, 01-Something_To_Do
-/home/guest/guest14/Wi-fi_b08901177/DLMusic_2023Fall/HW1/artist20/mp3s-32k/depeche_mode/Some_Great_Reward/09-Blasphemous_Rumours.mp3, depeche_mode, 09-Blasphemous_Rumours
-/home/guest/guest14/Wi-fi_b08901177/DLMusic_2023Fall/HW1/artist20/mp3s-32k/depeche_mode/Some_Great_Reward/04-It_Doesn_t_Matter.mp3, depeche_mode, 04-It_Doesn_t_Matter
-/home/guest/guest14/Wi-fi_b08901177/DLMusic_2023Fall/HW1/artist20/mp3s-32k/depeche_mode/Some_Great_Reward/08-If_You_Want.mp3, depeche_mode, 08-If_You_Want
-/home/guest/guest14/Wi-fi_b08901177/DLMusic_2023Fall/HW1/artist20/mp3s-32k/depeche_mode/Some_Great_Reward/05-Stories_Of_Old.mp3, depeche_mode, 05-Stories_Of_Old
-/home/guest/guest14/Wi-fi_b08901177/DLMusic_2023Fall/HW1/artist20/mp3s-32k/beatles/Revolver/11-Doctor_Robert.mp3, beatles, 11-Doctor_Robert
-/home/guest/guest14/Wi-fi_b08901177/DLMusic_2023Fall/HW1/artist20/mp3s-32k/beatles/Revolver/10-For_No_One.mp3, beatles, 10-For_No_One
-/home/guest/guest14/Wi-fi_b08901177/DLMusic_2023Fall/HW1/artist20/mp3s-32k/beatles/Revolver/04-Love_You_To.mp3, beatles, 04-Love_You_To
-/home/guest/guest14/Wi-fi_b08901177/DLMusic_2023Fall/HW1/artist20/mp3s-32k/beatles/Revolver/07-She_Said_She_Said.mp3, beatles, 07-She_Said_She_Said
-/home/guest/guest14/Wi-fi_b08901177/DLMusic_2023Fall/HW1/artist20/mp3s-32k/beatles/Revolver/12-I_Want_To_Tell_You.mp3, beatles, 12-I_Want_To_Tell_You
-/home/guest/guest14/Wi-fi_b08901177/DLMusic_2023Fall/HW1/artist20/mp3s-32k/beatles/Revolver/03-I_m_Only_Sleeping.mp3, beatles, 03-I_m_Only_Sleeping
-/home/guest/guest14/Wi-fi_b08901177/DLMusic_2023Fall/HW1/artist20/mp3s-32k/beatles/Revolver/02-Eleanor_Rigby.mp3, beatles, 02-Eleanor_Rigby
-/home/guest/guest14/Wi-fi_b08901177/DLMusic_2023Fall/HW1/artist20/mp3s-32k/beatles/Revolver/09-And_Your_Bird_Can_Sing.mp3, beatles, 09-And_Your_Bird_Can_Sing
-/home/guest/guest14/Wi-fi_b08901177/DLMusic_2023Fall/HW1/artist20/mp3s-32k/beatles/Revolver/08-Good_Day_Sunshine.mp3, beatles, 08-Good_Day_Sunshine
-/home/guest/guest14/Wi-fi_b08901177/DLMusic_2023Fall/HW1/artist20/mp3s-32k/beatles/Revolver/13-Got_To_Get_You_Into_My_Life.mp3, beatles, 13-Got_To_Get_You_Into_My_Life
-/home/guest/guest14/Wi-fi_b08901177/DLMusic_2023Fall/HW1/artist20/mp3s-32k/beatles/Revolver/14-Tomorrow_Never_Knows.mp3, beatles, 14-Tomorrow_Never_Knows
-/home/guest/guest14/Wi-fi_b08901177/DLMusic_2023Fall/HW1/artist20/mp3s-32k/beatles/Revolver/05-Here_There_And_Everywhere.mp3, beatles, 05-Here_There_And_Everywhere
-/home/guest/guest14/Wi-fi_b08901177/DLMusic_2023Fall/HW1/artist20/mp3s-32k/beatles/Revolver/06-Yellow_Submarine.mp3, beatles, 06-Yellow_Submarine
-/home/guest/guest14/Wi-fi_b08901177/DLMusic_2023Fall/HW1/artist20/mp3s-32k/beatles/Revolver/01-Taxman.mp3, beatles, 01-Taxman
-/home/guest/guest14/Wi-fi_b08901177/DLMusic_2023Fall/HW1/artist20/mp3s-32k/green_day/Nimrod/04-Redundant.mp3, green_day, 04-Redundant
-/home/guest/guest14/Wi-fi_b08901177/DLMusic_2023Fall/HW1/artist20/mp3s-32k/green_day/Nimrod/08-Platypus_I_Hate_You_.mp3, green_day, 08-Platypus_I_Hate_You_
-/home/guest/guest14/Wi-fi_b08901177/DLMusic_2023Fall/HW1/artist20/mp3s-32k/green_day/Nimrod/06-All_The_Time.mp3, green_day, 06-All_The_Time
-/home/guest/guest14/Wi-fi_b08901177/DLMusic_2023Fall/HW1/artist20/mp3s-32k/green_day/Nimrod/09-Uptight.mp3, green_day, 09-Uptight
-/home/guest/guest14/Wi-fi_b08901177/DLMusic_2023Fall/HW1/artist20/mp3s-32k/green_day/Nimrod/05-Scattered.mp3, green_day, 05-Scattered
-/home/guest/guest14/Wi-fi_b08901177/DLMusic_2023Fall/HW1/artist20/mp3s-32k/green_day/Nimrod/18-Prosthetic_Head.mp3, green_day, 18-Prosthetic_Head
-/home/guest/guest14/Wi-fi_b08901177/DLMusic_2023Fall/HW1/artist20/mp3s-32k/green_day/Nimrod/15-Take_Back.mp3, green_day, 15-Take_Back
-/home/guest/guest14/Wi-fi_b08901177/DLMusic_2023Fall/HW1/artist20/mp3s-32k/green_day/Nimrod/10-Last_Ride_In.mp3, green_day, 10-Last_Ride_In
-/home/guest/guest14/Wi-fi_b08901177/DLMusic_2023Fall/HW1/artist20/mp3s-32k/green_day/Nimrod/17-Good_Riddance_Time_Of_Your_Life_.mp3, green_day, 17-Good_Riddance_Time_Of_Your_Life_
-/home/guest/guest14/Wi-fi_b08901177/DLMusic_2023Fall/HW1/artist20/mp3s-32k/green_day/Nimrod/14-Reject.mp3, green_day, 14-Reject
-/home/guest/guest14/Wi-fi_b08901177/DLMusic_2023Fall/HW1/artist20/mp3s-32k/green_day/Nimrod/07-Worry_Rock.mp3, green_day, 07-Worry_Rock
-/home/guest/guest14/Wi-fi_b08901177/DLMusic_2023Fall/HW1/artist20/mp3s-32k/green_day/Nimrod/13-Walking_Alone.mp3, green_day, 13-Walking_Alone
-/home/guest/guest14/Wi-fi_b08901177/DLMusic_2023Fall/HW1/artist20/mp3s-32k/green_day/Nimrod/12-Haushinka.mp3, green_day, 12-Haushinka
-/home/guest/guest14/Wi-fi_b08901177/DLMusic_2023Fall/HW1/artist20/mp3s-32k/green_day/Nimrod/03-The_Grouch.mp3, green_day, 03-The_Grouch
-/home/guest/guest14/Wi-fi_b08901177/DLMusic_2023Fall/HW1/artist20/mp3s-32k/green_day/Nimrod/16-King_For_A_Day.mp3, green_day, 16-King_For_A_Day
-/home/guest/guest14/Wi-fi_b08901177/DLMusic_2023Fall/HW1/artist20/mp3s-32k/green_day/Nimrod/11-Jinx.mp3, green_day, 11-Jinx
-/home/guest/guest14/Wi-fi_b08901177/DLMusic_2023Fall/HW1/artist20/mp3s-32k/green_day/Nimrod/01-Nice_Guys_Finish_Last.mp3, green_day, 01-Nice_Guys_Finish_Last
-/home/guest/guest14/Wi-fi_b08901177/DLMusic_2023Fall/HW1/artist20/mp3s-32k/green_day/Nimrod/02-Hitchin_A_Ride.mp3, green_day, 02-Hitchin_A_Ride
-/home/guest/guest14/Wi-fi_b08901177/DLMusic_2023Fall/HW1/artist20/mp3s-32k/prince/Sign_O_The_Times_Disc_1_/03-Housequake.mp3, prince, 03-Housequake
-/home/guest/guest14/Wi-fi_b08901177/DLMusic_2023Fall/HW1/artist20/mp3s-32k/prince/Sign_O_The_Times_Disc_1_/09-Forever_In_My_Life.mp3, prince, 09-Forever_In_My_Life
-/home/guest/guest14/Wi-fi_b08901177/DLMusic_2023Fall/HW1/artist20/mp3s-32k/prince/Sign_O_The_Times_Disc_1_/07-Slow_Love.mp3, prince, 07-Slow_Love
-/home/guest/guest14/Wi-fi_b08901177/DLMusic_2023Fall/HW1/artist20/mp3s-32k/prince/Sign_O_The_Times_Disc_1_/01-Sign_O_The_Times.mp3, prince, 01-Sign_O_The_Times
-/home/guest/guest14/Wi-fi_b08901177/DLMusic_2023Fall/HW1/artist20/mp3s-32k/prince/Sign_O_The_Times_Disc_1_/02-Play_In_The_Sunshine.mp3, prince, 02-Play_In_The_Sunshine
-/home/guest/guest14/Wi-fi_b08901177/DLMusic_2023Fall/HW1/artist20/mp3s-32k/prince/Sign_O_The_Times_Disc_1_/04-The_Ballad_Of_Dorothy_Parker.mp3, prince, 04-The_Ballad_Of_Dorothy_Parker
-/home/guest/guest14/Wi-fi_b08901177/DLMusic_2023Fall/HW1/artist20/mp3s-32k/prince/Sign_O_The_Times_Disc_1_/06-Starfish_And_Coffee.mp3, prince, 06-Starfish_And_Coffee
-/home/guest/guest14/Wi-fi_b08901177/DLMusic_2023Fall/HW1/artist20/mp3s-32k/prince/Sign_O_The_Times_Disc_1_/05-It.mp3, prince, 05-It
-/home/guest/guest14/Wi-fi_b08901177/DLMusic_2023Fall/HW1/artist20/mp3s-32k/prince/Sign_O_The_Times_Disc_1_/08-Hot_Thing.mp3, prince, 08-Hot_Thing
-/home/guest/guest14/Wi-fi_b08901177/DLMusic_2023Fall/HW1/artist20/mp3s-32k/led_zeppelin/Led_Zeppelin_IV_Zoso/07-Going_To_California.mp3, led_zeppelin, 07-Going_To_California
-/home/guest/guest14/Wi-fi_b08901177/DLMusic_2023Fall/HW1/artist20/mp3s-32k/led_zeppelin/Led_Zeppelin_IV_Zoso/01-Black_Dog.mp3, led_zeppelin, 01-Black_Dog
-/home/guest/guest14/Wi-fi_b08901177/DLMusic_2023Fall/HW1/artist20/mp3s-32k/led_zeppelin/Led_Zeppelin_IV_Zoso/05-Misty_Mountain_Hop.mp3, led_zeppelin, 05-Misty_Mountain_Hop
-/home/guest/guest14/Wi-fi_b08901177/DLMusic_2023Fall/HW1/artist20/mp3s-32k/led_zeppelin/Led_Zeppelin_IV_Zoso/04-Stairway_To_Heaven.mp3, led_zeppelin, 04-Stairway_To_Heaven
-/home/guest/guest14/Wi-fi_b08901177/DLMusic_2023Fall/HW1/artist20/mp3s-32k/led_zeppelin/Led_Zeppelin_IV_Zoso/08-When_The_Levee_Breaks.mp3, led_zeppelin, 08-When_The_Levee_Breaks
-/home/guest/guest14/Wi-fi_b08901177/DLMusic_2023Fall/HW1/artist20/mp3s-32k/led_zeppelin/Led_Zeppelin_IV_Zoso/03-The_Battle_Of_Evermore.mp3, led_zeppelin, 03-The_Battle_Of_Evermore
-/home/guest/guest14/Wi-fi_b08901177/DLMusic_2023Fall/HW1/artist20/mp3s-32k/led_zeppelin/Led_Zeppelin_IV_Zoso/06-Four_Sticks.mp3, led_zeppelin, 06-Four_Sticks
-/home/guest/guest14/Wi-fi_b08901177/DLMusic_2023Fall/HW1/artist20/mp3s-32k/led_zeppelin/Led_Zeppelin_IV_Zoso/02-Rock_And_Roll.mp3, led_zeppelin, 02-Rock_And_Roll
-/home/guest/guest14/Wi-fi_b08901177/DLMusic_2023Fall/HW1/artist20/mp3s-32k/roxette/Pearls_of_Passion_1997_Remaster_/15-Turn_To_Me.mp3, roxette, 15-Turn_To_Me
-/home/guest/guest14/Wi-fi_b08901177/DLMusic_2023Fall/HW1/artist20/mp3s-32k/roxette/Pearls_of_Passion_1997_Remaster_/05-Surrender.mp3, roxette, 05-Surrender
-/home/guest/guest14/Wi-fi_b08901177/DLMusic_2023Fall/HW1/artist20/mp3s-32k/roxette/Pearls_of_Passion_1997_Remaster_/11-Like_Lovers_Do.mp3, roxette, 11-Like_Lovers_Do
-/home/guest/guest14/Wi-fi_b08901177/DLMusic_2023Fall/HW1/artist20/mp3s-32k/roxette/Pearls_of_Passion_1997_Remaster_/02-Secrets_That_She_Keeps.mp3, roxette, 02-Secrets_That_She_Keeps
-/home/guest/guest14/Wi-fi_b08901177/DLMusic_2023Fall/HW1/artist20/mp3s-32k/roxette/Pearls_of_Passion_1997_Remaster_/18-I_Call_Your_Name_Montezuma_Demo_26_07_86_.mp3, roxette, 18-I_Call_Your_Name_Montezuma_Demo_26_07_86_
-/home/guest/guest14/Wi-fi_b08901177/DLMusic_2023Fall/HW1/artist20/mp3s-32k/roxette/Pearls_of_Passion_1997_Remaster_/19-Neverending_Love_Frank_Mono-Mix_1987_.mp3, roxette, 19-Neverending_Love_Frank_Mono-Mix_1987_
-/home/guest/guest14/Wi-fi_b08901177/DLMusic_2023Fall/HW1/artist20/mp3s-32k/roxette/Pearls_of_Passion_1997_Remaster_/08-Call_Of_The_Wild.mp3, roxette, 08-Call_Of_The_Wild
-/home/guest/guest14/Wi-fi_b08901177/DLMusic_2023Fall/HW1/artist20/mp3s-32k/roxette/Pearls_of_Passion_1997_Remaster_/20-I_Call_Your_Name_Frank_Mono-Mix_1987_.mp3, roxette, 20-I_Call_Your_Name_Frank_Mono-Mix_1987_
-/home/guest/guest14/Wi-fi_b08901177/DLMusic_2023Fall/HW1/artist20/mp3s-32k/roxette/Pearls_of_Passion_1997_Remaster_/12-So_Far_Away.mp3, roxette, 12-So_Far_Away
-/home/guest/guest14/Wi-fi_b08901177/DLMusic_2023Fall/HW1/artist20/mp3s-32k/roxette/Pearls_of_Passion_1997_Remaster_/09-Joy_Of_A_Toy.mp3, roxette, 09-Joy_Of_A_Toy
-/home/guest/guest14/Wi-fi_b08901177/DLMusic_2023Fall/HW1/artist20/mp3s-32k/roxette/Pearls_of_Passion_1997_Remaster_/13-Pearls_Of_Passion.mp3, roxette, 13-Pearls_Of_Passion
-/home/guest/guest14/Wi-fi_b08901177/DLMusic_2023Fall/HW1/artist20/mp3s-32k/roxette/Pearls_of_Passion_1997_Remaster_/14-It_Must_Have_Been_Love_Christmas_For_The_Broken-Hearted_.mp3, roxette, 14-It_Must_Have_Been_Love_Christmas_For_The_Broken-Hearted_
-/home/guest/guest14/Wi-fi_b08901177/DLMusic_2023Fall/HW1/artist20/mp3s-32k/roxette/Pearls_of_Passion_1997_Remaster_/01-Soul_Deep.mp3, roxette, 01-Soul_Deep
-/home/guest/guest14/Wi-fi_b08901177/DLMusic_2023Fall/HW1/artist20/mp3s-32k/roxette/Pearls_of_Passion_1997_Remaster_/03-Goodbye_To_You.mp3, roxette, 03-Goodbye_To_You
-/home/guest/guest14/Wi-fi_b08901177/DLMusic_2023Fall/HW1/artist20/mp3s-32k/roxette/Pearls_of_Passion_1997_Remaster_/06-Voices.mp3, roxette, 06-Voices
-/home/guest/guest14/Wi-fi_b08901177/DLMusic_2023Fall/HW1/artist20/mp3s-32k/roxette/Pearls_of_Passion_1997_Remaster_/07-Neverending_Love.mp3, roxette, 07-Neverending_Love
-/home/guest/guest14/Wi-fi_b08901177/DLMusic_2023Fall/HW1/artist20/mp3s-32k/roxette/Pearls_of_Passion_1997_Remaster_/17-Secrets_That_She_Keeps_Tits_Ass_Demo_1986_.mp3, roxette, 17-Secrets_That_She_Keeps_Tits_Ass_Demo_1986_
-/home/guest/guest14/Wi-fi_b08901177/DLMusic_2023Fall/HW1/artist20/mp3s-32k/roxette/Pearls_of_Passion_1997_Remaster_/04-I_Call_Your_Name.mp3, roxette, 04-I_Call_Your_Name
-/home/guest/guest14/Wi-fi_b08901177/DLMusic_2023Fall/HW1/artist20/mp3s-32k/roxette/Pearls_of_Passion_1997_Remaster_/10-From_One_Heart_To_Another.mp3, roxette, 10-From_One_Heart_To_Another
-/home/guest/guest14/Wi-fi_b08901177/DLMusic_2023Fall/HW1/artist20/mp3s-32k/roxette/Pearls_of_Passion_1997_Remaster_/16-Neverending_Love_Tits_Ass_Demo_1986_.mp3, roxette, 16-Neverending_Love_Tits_Ass_Demo_1986_
-/home/guest/guest14/Wi-fi_b08901177/DLMusic_2023Fall/HW1/artist20/mp3s-32k/cure/Wild_Mood_Swings/07-Jupiter_Crash.mp3, cure, 07-Jupiter_Crash
-/home/guest/guest14/Wi-fi_b08901177/DLMusic_2023Fall/HW1/artist20/mp3s-32k/cure/Wild_Mood_Swings/13-Treasure.mp3, cure, 13-Treasure
-/home/guest/guest14/Wi-fi_b08901177/DLMusic_2023Fall/HW1/artist20/mp3s-32k/cure/Wild_Mood_Swings/06-Mint_Car.mp3, cure, 06-Mint_Car
-/home/guest/guest14/Wi-fi_b08901177/DLMusic_2023Fall/HW1/artist20/mp3s-32k/cure/Wild_Mood_Swings/08-Round_Round_Round.mp3, cure, 08-Round_Round_Round
-/home/guest/guest14/Wi-fi_b08901177/DLMusic_2023Fall/HW1/artist20/mp3s-32k/cure/Wild_Mood_Swings/01-Want.mp3, cure, 01-Want
-/home/guest/guest14/Wi-fi_b08901177/DLMusic_2023Fall/HW1/artist20/mp3s-32k/cure/Wild_Mood_Swings/14-Bare.mp3, cure, 14-Bare
-/home/guest/guest14/Wi-fi_b08901177/DLMusic_2023Fall/HW1/artist20/mp3s-32k/cure/Wild_Mood_Swings/09-Gone_.mp3, cure, 09-Gone_
-/home/guest/guest14/Wi-fi_b08901177/DLMusic_2023Fall/HW1/artist20/mp3s-32k/cure/Wild_Mood_Swings/10-Numb.mp3, cure, 10-Numb
-/home/guest/guest14/Wi-fi_b08901177/DLMusic_2023Fall/HW1/artist20/mp3s-32k/cure/Wild_Mood_Swings/12-Trap.mp3, cure, 12-Trap
-/home/guest/guest14/Wi-fi_b08901177/DLMusic_2023Fall/HW1/artist20/mp3s-32k/cure/Wild_Mood_Swings/02-Club_America.mp3, cure, 02-Club_America
-/home/guest/guest14/Wi-fi_b08901177/DLMusic_2023Fall/HW1/artist20/mp3s-32k/cure/Wild_Mood_Swings/04-The_13th.mp3, cure, 04-The_13th
-/home/guest/guest14/Wi-fi_b08901177/DLMusic_2023Fall/HW1/artist20/mp3s-32k/cure/Wild_Mood_Swings/11-Return.mp3, cure, 11-Return
-/home/guest/guest14/Wi-fi_b08901177/DLMusic_2023Fall/HW1/artist20/mp3s-32k/cure/Wild_Mood_Swings/05-Strange_Attraction.mp3, cure, 05-Strange_Attraction
-/home/guest/guest14/Wi-fi_b08901177/DLMusic_2023Fall/HW1/artist20/mp3s-32k/cure/Wild_Mood_Swings/03-This_Is_A_Lie.mp3, cure, 03-This_Is_A_Lie
-/home/guest/guest14/Wi-fi_b08901177/DLMusic_2023Fall/HW1/artist20/mp3s-32k/madonna/Music/08-What_it_Feels_Like_For_a_Girl.mp3, madonna, 08-What_it_Feels_Like_For_a_Girl
-/home/guest/guest14/Wi-fi_b08901177/DLMusic_2023Fall/HW1/artist20/mp3s-32k/madonna/Music/05-Amazing.mp3, madonna, 05-Amazing
-/home/guest/guest14/Wi-fi_b08901177/DLMusic_2023Fall/HW1/artist20/mp3s-32k/madonna/Music/10-Gone.mp3, madonna, 10-Gone
-/home/guest/guest14/Wi-fi_b08901177/DLMusic_2023Fall/HW1/artist20/mp3s-32k/madonna/Music/03-Runaway_Lover.mp3, madonna, 03-Runaway_Lover
-/home/guest/guest14/Wi-fi_b08901177/DLMusic_2023Fall/HW1/artist20/mp3s-32k/madonna/Music/09-Paradise_Not_For_Me_.mp3, madonna, 09-Paradise_Not_For_Me_
-/home/guest/guest14/Wi-fi_b08901177/DLMusic_2023Fall/HW1/artist20/mp3s-32k/madonna/Music/01-Music.mp3, madonna, 01-Music
-/home/guest/guest14/Wi-fi_b08901177/DLMusic_2023Fall/HW1/artist20/mp3s-32k/madonna/Music/07-Don_t_Tell_Me.mp3, madonna, 07-Don_t_Tell_Me
-/home/guest/guest14/Wi-fi_b08901177/DLMusic_2023Fall/HW1/artist20/mp3s-32k/madonna/Music/06-Nobody_s_Perfect.mp3, madonna, 06-Nobody_s_Perfect
-/home/guest/guest14/Wi-fi_b08901177/DLMusic_2023Fall/HW1/artist20/mp3s-32k/madonna/Music/02-Impressive_Instant.mp3, madonna, 02-Impressive_Instant
-/home/guest/guest14/Wi-fi_b08901177/DLMusic_2023Fall/HW1/artist20/mp3s-32k/madonna/Music/04-I_Deserve_It.mp3, madonna, 04-I_Deserve_It
-/home/guest/guest14/Wi-fi_b08901177/DLMusic_2023Fall/HW1/artist20/mp3s-32k/dave_matthews_band/Stand_Up/05-American_Baby.mp3, dave_matthews_band, 05-American_Baby
-/home/guest/guest14/Wi-fi_b08901177/DLMusic_2023Fall/HW1/artist20/mp3s-32k/dave_matthews_band/Stand_Up/12-You_Might_Die_Trying.mp3, dave_matthews_band, 12-You_Might_Die_Trying
-/home/guest/guest14/Wi-fi_b08901177/DLMusic_2023Fall/HW1/artist20/mp3s-32k/dave_matthews_band/Stand_Up/07-Everybody_Wake_Up_Our_Finest_Hour_Arrives_.mp3, dave_matthews_band, 07-Everybody_Wake_Up_Our_Finest_Hour_Arrives_
-/home/guest/guest14/Wi-fi_b08901177/DLMusic_2023Fall/HW1/artist20/mp3s-32k/dave_matthews_band/Stand_Up/02-Old_Dirt_Hill_Bring_That_Beat_Back_.mp3, dave_matthews_band, 02-Old_Dirt_Hill_Bring_That_Beat_Back_
-/home/guest/guest14/Wi-fi_b08901177/DLMusic_2023Fall/HW1/artist20/mp3s-32k/dave_matthews_band/Stand_Up/08-Out_Of_My_Hands.mp3, dave_matthews_band, 08-Out_Of_My_Hands
-/home/guest/guest14/Wi-fi_b08901177/DLMusic_2023Fall/HW1/artist20/mp3s-32k/dave_matthews_band/Stand_Up/13-Steady_As_We_Go.mp3, dave_matthews_band, 13-Steady_As_We_Go
-/home/guest/guest14/Wi-fi_b08901177/DLMusic_2023Fall/HW1/artist20/mp3s-32k/dave_matthews_band/Stand_Up/03-Stand_Up_For_It_.mp3, dave_matthews_band, 03-Stand_Up_For_It_
-/home/guest/guest14/Wi-fi_b08901177/DLMusic_2023Fall/HW1/artist20/mp3s-32k/dave_matthews_band/Stand_Up/14-Hunger_For_The_Great_Light.mp3, dave_matthews_band, 14-Hunger_For_The_Great_Light
-/home/guest/guest14/Wi-fi_b08901177/DLMusic_2023Fall/HW1/artist20/mp3s-32k/dave_matthews_band/Stand_Up/06-Smooth_Rider.mp3, dave_matthews_band, 06-Smooth_Rider
-/home/guest/guest14/Wi-fi_b08901177/DLMusic_2023Fall/HW1/artist20/mp3s-32k/dave_matthews_band/Stand_Up/01-Dreamgirl.mp3, dave_matthews_band, 01-Dreamgirl
-/home/guest/guest14/Wi-fi_b08901177/DLMusic_2023Fall/HW1/artist20/mp3s-32k/dave_matthews_band/Stand_Up/09-Hello_Again.mp3, dave_matthews_band, 09-Hello_Again
-/home/guest/guest14/Wi-fi_b08901177/DLMusic_2023Fall/HW1/artist20/mp3s-32k/dave_matthews_band/Stand_Up/11-Stolen_Away_On_55th_3rd.mp3, dave_matthews_band, 11-Stolen_Away_On_55th_3rd
-/home/guest/guest14/Wi-fi_b08901177/DLMusic_2023Fall/HW1/artist20/mp3s-32k/dave_matthews_band/Stand_Up/10-Louisiana_Bayou.mp3, dave_matthews_band, 10-Louisiana_Bayou
-/home/guest/guest14/Wi-fi_b08901177/DLMusic_2023Fall/HW1/artist20/mp3s-32k/dave_matthews_band/Stand_Up/04-American_Baby_Intro.mp3, dave_matthews_band, 04-American_Baby_Intro
-/home/guest/guest14/Wi-fi_b08901177/DLMusic_2023Fall/HW1/artist20/mp3s-32k/tori_amos/To_Venus_and_Back-Orbiting/07-Josephine.mp3, tori_amos, 07-Josephine
-/home/guest/guest14/Wi-fi_b08901177/DLMusic_2023Fall/HW1/artist20/mp3s-32k/tori_amos/To_Venus_and_Back-Orbiting/09-Datura.mp3, tori_amos, 09-Datura
-/home/guest/guest14/Wi-fi_b08901177/DLMusic_2023Fall/HW1/artist20/mp3s-32k/tori_amos/To_Venus_and_Back-Orbiting/02-Juarez.mp3, tori_amos, 02-Juarez
-/home/guest/guest14/Wi-fi_b08901177/DLMusic_2023Fall/HW1/artist20/mp3s-32k/tori_amos/To_Venus_and_Back-Orbiting/10-Spring_Haze.mp3, tori_amos, 10-Spring_Haze
-/home/guest/guest14/Wi-fi_b08901177/DLMusic_2023Fall/HW1/artist20/mp3s-32k/tori_amos/To_Venus_and_Back-Orbiting/03-Concertina.mp3, tori_amos, 03-Concertina
-/home/guest/guest14/Wi-fi_b08901177/DLMusic_2023Fall/HW1/artist20/mp3s-32k/tori_amos/To_Venus_and_Back-Orbiting/08-Riot_Poof.mp3, tori_amos, 08-Riot_Poof
-/home/guest/guest14/Wi-fi_b08901177/DLMusic_2023Fall/HW1/artist20/mp3s-32k/tori_amos/To_Venus_and_Back-Orbiting/11-1000_Oceans.mp3, tori_amos, 11-1000_Oceans
-/home/guest/guest14/Wi-fi_b08901177/DLMusic_2023Fall/HW1/artist20/mp3s-32k/tori_amos/To_Venus_and_Back-Orbiting/04-Glory_Of_The_80_s.mp3, tori_amos, 04-Glory_Of_The_80_s
-/home/guest/guest14/Wi-fi_b08901177/DLMusic_2023Fall/HW1/artist20/mp3s-32k/tori_amos/To_Venus_and_Back-Orbiting/01-Bliss.mp3, tori_amos, 01-Bliss
-/home/guest/guest14/Wi-fi_b08901177/DLMusic_2023Fall/HW1/artist20/mp3s-32k/tori_amos/To_Venus_and_Back-Orbiting/05-Lust.mp3, tori_amos, 05-Lust
-/home/guest/guest14/Wi-fi_b08901177/DLMusic_2023Fall/HW1/artist20/mp3s-32k/tori_amos/To_Venus_and_Back-Orbiting/06-Suede.mp3, tori_amos, 06-Suede
-/home/guest/guest14/Wi-fi_b08901177/DLMusic_2023Fall/HW1/artist20/mp3s-32k/queen/The_Game/05-Crazy_Little_Thing_Called_Love.mp3, queen, 05-Crazy_Little_Thing_Called_Love
-/home/guest/guest14/Wi-fi_b08901177/DLMusic_2023Fall/HW1/artist20/mp3s-32k/queen/The_Game/07-Don_t_Try_Suicide.mp3, queen, 07-Don_t_Try_Suicide
-/home/guest/guest14/Wi-fi_b08901177/DLMusic_2023Fall/HW1/artist20/mp3s-32k/queen/The_Game/04-Need_Your_Loving_Tonight.mp3, queen, 04-Need_Your_Loving_Tonight
-/home/guest/guest14/Wi-fi_b08901177/DLMusic_2023Fall/HW1/artist20/mp3s-32k/queen/The_Game/03-Another_One_Bites_The_Dust.mp3, queen, 03-Another_One_Bites_The_Dust
-/home/guest/guest14/Wi-fi_b08901177/DLMusic_2023Fall/HW1/artist20/mp3s-32k/queen/The_Game/06-Rock_It_Prime_Jive_.mp3, queen, 06-Rock_It_Prime_Jive_
-/home/guest/guest14/Wi-fi_b08901177/DLMusic_2023Fall/HW1/artist20/mp3s-32k/queen/The_Game/09-Coming_Soon.mp3, queen, 09-Coming_Soon
-/home/guest/guest14/Wi-fi_b08901177/DLMusic_2023Fall/HW1/artist20/mp3s-32k/queen/The_Game/02-Dragon_Attack.mp3, queen, 02-Dragon_Attack
-/home/guest/guest14/Wi-fi_b08901177/DLMusic_2023Fall/HW1/artist20/mp3s-32k/queen/The_Game/01-Play_The_Game.mp3, queen, 01-Play_The_Game
-/home/guest/guest14/Wi-fi_b08901177/DLMusic_2023Fall/HW1/artist20/mp3s-32k/queen/The_Game/08-Sail_Away_Sweet_Sister.mp3, queen, 08-Sail_Away_Sweet_Sister
-/home/guest/guest14/Wi-fi_b08901177/DLMusic_2023Fall/HW1/artist20/mp3s-32k/queen/The_Game/10-Save_Me.mp3, queen, 10-Save_Me
-/home/guest/guest14/Wi-fi_b08901177/DLMusic_2023Fall/HW1/artist20/mp3s-32k/queen/The_Game/11-Dragon_Attack_1991_Bonus_Remix_.mp3, queen, 11-Dragon_Attack_1991_Bonus_Remix_
-/home/guest/guest14/Wi-fi_b08901177/DLMusic_2023Fall/HW1/artist20/mp3s-32k/fleetwood_mac/Tango_In_The_Night/10-Isn_t_It_Midnight.mp3, fleetwood_mac, 10-Isn_t_It_Midnight
-/home/guest/guest14/Wi-fi_b08901177/DLMusic_2023Fall/HW1/artist20/mp3s-32k/fleetwood_mac/Tango_In_The_Night/09-Welcome_To_The_Room_Sara.mp3, fleetwood_mac, 09-Welcome_To_The_Room_Sara
-/home/guest/guest14/Wi-fi_b08901177/DLMusic_2023Fall/HW1/artist20/mp3s-32k/fleetwood_mac/Tango_In_The_Night/02-Seven_Wonders.mp3, fleetwood_mac, 02-Seven_Wonders
-/home/guest/guest14/Wi-fi_b08901177/DLMusic_2023Fall/HW1/artist20/mp3s-32k/fleetwood_mac/Tango_In_The_Night/04-Caroline.mp3, fleetwood_mac, 04-Caroline
-/home/guest/guest14/Wi-fi_b08901177/DLMusic_2023Fall/HW1/artist20/mp3s-32k/fleetwood_mac/Tango_In_The_Night/03-Everywhere.mp3, fleetwood_mac, 03-Everywhere
-/home/guest/guest14/Wi-fi_b08901177/DLMusic_2023Fall/HW1/artist20/mp3s-32k/fleetwood_mac/Tango_In_The_Night/07-Little_Lies.mp3, fleetwood_mac, 07-Little_Lies
-/home/guest/guest14/Wi-fi_b08901177/DLMusic_2023Fall/HW1/artist20/mp3s-32k/fleetwood_mac/Tango_In_The_Night/08-Family_Man.mp3, fleetwood_mac, 08-Family_Man
-/home/guest/guest14/Wi-fi_b08901177/DLMusic_2023Fall/HW1/artist20/mp3s-32k/fleetwood_mac/Tango_In_The_Night/12-You_and_I_Part_II.mp3, fleetwood_mac, 12-You_and_I_Part_II
-/home/guest/guest14/Wi-fi_b08901177/DLMusic_2023Fall/HW1/artist20/mp3s-32k/fleetwood_mac/Tango_In_The_Night/11-When_I_See_You_Again.mp3, fleetwood_mac, 11-When_I_See_You_Again
-/home/guest/guest14/Wi-fi_b08901177/DLMusic_2023Fall/HW1/artist20/mp3s-32k/fleetwood_mac/Tango_In_The_Night/06-Mystified.mp3, fleetwood_mac, 06-Mystified
-/home/guest/guest14/Wi-fi_b08901177/DLMusic_2023Fall/HW1/artist20/mp3s-32k/fleetwood_mac/Tango_In_The_Night/05-Tango_In_The_Night.mp3, fleetwood_mac, 05-Tango_In_The_Night
-/home/guest/guest14/Wi-fi_b08901177/DLMusic_2023Fall/HW1/artist20/mp3s-32k/fleetwood_mac/Tango_In_The_Night/01-Big_Love.mp3, fleetwood_mac, 01-Big_Love
-/home/guest/guest14/Wi-fi_b08901177/DLMusic_2023Fall/HW1/artist20/mp3s-32k/garth_brooks/Ropin_The_Wind_The_Limited_Series_/08-Cold_Shoulder.mp3, garth_brooks, 08-Cold_Shoulder
-/home/guest/guest14/Wi-fi_b08901177/DLMusic_2023Fall/HW1/artist20/mp3s-32k/garth_brooks/Ropin_The_Wind_The_Limited_Series_/07-Shameless.mp3, garth_brooks, 07-Shameless
-/home/guest/guest14/Wi-fi_b08901177/DLMusic_2023Fall/HW1/artist20/mp3s-32k/garth_brooks/Ropin_The_Wind_The_Limited_Series_/04-Burning_Bridges.mp3, garth_brooks, 04-Burning_Bridges
-/home/guest/guest14/Wi-fi_b08901177/DLMusic_2023Fall/HW1/artist20/mp3s-32k/garth_brooks/Ropin_The_Wind_The_Limited_Series_/10-In_Lonesome_Dove.mp3, garth_brooks, 10-In_Lonesome_Dove
-/home/guest/guest14/Wi-fi_b08901177/DLMusic_2023Fall/HW1/artist20/mp3s-32k/garth_brooks/Ropin_The_Wind_The_Limited_Series_/06-Papa_Loved_Mama.mp3, garth_brooks, 06-Papa_Loved_Mama
-/home/guest/guest14/Wi-fi_b08901177/DLMusic_2023Fall/HW1/artist20/mp3s-32k/garth_brooks/Ropin_The_Wind_The_Limited_Series_/02-Rodeo.mp3, garth_brooks, 02-Rodeo
-/home/guest/guest14/Wi-fi_b08901177/DLMusic_2023Fall/HW1/artist20/mp3s-32k/garth_brooks/Ropin_The_Wind_The_Limited_Series_/01-Against_The_Grain.mp3, garth_brooks, 01-Against_The_Grain
-/home/guest/guest14/Wi-fi_b08901177/DLMusic_2023Fall/HW1/artist20/mp3s-32k/garth_brooks/Ropin_The_Wind_The_Limited_Series_/05-Which_One_Of_Them.mp3, garth_brooks, 05-Which_One_Of_Them
-/home/guest/guest14/Wi-fi_b08901177/DLMusic_2023Fall/HW1/artist20/mp3s-32k/garth_brooks/Ropin_The_Wind_The_Limited_Series_/03-What_She_s_Doing_Now.mp3, garth_brooks, 03-What_She_s_Doing_Now
-/home/guest/guest14/Wi-fi_b08901177/DLMusic_2023Fall/HW1/artist20/mp3s-32k/garth_brooks/Ropin_The_Wind_The_Limited_Series_/11-The_River.mp3, garth_brooks, 11-The_River
-/home/guest/guest14/Wi-fi_b08901177/DLMusic_2023Fall/HW1/artist20/mp3s-32k/garth_brooks/Ropin_The_Wind_The_Limited_Series_/09-We_Bury_The_Hatchet.mp3, garth_brooks, 09-We_Bury_The_Hatchet
-/home/guest/guest14/Wi-fi_b08901177/DLMusic_2023Fall/HW1/artist20/mp3s-32k/suzanne_vega/Songs_in_Red_and_Gray/13-St_Clare.mp3, suzanne_vega, 13-St_Clare
-/home/guest/guest14/Wi-fi_b08901177/DLMusic_2023Fall/HW1/artist20/mp3s-32k/suzanne_vega/Songs_in_Red_and_Gray/09-If_I_Were_a_Weapon.mp3, suzanne_vega, 09-If_I_Were_a_Weapon
-/home/guest/guest14/Wi-fi_b08901177/DLMusic_2023Fall/HW1/artist20/mp3s-32k/suzanne_vega/Songs_in_Red_and_Gray/04-It_Makes_Me_Wonder.mp3, suzanne_vega, 04-It_Makes_Me_Wonder
-/home/guest/guest14/Wi-fi_b08901177/DLMusic_2023Fall/HW1/artist20/mp3s-32k/suzanne_vega/Songs_in_Red_and_Gray/11-Machine_Ballerina.mp3, suzanne_vega, 11-Machine_Ballerina
-/home/guest/guest14/Wi-fi_b08901177/DLMusic_2023Fall/HW1/artist20/mp3s-32k/suzanne_vega/Songs_in_Red_and_Gray/12-Solitaire.mp3, suzanne_vega, 12-Solitaire
-/home/guest/guest14/Wi-fi_b08901177/DLMusic_2023Fall/HW1/artist20/mp3s-32k/suzanne_vega/Songs_in_Red_and_Gray/05-Soap_and_Water.mp3, suzanne_vega, 05-Soap_and_Water
-/home/guest/guest14/Wi-fi_b08901177/DLMusic_2023Fall/HW1/artist20/mp3s-32k/suzanne_vega/Songs_in_Red_and_Gray/07-Last_Years_Troubles.mp3, suzanne_vega, 07-Last_Years_Troubles
-/home/guest/guest14/Wi-fi_b08901177/DLMusic_2023Fall/HW1/artist20/mp3s-32k/suzanne_vega/Songs_in_Red_and_Gray/01-Penitent.mp3, suzanne_vega, 01-Penitent
-/home/guest/guest14/Wi-fi_b08901177/DLMusic_2023Fall/HW1/artist20/mp3s-32k/suzanne_vega/Songs_in_Red_and_Gray/10-Harbor_Song.mp3, suzanne_vega, 10-Harbor_Song
-/home/guest/guest14/Wi-fi_b08901177/DLMusic_2023Fall/HW1/artist20/mp3s-32k/suzanne_vega/Songs_in_Red_and_Gray/02-Widow_s_Walk.mp3, suzanne_vega, 02-Widow_s_Walk
-/home/guest/guest14/Wi-fi_b08901177/DLMusic_2023Fall/HW1/artist20/mp3s-32k/suzanne_vega/Songs_in_Red_and_Gray/03-_I_ll_Never_Be_Your_Maggie_May.mp3, suzanne_vega, 03-_I_ll_Never_Be_Your_Maggie_May
-/home/guest/guest14/Wi-fi_b08901177/DLMusic_2023Fall/HW1/artist20/mp3s-32k/suzanne_vega/Songs_in_Red_and_Gray/06-Songs_in_Red_and_Gray.mp3, suzanne_vega, 06-Songs_in_Red_and_Gray
-/home/guest/guest14/Wi-fi_b08901177/DLMusic_2023Fall/HW1/artist20/mp3s-32k/suzanne_vega/Songs_in_Red_and_Gray/08-Priscilla.mp3, suzanne_vega, 08-Priscilla
+/Users/traychen/Desktop/Master 1-1/DL Music/DLMusic_2023Fall/HW1/artist20/mp3s-32k/aerosmith/Rocks/08-Lick_and_a_Promise.mp3, aerosmith, 08-Lick_and_a_Promise
+/Users/traychen/Desktop/Master 1-1/DL Music/DLMusic_2023Fall/HW1/artist20/mp3s-32k/aerosmith/Rocks/04-Combination.mp3, aerosmith, 04-Combination
+/Users/traychen/Desktop/Master 1-1/DL Music/DLMusic_2023Fall/HW1/artist20/mp3s-32k/aerosmith/Rocks/05-Sick_As_A_Dog.mp3, aerosmith, 05-Sick_As_A_Dog
+/Users/traychen/Desktop/Master 1-1/DL Music/DLMusic_2023Fall/HW1/artist20/mp3s-32k/aerosmith/Rocks/06-Nobody_s_Fault.mp3, aerosmith, 06-Nobody_s_Fault
+/Users/traychen/Desktop/Master 1-1/DL Music/DLMusic_2023Fall/HW1/artist20/mp3s-32k/aerosmith/Rocks/03-Rats_In_The_Cellar.mp3, aerosmith, 03-Rats_In_The_Cellar
+/Users/traychen/Desktop/Master 1-1/DL Music/DLMusic_2023Fall/HW1/artist20/mp3s-32k/aerosmith/Rocks/02-Last_Child.mp3, aerosmith, 02-Last_Child
+/Users/traychen/Desktop/Master 1-1/DL Music/DLMusic_2023Fall/HW1/artist20/mp3s-32k/aerosmith/Rocks/01-Back_In_The_Saddle_Again.mp3, aerosmith, 01-Back_In_The_Saddle_Again
+/Users/traychen/Desktop/Master 1-1/DL Music/DLMusic_2023Fall/HW1/artist20/mp3s-32k/aerosmith/Rocks/09-Home_Tonight.mp3, aerosmith, 09-Home_Tonight
+/Users/traychen/Desktop/Master 1-1/DL Music/DLMusic_2023Fall/HW1/artist20/mp3s-32k/aerosmith/Rocks/07-Get_The_Lead_Out.mp3, aerosmith, 07-Get_The_Lead_Out
+/Users/traychen/Desktop/Master 1-1/DL Music/DLMusic_2023Fall/HW1/artist20/mp3s-32k/beatles/Revolver/06-Yellow_Submarine.mp3, beatles, 06-Yellow_Submarine
+/Users/traychen/Desktop/Master 1-1/DL Music/DLMusic_2023Fall/HW1/artist20/mp3s-32k/beatles/Revolver/03-I_m_Only_Sleeping.mp3, beatles, 03-I_m_Only_Sleeping
+/Users/traychen/Desktop/Master 1-1/DL Music/DLMusic_2023Fall/HW1/artist20/mp3s-32k/beatles/Revolver/13-Got_To_Get_You_Into_My_Life.mp3, beatles, 13-Got_To_Get_You_Into_My_Life
+/Users/traychen/Desktop/Master 1-1/DL Music/DLMusic_2023Fall/HW1/artist20/mp3s-32k/beatles/Revolver/09-And_Your_Bird_Can_Sing.mp3, beatles, 09-And_Your_Bird_Can_Sing
+/Users/traychen/Desktop/Master 1-1/DL Music/DLMusic_2023Fall/HW1/artist20/mp3s-32k/beatles/Revolver/14-Tomorrow_Never_Knows.mp3, beatles, 14-Tomorrow_Never_Knows
+/Users/traychen/Desktop/Master 1-1/DL Music/DLMusic_2023Fall/HW1/artist20/mp3s-32k/beatles/Revolver/10-For_No_One.mp3, beatles, 10-For_No_One
+/Users/traychen/Desktop/Master 1-1/DL Music/DLMusic_2023Fall/HW1/artist20/mp3s-32k/beatles/Revolver/04-Love_You_To.mp3, beatles, 04-Love_You_To
+/Users/traychen/Desktop/Master 1-1/DL Music/DLMusic_2023Fall/HW1/artist20/mp3s-32k/beatles/Revolver/01-Taxman.mp3, beatles, 01-Taxman
+/Users/traychen/Desktop/Master 1-1/DL Music/DLMusic_2023Fall/HW1/artist20/mp3s-32k/beatles/Revolver/11-Doctor_Robert.mp3, beatles, 11-Doctor_Robert
+/Users/traychen/Desktop/Master 1-1/DL Music/DLMusic_2023Fall/HW1/artist20/mp3s-32k/beatles/Revolver/02-Eleanor_Rigby.mp3, beatles, 02-Eleanor_Rigby
+/Users/traychen/Desktop/Master 1-1/DL Music/DLMusic_2023Fall/HW1/artist20/mp3s-32k/beatles/Revolver/05-Here_There_And_Everywhere.mp3, beatles, 05-Here_There_And_Everywhere
+/Users/traychen/Desktop/Master 1-1/DL Music/DLMusic_2023Fall/HW1/artist20/mp3s-32k/beatles/Revolver/12-I_Want_To_Tell_You.mp3, beatles, 12-I_Want_To_Tell_You
+/Users/traychen/Desktop/Master 1-1/DL Music/DLMusic_2023Fall/HW1/artist20/mp3s-32k/beatles/Revolver/08-Good_Day_Sunshine.mp3, beatles, 08-Good_Day_Sunshine
+/Users/traychen/Desktop/Master 1-1/DL Music/DLMusic_2023Fall/HW1/artist20/mp3s-32k/beatles/Revolver/07-She_Said_She_Said.mp3, beatles, 07-She_Said_She_Said
+/Users/traychen/Desktop/Master 1-1/DL Music/DLMusic_2023Fall/HW1/artist20/mp3s-32k/creedence_clearwater_revival/Pendulum/04-Have_You_Ever_Seen_The_Rain-.mp3, creedence_clearwater_revival, 04-Have_You_Ever_Seen_The_Rain-
+/Users/traychen/Desktop/Master 1-1/DL Music/DLMusic_2023Fall/HW1/artist20/mp3s-32k/creedence_clearwater_revival/Pendulum/02-Sailor_s_Lament.mp3, creedence_clearwater_revival, 02-Sailor_s_Lament
+/Users/traychen/Desktop/Master 1-1/DL Music/DLMusic_2023Fall/HW1/artist20/mp3s-32k/creedence_clearwater_revival/Pendulum/10-Rude_Awakening_2.mp3, creedence_clearwater_revival, 10-Rude_Awakening_2
+/Users/traychen/Desktop/Master 1-1/DL Music/DLMusic_2023Fall/HW1/artist20/mp3s-32k/creedence_clearwater_revival/Pendulum/09-Molina.mp3, creedence_clearwater_revival, 09-Molina
+/Users/traychen/Desktop/Master 1-1/DL Music/DLMusic_2023Fall/HW1/artist20/mp3s-32k/creedence_clearwater_revival/Pendulum/08-It_s_Just_A_Thought.mp3, creedence_clearwater_revival, 08-It_s_Just_A_Thought
+/Users/traychen/Desktop/Master 1-1/DL Music/DLMusic_2023Fall/HW1/artist20/mp3s-32k/creedence_clearwater_revival/Pendulum/06-Born_To_Move.mp3, creedence_clearwater_revival, 06-Born_To_Move
+/Users/traychen/Desktop/Master 1-1/DL Music/DLMusic_2023Fall/HW1/artist20/mp3s-32k/creedence_clearwater_revival/Pendulum/01-Pagan_Baby.mp3, creedence_clearwater_revival, 01-Pagan_Baby
+/Users/traychen/Desktop/Master 1-1/DL Music/DLMusic_2023Fall/HW1/artist20/mp3s-32k/creedence_clearwater_revival/Pendulum/05-_Wish_I_Could_Hideaway.mp3, creedence_clearwater_revival, 05-_Wish_I_Could_Hideaway
+/Users/traychen/Desktop/Master 1-1/DL Music/DLMusic_2023Fall/HW1/artist20/mp3s-32k/creedence_clearwater_revival/Pendulum/03-Chameleon.mp3, creedence_clearwater_revival, 03-Chameleon
+/Users/traychen/Desktop/Master 1-1/DL Music/DLMusic_2023Fall/HW1/artist20/mp3s-32k/creedence_clearwater_revival/Pendulum/07-Hey_Tonight.mp3, creedence_clearwater_revival, 07-Hey_Tonight
+/Users/traychen/Desktop/Master 1-1/DL Music/DLMusic_2023Fall/HW1/artist20/mp3s-32k/cure/Wild_Mood_Swings/01-Want.mp3, cure, 01-Want
+/Users/traychen/Desktop/Master 1-1/DL Music/DLMusic_2023Fall/HW1/artist20/mp3s-32k/cure/Wild_Mood_Swings/07-Jupiter_Crash.mp3, cure, 07-Jupiter_Crash
+/Users/traychen/Desktop/Master 1-1/DL Music/DLMusic_2023Fall/HW1/artist20/mp3s-32k/cure/Wild_Mood_Swings/12-Trap.mp3, cure, 12-Trap
+/Users/traychen/Desktop/Master 1-1/DL Music/DLMusic_2023Fall/HW1/artist20/mp3s-32k/cure/Wild_Mood_Swings/05-Strange_Attraction.mp3, cure, 05-Strange_Attraction
+/Users/traychen/Desktop/Master 1-1/DL Music/DLMusic_2023Fall/HW1/artist20/mp3s-32k/cure/Wild_Mood_Swings/03-This_Is_A_Lie.mp3, cure, 03-This_Is_A_Lie
+/Users/traychen/Desktop/Master 1-1/DL Music/DLMusic_2023Fall/HW1/artist20/mp3s-32k/cure/Wild_Mood_Swings/11-Return.mp3, cure, 11-Return
+/Users/traychen/Desktop/Master 1-1/DL Music/DLMusic_2023Fall/HW1/artist20/mp3s-32k/cure/Wild_Mood_Swings/10-Numb.mp3, cure, 10-Numb
+/Users/traychen/Desktop/Master 1-1/DL Music/DLMusic_2023Fall/HW1/artist20/mp3s-32k/cure/Wild_Mood_Swings/14-Bare.mp3, cure, 14-Bare
+/Users/traychen/Desktop/Master 1-1/DL Music/DLMusic_2023Fall/HW1/artist20/mp3s-32k/cure/Wild_Mood_Swings/02-Club_America.mp3, cure, 02-Club_America
+/Users/traychen/Desktop/Master 1-1/DL Music/DLMusic_2023Fall/HW1/artist20/mp3s-32k/cure/Wild_Mood_Swings/04-The_13th.mp3, cure, 04-The_13th
+/Users/traychen/Desktop/Master 1-1/DL Music/DLMusic_2023Fall/HW1/artist20/mp3s-32k/cure/Wild_Mood_Swings/06-Mint_Car.mp3, cure, 06-Mint_Car
+/Users/traychen/Desktop/Master 1-1/DL Music/DLMusic_2023Fall/HW1/artist20/mp3s-32k/cure/Wild_Mood_Swings/08-Round_Round_Round.mp3, cure, 08-Round_Round_Round
+/Users/traychen/Desktop/Master 1-1/DL Music/DLMusic_2023Fall/HW1/artist20/mp3s-32k/cure/Wild_Mood_Swings/13-Treasure.mp3, cure, 13-Treasure
+/Users/traychen/Desktop/Master 1-1/DL Music/DLMusic_2023Fall/HW1/artist20/mp3s-32k/cure/Wild_Mood_Swings/09-Gone_.mp3, cure, 09-Gone_
+/Users/traychen/Desktop/Master 1-1/DL Music/DLMusic_2023Fall/HW1/artist20/mp3s-32k/dave_matthews_band/Stand_Up/04-American_Baby_Intro.mp3, dave_matthews_band, 04-American_Baby_Intro
+/Users/traychen/Desktop/Master 1-1/DL Music/DLMusic_2023Fall/HW1/artist20/mp3s-32k/dave_matthews_band/Stand_Up/01-Dreamgirl.mp3, dave_matthews_band, 01-Dreamgirl
+/Users/traychen/Desktop/Master 1-1/DL Music/DLMusic_2023Fall/HW1/artist20/mp3s-32k/dave_matthews_band/Stand_Up/05-American_Baby.mp3, dave_matthews_band, 05-American_Baby
+/Users/traychen/Desktop/Master 1-1/DL Music/DLMusic_2023Fall/HW1/artist20/mp3s-32k/dave_matthews_band/Stand_Up/13-Steady_As_We_Go.mp3, dave_matthews_band, 13-Steady_As_We_Go
+/Users/traychen/Desktop/Master 1-1/DL Music/DLMusic_2023Fall/HW1/artist20/mp3s-32k/dave_matthews_band/Stand_Up/07-Everybody_Wake_Up_Our_Finest_Hour_Arrives_.mp3, dave_matthews_band, 07-Everybody_Wake_Up_Our_Finest_Hour_Arrives_
+/Users/traychen/Desktop/Master 1-1/DL Music/DLMusic_2023Fall/HW1/artist20/mp3s-32k/dave_matthews_band/Stand_Up/11-Stolen_Away_On_55th_3rd.mp3, dave_matthews_band, 11-Stolen_Away_On_55th_3rd
+/Users/traychen/Desktop/Master 1-1/DL Music/DLMusic_2023Fall/HW1/artist20/mp3s-32k/dave_matthews_band/Stand_Up/02-Old_Dirt_Hill_Bring_That_Beat_Back_.mp3, dave_matthews_band, 02-Old_Dirt_Hill_Bring_That_Beat_Back_
+/Users/traychen/Desktop/Master 1-1/DL Music/DLMusic_2023Fall/HW1/artist20/mp3s-32k/dave_matthews_band/Stand_Up/10-Louisiana_Bayou.mp3, dave_matthews_band, 10-Louisiana_Bayou
+/Users/traychen/Desktop/Master 1-1/DL Music/DLMusic_2023Fall/HW1/artist20/mp3s-32k/dave_matthews_band/Stand_Up/06-Smooth_Rider.mp3, dave_matthews_band, 06-Smooth_Rider
+/Users/traychen/Desktop/Master 1-1/DL Music/DLMusic_2023Fall/HW1/artist20/mp3s-32k/dave_matthews_band/Stand_Up/14-Hunger_For_The_Great_Light.mp3, dave_matthews_band, 14-Hunger_For_The_Great_Light
+/Users/traychen/Desktop/Master 1-1/DL Music/DLMusic_2023Fall/HW1/artist20/mp3s-32k/dave_matthews_band/Stand_Up/09-Hello_Again.mp3, dave_matthews_band, 09-Hello_Again
+/Users/traychen/Desktop/Master 1-1/DL Music/DLMusic_2023Fall/HW1/artist20/mp3s-32k/dave_matthews_band/Stand_Up/12-You_Might_Die_Trying.mp3, dave_matthews_band, 12-You_Might_Die_Trying
+/Users/traychen/Desktop/Master 1-1/DL Music/DLMusic_2023Fall/HW1/artist20/mp3s-32k/dave_matthews_band/Stand_Up/03-Stand_Up_For_It_.mp3, dave_matthews_band, 03-Stand_Up_For_It_
+/Users/traychen/Desktop/Master 1-1/DL Music/DLMusic_2023Fall/HW1/artist20/mp3s-32k/dave_matthews_band/Stand_Up/08-Out_Of_My_Hands.mp3, dave_matthews_band, 08-Out_Of_My_Hands
+/Users/traychen/Desktop/Master 1-1/DL Music/DLMusic_2023Fall/HW1/artist20/mp3s-32k/depeche_mode/Some_Great_Reward/01-Something_To_Do.mp3, depeche_mode, 01-Something_To_Do
+/Users/traychen/Desktop/Master 1-1/DL Music/DLMusic_2023Fall/HW1/artist20/mp3s-32k/depeche_mode/Some_Great_Reward/09-Blasphemous_Rumours.mp3, depeche_mode, 09-Blasphemous_Rumours
+/Users/traychen/Desktop/Master 1-1/DL Music/DLMusic_2023Fall/HW1/artist20/mp3s-32k/depeche_mode/Some_Great_Reward/03-People_Are_People.mp3, depeche_mode, 03-People_Are_People
+/Users/traychen/Desktop/Master 1-1/DL Music/DLMusic_2023Fall/HW1/artist20/mp3s-32k/depeche_mode/Some_Great_Reward/02-Lie_To_Me.mp3, depeche_mode, 02-Lie_To_Me
+/Users/traychen/Desktop/Master 1-1/DL Music/DLMusic_2023Fall/HW1/artist20/mp3s-32k/depeche_mode/Some_Great_Reward/06-Somebody.mp3, depeche_mode, 06-Somebody
+/Users/traychen/Desktop/Master 1-1/DL Music/DLMusic_2023Fall/HW1/artist20/mp3s-32k/depeche_mode/Some_Great_Reward/08-If_You_Want.mp3, depeche_mode, 08-If_You_Want
+/Users/traychen/Desktop/Master 1-1/DL Music/DLMusic_2023Fall/HW1/artist20/mp3s-32k/depeche_mode/Some_Great_Reward/04-It_Doesn_t_Matter.mp3, depeche_mode, 04-It_Doesn_t_Matter
+/Users/traychen/Desktop/Master 1-1/DL Music/DLMusic_2023Fall/HW1/artist20/mp3s-32k/depeche_mode/Some_Great_Reward/07-Master_And_Servant.mp3, depeche_mode, 07-Master_And_Servant
+/Users/traychen/Desktop/Master 1-1/DL Music/DLMusic_2023Fall/HW1/artist20/mp3s-32k/depeche_mode/Some_Great_Reward/05-Stories_Of_Old.mp3, depeche_mode, 05-Stories_Of_Old
+/Users/traychen/Desktop/Master 1-1/DL Music/DLMusic_2023Fall/HW1/artist20/mp3s-32k/fleetwood_mac/Tango_In_The_Night/01-Big_Love.mp3, fleetwood_mac, 01-Big_Love
+/Users/traychen/Desktop/Master 1-1/DL Music/DLMusic_2023Fall/HW1/artist20/mp3s-32k/fleetwood_mac/Tango_In_The_Night/03-Everywhere.mp3, fleetwood_mac, 03-Everywhere
+/Users/traychen/Desktop/Master 1-1/DL Music/DLMusic_2023Fall/HW1/artist20/mp3s-32k/fleetwood_mac/Tango_In_The_Night/09-Welcome_To_The_Room_Sara.mp3, fleetwood_mac, 09-Welcome_To_The_Room_Sara
+/Users/traychen/Desktop/Master 1-1/DL Music/DLMusic_2023Fall/HW1/artist20/mp3s-32k/fleetwood_mac/Tango_In_The_Night/02-Seven_Wonders.mp3, fleetwood_mac, 02-Seven_Wonders
+/Users/traychen/Desktop/Master 1-1/DL Music/DLMusic_2023Fall/HW1/artist20/mp3s-32k/fleetwood_mac/Tango_In_The_Night/11-When_I_See_You_Again.mp3, fleetwood_mac, 11-When_I_See_You_Again
+/Users/traychen/Desktop/Master 1-1/DL Music/DLMusic_2023Fall/HW1/artist20/mp3s-32k/fleetwood_mac/Tango_In_The_Night/06-Mystified.mp3, fleetwood_mac, 06-Mystified
+/Users/traychen/Desktop/Master 1-1/DL Music/DLMusic_2023Fall/HW1/artist20/mp3s-32k/fleetwood_mac/Tango_In_The_Night/10-Isn_t_It_Midnight.mp3, fleetwood_mac, 10-Isn_t_It_Midnight
+/Users/traychen/Desktop/Master 1-1/DL Music/DLMusic_2023Fall/HW1/artist20/mp3s-32k/fleetwood_mac/Tango_In_The_Night/07-Little_Lies.mp3, fleetwood_mac, 07-Little_Lies
+/Users/traychen/Desktop/Master 1-1/DL Music/DLMusic_2023Fall/HW1/artist20/mp3s-32k/fleetwood_mac/Tango_In_The_Night/04-Caroline.mp3, fleetwood_mac, 04-Caroline
+/Users/traychen/Desktop/Master 1-1/DL Music/DLMusic_2023Fall/HW1/artist20/mp3s-32k/fleetwood_mac/Tango_In_The_Night/08-Family_Man.mp3, fleetwood_mac, 08-Family_Man
+/Users/traychen/Desktop/Master 1-1/DL Music/DLMusic_2023Fall/HW1/artist20/mp3s-32k/fleetwood_mac/Tango_In_The_Night/12-You_and_I_Part_II.mp3, fleetwood_mac, 12-You_and_I_Part_II
+/Users/traychen/Desktop/Master 1-1/DL Music/DLMusic_2023Fall/HW1/artist20/mp3s-32k/fleetwood_mac/Tango_In_The_Night/05-Tango_In_The_Night.mp3, fleetwood_mac, 05-Tango_In_The_Night
+/Users/traychen/Desktop/Master 1-1/DL Music/DLMusic_2023Fall/HW1/artist20/mp3s-32k/garth_brooks/Ropin_The_Wind_The_Limited_Series_/08-Cold_Shoulder.mp3, garth_brooks, 08-Cold_Shoulder
+/Users/traychen/Desktop/Master 1-1/DL Music/DLMusic_2023Fall/HW1/artist20/mp3s-32k/garth_brooks/Ropin_The_Wind_The_Limited_Series_/05-Which_One_Of_Them.mp3, garth_brooks, 05-Which_One_Of_Them
+/Users/traychen/Desktop/Master 1-1/DL Music/DLMusic_2023Fall/HW1/artist20/mp3s-32k/garth_brooks/Ropin_The_Wind_The_Limited_Series_/03-What_She_s_Doing_Now.mp3, garth_brooks, 03-What_She_s_Doing_Now
+/Users/traychen/Desktop/Master 1-1/DL Music/DLMusic_2023Fall/HW1/artist20/mp3s-32k/garth_brooks/Ropin_The_Wind_The_Limited_Series_/02-Rodeo.mp3, garth_brooks, 02-Rodeo
+/Users/traychen/Desktop/Master 1-1/DL Music/DLMusic_2023Fall/HW1/artist20/mp3s-32k/garth_brooks/Ropin_The_Wind_The_Limited_Series_/01-Against_The_Grain.mp3, garth_brooks, 01-Against_The_Grain
+/Users/traychen/Desktop/Master 1-1/DL Music/DLMusic_2023Fall/HW1/artist20/mp3s-32k/garth_brooks/Ropin_The_Wind_The_Limited_Series_/10-In_Lonesome_Dove.mp3, garth_brooks, 10-In_Lonesome_Dove
+/Users/traychen/Desktop/Master 1-1/DL Music/DLMusic_2023Fall/HW1/artist20/mp3s-32k/garth_brooks/Ropin_The_Wind_The_Limited_Series_/04-Burning_Bridges.mp3, garth_brooks, 04-Burning_Bridges
+/Users/traychen/Desktop/Master 1-1/DL Music/DLMusic_2023Fall/HW1/artist20/mp3s-32k/garth_brooks/Ropin_The_Wind_The_Limited_Series_/07-Shameless.mp3, garth_brooks, 07-Shameless
+/Users/traychen/Desktop/Master 1-1/DL Music/DLMusic_2023Fall/HW1/artist20/mp3s-32k/garth_brooks/Ropin_The_Wind_The_Limited_Series_/09-We_Bury_The_Hatchet.mp3, garth_brooks, 09-We_Bury_The_Hatchet
+/Users/traychen/Desktop/Master 1-1/DL Music/DLMusic_2023Fall/HW1/artist20/mp3s-32k/garth_brooks/Ropin_The_Wind_The_Limited_Series_/11-The_River.mp3, garth_brooks, 11-The_River
+/Users/traychen/Desktop/Master 1-1/DL Music/DLMusic_2023Fall/HW1/artist20/mp3s-32k/garth_brooks/Ropin_The_Wind_The_Limited_Series_/06-Papa_Loved_Mama.mp3, garth_brooks, 06-Papa_Loved_Mama
+/Users/traychen/Desktop/Master 1-1/DL Music/DLMusic_2023Fall/HW1/artist20/mp3s-32k/green_day/Nimrod/10-Last_Ride_In.mp3, green_day, 10-Last_Ride_In
+/Users/traychen/Desktop/Master 1-1/DL Music/DLMusic_2023Fall/HW1/artist20/mp3s-32k/green_day/Nimrod/14-Reject.mp3, green_day, 14-Reject
+/Users/traychen/Desktop/Master 1-1/DL Music/DLMusic_2023Fall/HW1/artist20/mp3s-32k/green_day/Nimrod/13-Walking_Alone.mp3, green_day, 13-Walking_Alone
+/Users/traychen/Desktop/Master 1-1/DL Music/DLMusic_2023Fall/HW1/artist20/mp3s-32k/green_day/Nimrod/03-The_Grouch.mp3, green_day, 03-The_Grouch
+/Users/traychen/Desktop/Master 1-1/DL Music/DLMusic_2023Fall/HW1/artist20/mp3s-32k/green_day/Nimrod/01-Nice_Guys_Finish_Last.mp3, green_day, 01-Nice_Guys_Finish_Last
+/Users/traychen/Desktop/Master 1-1/DL Music/DLMusic_2023Fall/HW1/artist20/mp3s-32k/green_day/Nimrod/18-Prosthetic_Head.mp3, green_day, 18-Prosthetic_Head
+/Users/traychen/Desktop/Master 1-1/DL Music/DLMusic_2023Fall/HW1/artist20/mp3s-32k/green_day/Nimrod/04-Redundant.mp3, green_day, 04-Redundant
+/Users/traychen/Desktop/Master 1-1/DL Music/DLMusic_2023Fall/HW1/artist20/mp3s-32k/green_day/Nimrod/09-Uptight.mp3, green_day, 09-Uptight
+/Users/traychen/Desktop/Master 1-1/DL Music/DLMusic_2023Fall/HW1/artist20/mp3s-32k/green_day/Nimrod/15-Take_Back.mp3, green_day, 15-Take_Back
+/Users/traychen/Desktop/Master 1-1/DL Music/DLMusic_2023Fall/HW1/artist20/mp3s-32k/green_day/Nimrod/11-Jinx.mp3, green_day, 11-Jinx
+/Users/traychen/Desktop/Master 1-1/DL Music/DLMusic_2023Fall/HW1/artist20/mp3s-32k/green_day/Nimrod/16-King_For_A_Day.mp3, green_day, 16-King_For_A_Day
+/Users/traychen/Desktop/Master 1-1/DL Music/DLMusic_2023Fall/HW1/artist20/mp3s-32k/green_day/Nimrod/07-Worry_Rock.mp3, green_day, 07-Worry_Rock
+/Users/traychen/Desktop/Master 1-1/DL Music/DLMusic_2023Fall/HW1/artist20/mp3s-32k/green_day/Nimrod/05-Scattered.mp3, green_day, 05-Scattered
+/Users/traychen/Desktop/Master 1-1/DL Music/DLMusic_2023Fall/HW1/artist20/mp3s-32k/green_day/Nimrod/17-Good_Riddance_Time_Of_Your_Life_.mp3, green_day, 17-Good_Riddance_Time_Of_Your_Life_
+/Users/traychen/Desktop/Master 1-1/DL Music/DLMusic_2023Fall/HW1/artist20/mp3s-32k/green_day/Nimrod/06-All_The_Time.mp3, green_day, 06-All_The_Time
+/Users/traychen/Desktop/Master 1-1/DL Music/DLMusic_2023Fall/HW1/artist20/mp3s-32k/green_day/Nimrod/12-Haushinka.mp3, green_day, 12-Haushinka
+/Users/traychen/Desktop/Master 1-1/DL Music/DLMusic_2023Fall/HW1/artist20/mp3s-32k/green_day/Nimrod/02-Hitchin_A_Ride.mp3, green_day, 02-Hitchin_A_Ride
+/Users/traychen/Desktop/Master 1-1/DL Music/DLMusic_2023Fall/HW1/artist20/mp3s-32k/green_day/Nimrod/08-Platypus_I_Hate_You_.mp3, green_day, 08-Platypus_I_Hate_You_
+/Users/traychen/Desktop/Master 1-1/DL Music/DLMusic_2023Fall/HW1/artist20/mp3s-32k/led_zeppelin/Led_Zeppelin_IV_Zoso/05-Misty_Mountain_Hop.mp3, led_zeppelin, 05-Misty_Mountain_Hop
+/Users/traychen/Desktop/Master 1-1/DL Music/DLMusic_2023Fall/HW1/artist20/mp3s-32k/led_zeppelin/Led_Zeppelin_IV_Zoso/03-The_Battle_Of_Evermore.mp3, led_zeppelin, 03-The_Battle_Of_Evermore
+/Users/traychen/Desktop/Master 1-1/DL Music/DLMusic_2023Fall/HW1/artist20/mp3s-32k/led_zeppelin/Led_Zeppelin_IV_Zoso/01-Black_Dog.mp3, led_zeppelin, 01-Black_Dog
+/Users/traychen/Desktop/Master 1-1/DL Music/DLMusic_2023Fall/HW1/artist20/mp3s-32k/led_zeppelin/Led_Zeppelin_IV_Zoso/08-When_The_Levee_Breaks.mp3, led_zeppelin, 08-When_The_Levee_Breaks
+/Users/traychen/Desktop/Master 1-1/DL Music/DLMusic_2023Fall/HW1/artist20/mp3s-32k/led_zeppelin/Led_Zeppelin_IV_Zoso/07-Going_To_California.mp3, led_zeppelin, 07-Going_To_California
+/Users/traychen/Desktop/Master 1-1/DL Music/DLMusic_2023Fall/HW1/artist20/mp3s-32k/led_zeppelin/Led_Zeppelin_IV_Zoso/04-Stairway_To_Heaven.mp3, led_zeppelin, 04-Stairway_To_Heaven
+/Users/traychen/Desktop/Master 1-1/DL Music/DLMusic_2023Fall/HW1/artist20/mp3s-32k/led_zeppelin/Led_Zeppelin_IV_Zoso/02-Rock_And_Roll.mp3, led_zeppelin, 02-Rock_And_Roll
+/Users/traychen/Desktop/Master 1-1/DL Music/DLMusic_2023Fall/HW1/artist20/mp3s-32k/led_zeppelin/Led_Zeppelin_IV_Zoso/06-Four_Sticks.mp3, led_zeppelin, 06-Four_Sticks
+/Users/traychen/Desktop/Master 1-1/DL Music/DLMusic_2023Fall/HW1/artist20/mp3s-32k/madonna/Music/08-What_it_Feels_Like_For_a_Girl.mp3, madonna, 08-What_it_Feels_Like_For_a_Girl
+/Users/traychen/Desktop/Master 1-1/DL Music/DLMusic_2023Fall/HW1/artist20/mp3s-32k/madonna/Music/07-Don_t_Tell_Me.mp3, madonna, 07-Don_t_Tell_Me
+/Users/traychen/Desktop/Master 1-1/DL Music/DLMusic_2023Fall/HW1/artist20/mp3s-32k/madonna/Music/02-Impressive_Instant.mp3, madonna, 02-Impressive_Instant
+/Users/traychen/Desktop/Master 1-1/DL Music/DLMusic_2023Fall/HW1/artist20/mp3s-32k/madonna/Music/04-I_Deserve_It.mp3, madonna, 04-I_Deserve_It
+/Users/traychen/Desktop/Master 1-1/DL Music/DLMusic_2023Fall/HW1/artist20/mp3s-32k/madonna/Music/03-Runaway_Lover.mp3, madonna, 03-Runaway_Lover
+/Users/traychen/Desktop/Master 1-1/DL Music/DLMusic_2023Fall/HW1/artist20/mp3s-32k/madonna/Music/06-Nobody_s_Perfect.mp3, madonna, 06-Nobody_s_Perfect
+/Users/traychen/Desktop/Master 1-1/DL Music/DLMusic_2023Fall/HW1/artist20/mp3s-32k/madonna/Music/01-Music.mp3, madonna, 01-Music
+/Users/traychen/Desktop/Master 1-1/DL Music/DLMusic_2023Fall/HW1/artist20/mp3s-32k/madonna/Music/05-Amazing.mp3, madonna, 05-Amazing
+/Users/traychen/Desktop/Master 1-1/DL Music/DLMusic_2023Fall/HW1/artist20/mp3s-32k/madonna/Music/09-Paradise_Not_For_Me_.mp3, madonna, 09-Paradise_Not_For_Me_
+/Users/traychen/Desktop/Master 1-1/DL Music/DLMusic_2023Fall/HW1/artist20/mp3s-32k/madonna/Music/10-Gone.mp3, madonna, 10-Gone
+/Users/traychen/Desktop/Master 1-1/DL Music/DLMusic_2023Fall/HW1/artist20/mp3s-32k/metallica/Reload/05-Better_Then_You.mp3, metallica, 05-Better_Then_You
+/Users/traychen/Desktop/Master 1-1/DL Music/DLMusic_2023Fall/HW1/artist20/mp3s-32k/metallica/Reload/10-Prince_Charming.mp3, metallica, 10-Prince_Charming
+/Users/traychen/Desktop/Master 1-1/DL Music/DLMusic_2023Fall/HW1/artist20/mp3s-32k/metallica/Reload/02-The_Memory_Remains.mp3, metallica, 02-The_Memory_Remains
+/Users/traychen/Desktop/Master 1-1/DL Music/DLMusic_2023Fall/HW1/artist20/mp3s-32k/metallica/Reload/13-Fixxxer.mp3, metallica, 13-Fixxxer
+/Users/traychen/Desktop/Master 1-1/DL Music/DLMusic_2023Fall/HW1/artist20/mp3s-32k/metallica/Reload/07-Carpe_Diem_Baby.mp3, metallica, 07-Carpe_Diem_Baby
+/Users/traychen/Desktop/Master 1-1/DL Music/DLMusic_2023Fall/HW1/artist20/mp3s-32k/metallica/Reload/09-Where_The_Wild_Things_Are.mp3, metallica, 09-Where_The_Wild_Things_Are
+/Users/traychen/Desktop/Master 1-1/DL Music/DLMusic_2023Fall/HW1/artist20/mp3s-32k/metallica/Reload/08-Bad_Seed.mp3, metallica, 08-Bad_Seed
+/Users/traychen/Desktop/Master 1-1/DL Music/DLMusic_2023Fall/HW1/artist20/mp3s-32k/metallica/Reload/04-The_Unforgiven_II.mp3, metallica, 04-The_Unforgiven_II
+/Users/traychen/Desktop/Master 1-1/DL Music/DLMusic_2023Fall/HW1/artist20/mp3s-32k/metallica/Reload/12-Attitude.mp3, metallica, 12-Attitude
+/Users/traychen/Desktop/Master 1-1/DL Music/DLMusic_2023Fall/HW1/artist20/mp3s-32k/metallica/Reload/01-Fuel.mp3, metallica, 01-Fuel
+/Users/traychen/Desktop/Master 1-1/DL Music/DLMusic_2023Fall/HW1/artist20/mp3s-32k/metallica/Reload/06-Slither.mp3, metallica, 06-Slither
+/Users/traychen/Desktop/Master 1-1/DL Music/DLMusic_2023Fall/HW1/artist20/mp3s-32k/metallica/Reload/11-Low_Man_s_Lyric.mp3, metallica, 11-Low_Man_s_Lyric
+/Users/traychen/Desktop/Master 1-1/DL Music/DLMusic_2023Fall/HW1/artist20/mp3s-32k/metallica/Reload/03-Devil_s_Dance.mp3, metallica, 03-Devil_s_Dance
+/Users/traychen/Desktop/Master 1-1/DL Music/DLMusic_2023Fall/HW1/artist20/mp3s-32k/prince/Sign_O_The_Times_Disc_1_/09-Forever_In_My_Life.mp3, prince, 09-Forever_In_My_Life
+/Users/traychen/Desktop/Master 1-1/DL Music/DLMusic_2023Fall/HW1/artist20/mp3s-32k/prince/Sign_O_The_Times_Disc_1_/06-Starfish_And_Coffee.mp3, prince, 06-Starfish_And_Coffee
+/Users/traychen/Desktop/Master 1-1/DL Music/DLMusic_2023Fall/HW1/artist20/mp3s-32k/prince/Sign_O_The_Times_Disc_1_/01-Sign_O_The_Times.mp3, prince, 01-Sign_O_The_Times
+/Users/traychen/Desktop/Master 1-1/DL Music/DLMusic_2023Fall/HW1/artist20/mp3s-32k/prince/Sign_O_The_Times_Disc_1_/05-It.mp3, prince, 05-It
+/Users/traychen/Desktop/Master 1-1/DL Music/DLMusic_2023Fall/HW1/artist20/mp3s-32k/prince/Sign_O_The_Times_Disc_1_/07-Slow_Love.mp3, prince, 07-Slow_Love
+/Users/traychen/Desktop/Master 1-1/DL Music/DLMusic_2023Fall/HW1/artist20/mp3s-32k/prince/Sign_O_The_Times_Disc_1_/03-Housequake.mp3, prince, 03-Housequake
+/Users/traychen/Desktop/Master 1-1/DL Music/DLMusic_2023Fall/HW1/artist20/mp3s-32k/prince/Sign_O_The_Times_Disc_1_/08-Hot_Thing.mp3, prince, 08-Hot_Thing
+/Users/traychen/Desktop/Master 1-1/DL Music/DLMusic_2023Fall/HW1/artist20/mp3s-32k/prince/Sign_O_The_Times_Disc_1_/04-The_Ballad_Of_Dorothy_Parker.mp3, prince, 04-The_Ballad_Of_Dorothy_Parker
+/Users/traychen/Desktop/Master 1-1/DL Music/DLMusic_2023Fall/HW1/artist20/mp3s-32k/prince/Sign_O_The_Times_Disc_1_/02-Play_In_The_Sunshine.mp3, prince, 02-Play_In_The_Sunshine
+/Users/traychen/Desktop/Master 1-1/DL Music/DLMusic_2023Fall/HW1/artist20/mp3s-32k/queen/The_Game/07-Don_t_Try_Suicide.mp3, queen, 07-Don_t_Try_Suicide
+/Users/traychen/Desktop/Master 1-1/DL Music/DLMusic_2023Fall/HW1/artist20/mp3s-32k/queen/The_Game/10-Save_Me.mp3, queen, 10-Save_Me
+/Users/traychen/Desktop/Master 1-1/DL Music/DLMusic_2023Fall/HW1/artist20/mp3s-32k/queen/The_Game/04-Need_Your_Loving_Tonight.mp3, queen, 04-Need_Your_Loving_Tonight
+/Users/traychen/Desktop/Master 1-1/DL Music/DLMusic_2023Fall/HW1/artist20/mp3s-32k/queen/The_Game/08-Sail_Away_Sweet_Sister.mp3, queen, 08-Sail_Away_Sweet_Sister
+/Users/traychen/Desktop/Master 1-1/DL Music/DLMusic_2023Fall/HW1/artist20/mp3s-32k/queen/The_Game/05-Crazy_Little_Thing_Called_Love.mp3, queen, 05-Crazy_Little_Thing_Called_Love
+/Users/traychen/Desktop/Master 1-1/DL Music/DLMusic_2023Fall/HW1/artist20/mp3s-32k/queen/The_Game/06-Rock_It_Prime_Jive_.mp3, queen, 06-Rock_It_Prime_Jive_
+/Users/traychen/Desktop/Master 1-1/DL Music/DLMusic_2023Fall/HW1/artist20/mp3s-32k/queen/The_Game/01-Play_The_Game.mp3, queen, 01-Play_The_Game
+/Users/traychen/Desktop/Master 1-1/DL Music/DLMusic_2023Fall/HW1/artist20/mp3s-32k/queen/The_Game/02-Dragon_Attack.mp3, queen, 02-Dragon_Attack
+/Users/traychen/Desktop/Master 1-1/DL Music/DLMusic_2023Fall/HW1/artist20/mp3s-32k/queen/The_Game/09-Coming_Soon.mp3, queen, 09-Coming_Soon
+/Users/traychen/Desktop/Master 1-1/DL Music/DLMusic_2023Fall/HW1/artist20/mp3s-32k/queen/The_Game/03-Another_One_Bites_The_Dust.mp3, queen, 03-Another_One_Bites_The_Dust
+/Users/traychen/Desktop/Master 1-1/DL Music/DLMusic_2023Fall/HW1/artist20/mp3s-32k/queen/The_Game/11-Dragon_Attack_1991_Bonus_Remix_.mp3, queen, 11-Dragon_Attack_1991_Bonus_Remix_
+/Users/traychen/Desktop/Master 1-1/DL Music/DLMusic_2023Fall/HW1/artist20/mp3s-32k/radiohead/Pablo_Honey/07-Ripcord.mp3, radiohead, 07-Ripcord
+/Users/traychen/Desktop/Master 1-1/DL Music/DLMusic_2023Fall/HW1/artist20/mp3s-32k/radiohead/Pablo_Honey/04-Stop_Whispering.mp3, radiohead, 04-Stop_Whispering
+/Users/traychen/Desktop/Master 1-1/DL Music/DLMusic_2023Fall/HW1/artist20/mp3s-32k/radiohead/Pablo_Honey/09-Prove_Yourself.mp3, radiohead, 09-Prove_Yourself
+/Users/traychen/Desktop/Master 1-1/DL Music/DLMusic_2023Fall/HW1/artist20/mp3s-32k/radiohead/Pablo_Honey/05-Thinking_About_You.mp3, radiohead, 05-Thinking_About_You
+/Users/traychen/Desktop/Master 1-1/DL Music/DLMusic_2023Fall/HW1/artist20/mp3s-32k/radiohead/Pablo_Honey/11-Lurgee.mp3, radiohead, 11-Lurgee
+/Users/traychen/Desktop/Master 1-1/DL Music/DLMusic_2023Fall/HW1/artist20/mp3s-32k/radiohead/Pablo_Honey/03-How_Do_You_.mp3, radiohead, 03-How_Do_You_
+/Users/traychen/Desktop/Master 1-1/DL Music/DLMusic_2023Fall/HW1/artist20/mp3s-32k/radiohead/Pablo_Honey/06-Anyone_Can_Play_Guitar.mp3, radiohead, 06-Anyone_Can_Play_Guitar
+/Users/traychen/Desktop/Master 1-1/DL Music/DLMusic_2023Fall/HW1/artist20/mp3s-32k/radiohead/Pablo_Honey/08-Vegetable.mp3, radiohead, 08-Vegetable
+/Users/traychen/Desktop/Master 1-1/DL Music/DLMusic_2023Fall/HW1/artist20/mp3s-32k/radiohead/Pablo_Honey/10-I_Can_t.mp3, radiohead, 10-I_Can_t
+/Users/traychen/Desktop/Master 1-1/DL Music/DLMusic_2023Fall/HW1/artist20/mp3s-32k/radiohead/Pablo_Honey/02-Creep.mp3, radiohead, 02-Creep
+/Users/traychen/Desktop/Master 1-1/DL Music/DLMusic_2023Fall/HW1/artist20/mp3s-32k/radiohead/Pablo_Honey/01-You.mp3, radiohead, 01-You
+/Users/traychen/Desktop/Master 1-1/DL Music/DLMusic_2023Fall/HW1/artist20/mp3s-32k/radiohead/Pablo_Honey/12-Blow_Out.mp3, radiohead, 12-Blow_Out
+/Users/traychen/Desktop/Master 1-1/DL Music/DLMusic_2023Fall/HW1/artist20/mp3s-32k/radiohead/Pablo_Honey/13-Creep_Radio_Edit_.mp3, radiohead, 13-Creep_Radio_Edit_
+/Users/traychen/Desktop/Master 1-1/DL Music/DLMusic_2023Fall/HW1/artist20/mp3s-32k/roxette/Pearls_of_Passion_1997_Remaster_/08-Call_Of_The_Wild.mp3, roxette, 08-Call_Of_The_Wild
+/Users/traychen/Desktop/Master 1-1/DL Music/DLMusic_2023Fall/HW1/artist20/mp3s-32k/roxette/Pearls_of_Passion_1997_Remaster_/02-Secrets_That_She_Keeps.mp3, roxette, 02-Secrets_That_She_Keeps
+/Users/traychen/Desktop/Master 1-1/DL Music/DLMusic_2023Fall/HW1/artist20/mp3s-32k/roxette/Pearls_of_Passion_1997_Remaster_/15-Turn_To_Me.mp3, roxette, 15-Turn_To_Me
+/Users/traychen/Desktop/Master 1-1/DL Music/DLMusic_2023Fall/HW1/artist20/mp3s-32k/roxette/Pearls_of_Passion_1997_Remaster_/11-Like_Lovers_Do.mp3, roxette, 11-Like_Lovers_Do
+/Users/traychen/Desktop/Master 1-1/DL Music/DLMusic_2023Fall/HW1/artist20/mp3s-32k/roxette/Pearls_of_Passion_1997_Remaster_/03-Goodbye_To_You.mp3, roxette, 03-Goodbye_To_You
+/Users/traychen/Desktop/Master 1-1/DL Music/DLMusic_2023Fall/HW1/artist20/mp3s-32k/roxette/Pearls_of_Passion_1997_Remaster_/18-I_Call_Your_Name_Montezuma_Demo_26_07_86_.mp3, roxette, 18-I_Call_Your_Name_Montezuma_Demo_26_07_86_
+/Users/traychen/Desktop/Master 1-1/DL Music/DLMusic_2023Fall/HW1/artist20/mp3s-32k/roxette/Pearls_of_Passion_1997_Remaster_/14-It_Must_Have_Been_Love_Christmas_For_The_Broken-Hearted_.mp3, roxette, 14-It_Must_Have_Been_Love_Christmas_For_The_Broken-Hearted_
+/Users/traychen/Desktop/Master 1-1/DL Music/DLMusic_2023Fall/HW1/artist20/mp3s-32k/roxette/Pearls_of_Passion_1997_Remaster_/05-Surrender.mp3, roxette, 05-Surrender
+/Users/traychen/Desktop/Master 1-1/DL Music/DLMusic_2023Fall/HW1/artist20/mp3s-32k/roxette/Pearls_of_Passion_1997_Remaster_/16-Neverending_Love_Tits_Ass_Demo_1986_.mp3, roxette, 16-Neverending_Love_Tits_Ass_Demo_1986_
+/Users/traychen/Desktop/Master 1-1/DL Music/DLMusic_2023Fall/HW1/artist20/mp3s-32k/roxette/Pearls_of_Passion_1997_Remaster_/06-Voices.mp3, roxette, 06-Voices
+/Users/traychen/Desktop/Master 1-1/DL Music/DLMusic_2023Fall/HW1/artist20/mp3s-32k/roxette/Pearls_of_Passion_1997_Remaster_/12-So_Far_Away.mp3, roxette, 12-So_Far_Away
+/Users/traychen/Desktop/Master 1-1/DL Music/DLMusic_2023Fall/HW1/artist20/mp3s-32k/roxette/Pearls_of_Passion_1997_Remaster_/13-Pearls_Of_Passion.mp3, roxette, 13-Pearls_Of_Passion
+/Users/traychen/Desktop/Master 1-1/DL Music/DLMusic_2023Fall/HW1/artist20/mp3s-32k/roxette/Pearls_of_Passion_1997_Remaster_/10-From_One_Heart_To_Another.mp3, roxette, 10-From_One_Heart_To_Another
+/Users/traychen/Desktop/Master 1-1/DL Music/DLMusic_2023Fall/HW1/artist20/mp3s-32k/roxette/Pearls_of_Passion_1997_Remaster_/04-I_Call_Your_Name.mp3, roxette, 04-I_Call_Your_Name
+/Users/traychen/Desktop/Master 1-1/DL Music/DLMusic_2023Fall/HW1/artist20/mp3s-32k/roxette/Pearls_of_Passion_1997_Remaster_/19-Neverending_Love_Frank_Mono-Mix_1987_.mp3, roxette, 19-Neverending_Love_Frank_Mono-Mix_1987_
+/Users/traychen/Desktop/Master 1-1/DL Music/DLMusic_2023Fall/HW1/artist20/mp3s-32k/roxette/Pearls_of_Passion_1997_Remaster_/09-Joy_Of_A_Toy.mp3, roxette, 09-Joy_Of_A_Toy
+/Users/traychen/Desktop/Master 1-1/DL Music/DLMusic_2023Fall/HW1/artist20/mp3s-32k/roxette/Pearls_of_Passion_1997_Remaster_/17-Secrets_That_She_Keeps_Tits_Ass_Demo_1986_.mp3, roxette, 17-Secrets_That_She_Keeps_Tits_Ass_Demo_1986_
+/Users/traychen/Desktop/Master 1-1/DL Music/DLMusic_2023Fall/HW1/artist20/mp3s-32k/roxette/Pearls_of_Passion_1997_Remaster_/01-Soul_Deep.mp3, roxette, 01-Soul_Deep
+/Users/traychen/Desktop/Master 1-1/DL Music/DLMusic_2023Fall/HW1/artist20/mp3s-32k/roxette/Pearls_of_Passion_1997_Remaster_/07-Neverending_Love.mp3, roxette, 07-Neverending_Love
+/Users/traychen/Desktop/Master 1-1/DL Music/DLMusic_2023Fall/HW1/artist20/mp3s-32k/roxette/Pearls_of_Passion_1997_Remaster_/20-I_Call_Your_Name_Frank_Mono-Mix_1987_.mp3, roxette, 20-I_Call_Your_Name_Frank_Mono-Mix_1987_
+/Users/traychen/Desktop/Master 1-1/DL Music/DLMusic_2023Fall/HW1/artist20/mp3s-32k/steely_dan/Pretzel_Logic/04-Barrytown.mp3, steely_dan, 04-Barrytown
+/Users/traychen/Desktop/Master 1-1/DL Music/DLMusic_2023Fall/HW1/artist20/mp3s-32k/steely_dan/Pretzel_Logic/01-Rikki_Don_t_Lose_That_Number.mp3, steely_dan, 01-Rikki_Don_t_Lose_That_Number
+/Users/traychen/Desktop/Master 1-1/DL Music/DLMusic_2023Fall/HW1/artist20/mp3s-32k/steely_dan/Pretzel_Logic/02-Night_by_Night.mp3, steely_dan, 02-Night_by_Night
+/Users/traychen/Desktop/Master 1-1/DL Music/DLMusic_2023Fall/HW1/artist20/mp3s-32k/steely_dan/Pretzel_Logic/11-Monkey_in_Your_Soul.mp3, steely_dan, 11-Monkey_in_Your_Soul
+/Users/traychen/Desktop/Master 1-1/DL Music/DLMusic_2023Fall/HW1/artist20/mp3s-32k/steely_dan/Pretzel_Logic/03-Any_Major_Dude_Will_Tell_You.mp3, steely_dan, 03-Any_Major_Dude_Will_Tell_You
+/Users/traychen/Desktop/Master 1-1/DL Music/DLMusic_2023Fall/HW1/artist20/mp3s-32k/steely_dan/Pretzel_Logic/05-East_St_Louis_Toodle-Oo.mp3, steely_dan, 05-East_St_Louis_Toodle-Oo
+/Users/traychen/Desktop/Master 1-1/DL Music/DLMusic_2023Fall/HW1/artist20/mp3s-32k/steely_dan/Pretzel_Logic/10-Charlie_Freak.mp3, steely_dan, 10-Charlie_Freak
+/Users/traychen/Desktop/Master 1-1/DL Music/DLMusic_2023Fall/HW1/artist20/mp3s-32k/steely_dan/Pretzel_Logic/06-Parker_s_Band.mp3, steely_dan, 06-Parker_s_Band
+/Users/traychen/Desktop/Master 1-1/DL Music/DLMusic_2023Fall/HW1/artist20/mp3s-32k/steely_dan/Pretzel_Logic/07-Through_With_Buzz.mp3, steely_dan, 07-Through_With_Buzz
+/Users/traychen/Desktop/Master 1-1/DL Music/DLMusic_2023Fall/HW1/artist20/mp3s-32k/steely_dan/Pretzel_Logic/08-Pretzel_Logic.mp3, steely_dan, 08-Pretzel_Logic
+/Users/traychen/Desktop/Master 1-1/DL Music/DLMusic_2023Fall/HW1/artist20/mp3s-32k/steely_dan/Pretzel_Logic/09-With_a_Gun.mp3, steely_dan, 09-With_a_Gun
+/Users/traychen/Desktop/Master 1-1/DL Music/DLMusic_2023Fall/HW1/artist20/mp3s-32k/suzanne_vega/Songs_in_Red_and_Gray/13-St_Clare.mp3, suzanne_vega, 13-St_Clare
+/Users/traychen/Desktop/Master 1-1/DL Music/DLMusic_2023Fall/HW1/artist20/mp3s-32k/suzanne_vega/Songs_in_Red_and_Gray/01-Penitent.mp3, suzanne_vega, 01-Penitent
+/Users/traychen/Desktop/Master 1-1/DL Music/DLMusic_2023Fall/HW1/artist20/mp3s-32k/suzanne_vega/Songs_in_Red_and_Gray/11-Machine_Ballerina.mp3, suzanne_vega, 11-Machine_Ballerina
+/Users/traychen/Desktop/Master 1-1/DL Music/DLMusic_2023Fall/HW1/artist20/mp3s-32k/suzanne_vega/Songs_in_Red_and_Gray/07-Last_Years_Troubles.mp3, suzanne_vega, 07-Last_Years_Troubles
+/Users/traychen/Desktop/Master 1-1/DL Music/DLMusic_2023Fall/HW1/artist20/mp3s-32k/suzanne_vega/Songs_in_Red_and_Gray/03-_I_ll_Never_Be_Your_Maggie_May.mp3, suzanne_vega, 03-_I_ll_Never_Be_Your_Maggie_May
+/Users/traychen/Desktop/Master 1-1/DL Music/DLMusic_2023Fall/HW1/artist20/mp3s-32k/suzanne_vega/Songs_in_Red_and_Gray/12-Solitaire.mp3, suzanne_vega, 12-Solitaire
+/Users/traychen/Desktop/Master 1-1/DL Music/DLMusic_2023Fall/HW1/artist20/mp3s-32k/suzanne_vega/Songs_in_Red_and_Gray/02-Widow_s_Walk.mp3, suzanne_vega, 02-Widow_s_Walk
+/Users/traychen/Desktop/Master 1-1/DL Music/DLMusic_2023Fall/HW1/artist20/mp3s-32k/suzanne_vega/Songs_in_Red_and_Gray/06-Songs_in_Red_and_Gray.mp3, suzanne_vega, 06-Songs_in_Red_and_Gray
+/Users/traychen/Desktop/Master 1-1/DL Music/DLMusic_2023Fall/HW1/artist20/mp3s-32k/suzanne_vega/Songs_in_Red_and_Gray/08-Priscilla.mp3, suzanne_vega, 08-Priscilla
+/Users/traychen/Desktop/Master 1-1/DL Music/DLMusic_2023Fall/HW1/artist20/mp3s-32k/suzanne_vega/Songs_in_Red_and_Gray/09-If_I_Were_a_Weapon.mp3, suzanne_vega, 09-If_I_Were_a_Weapon
+/Users/traychen/Desktop/Master 1-1/DL Music/DLMusic_2023Fall/HW1/artist20/mp3s-32k/suzanne_vega/Songs_in_Red_and_Gray/10-Harbor_Song.mp3, suzanne_vega, 10-Harbor_Song
+/Users/traychen/Desktop/Master 1-1/DL Music/DLMusic_2023Fall/HW1/artist20/mp3s-32k/suzanne_vega/Songs_in_Red_and_Gray/05-Soap_and_Water.mp3, suzanne_vega, 05-Soap_and_Water
+/Users/traychen/Desktop/Master 1-1/DL Music/DLMusic_2023Fall/HW1/artist20/mp3s-32k/suzanne_vega/Songs_in_Red_and_Gray/04-It_Makes_Me_Wonder.mp3, suzanne_vega, 04-It_Makes_Me_Wonder
+/Users/traychen/Desktop/Master 1-1/DL Music/DLMusic_2023Fall/HW1/artist20/mp3s-32k/tori_amos/To_Venus_and_Back-Orbiting/11-1000_Oceans.mp3, tori_amos, 11-1000_Oceans
+/Users/traychen/Desktop/Master 1-1/DL Music/DLMusic_2023Fall/HW1/artist20/mp3s-32k/tori_amos/To_Venus_and_Back-Orbiting/07-Josephine.mp3, tori_amos, 07-Josephine
+/Users/traychen/Desktop/Master 1-1/DL Music/DLMusic_2023Fall/HW1/artist20/mp3s-32k/tori_amos/To_Venus_and_Back-Orbiting/04-Glory_Of_The_80_s.mp3, tori_amos, 04-Glory_Of_The_80_s
+/Users/traychen/Desktop/Master 1-1/DL Music/DLMusic_2023Fall/HW1/artist20/mp3s-32k/tori_amos/To_Venus_and_Back-Orbiting/05-Lust.mp3, tori_amos, 05-Lust
+/Users/traychen/Desktop/Master 1-1/DL Music/DLMusic_2023Fall/HW1/artist20/mp3s-32k/tori_amos/To_Venus_and_Back-Orbiting/03-Concertina.mp3, tori_amos, 03-Concertina
+/Users/traychen/Desktop/Master 1-1/DL Music/DLMusic_2023Fall/HW1/artist20/mp3s-32k/tori_amos/To_Venus_and_Back-Orbiting/02-Juarez.mp3, tori_amos, 02-Juarez
+/Users/traychen/Desktop/Master 1-1/DL Music/DLMusic_2023Fall/HW1/artist20/mp3s-32k/tori_amos/To_Venus_and_Back-Orbiting/06-Suede.mp3, tori_amos, 06-Suede
+/Users/traychen/Desktop/Master 1-1/DL Music/DLMusic_2023Fall/HW1/artist20/mp3s-32k/tori_amos/To_Venus_and_Back-Orbiting/01-Bliss.mp3, tori_amos, 01-Bliss
+/Users/traychen/Desktop/Master 1-1/DL Music/DLMusic_2023Fall/HW1/artist20/mp3s-32k/tori_amos/To_Venus_and_Back-Orbiting/08-Riot_Poof.mp3, tori_amos, 08-Riot_Poof
+/Users/traychen/Desktop/Master 1-1/DL Music/DLMusic_2023Fall/HW1/artist20/mp3s-32k/tori_amos/To_Venus_and_Back-Orbiting/09-Datura.mp3, tori_amos, 09-Datura
+/Users/traychen/Desktop/Master 1-1/DL Music/DLMusic_2023Fall/HW1/artist20/mp3s-32k/tori_amos/To_Venus_and_Back-Orbiting/10-Spring_Haze.mp3, tori_amos, 10-Spring_Haze
+/Users/traychen/Desktop/Master 1-1/DL Music/DLMusic_2023Fall/HW1/artist20/mp3s-32k/u2/War/08-Red_Light.mp3, u2, 08-Red_Light
+/Users/traychen/Desktop/Master 1-1/DL Music/DLMusic_2023Fall/HW1/artist20/mp3s-32k/u2/War/02-Seconds.mp3, u2, 02-Seconds
+/Users/traychen/Desktop/Master 1-1/DL Music/DLMusic_2023Fall/HW1/artist20/mp3s-32k/u2/War/07-Two_Hearts_Beat_As_One.mp3, u2, 07-Two_Hearts_Beat_As_One
+/Users/traychen/Desktop/Master 1-1/DL Music/DLMusic_2023Fall/HW1/artist20/mp3s-32k/u2/War/01-Sunday_Bloody_Sunday.mp3, u2, 01-Sunday_Bloody_Sunday
+/Users/traychen/Desktop/Master 1-1/DL Music/DLMusic_2023Fall/HW1/artist20/mp3s-32k/u2/War/05-Drowning_Man.mp3, u2, 05-Drowning_Man
+/Users/traychen/Desktop/Master 1-1/DL Music/DLMusic_2023Fall/HW1/artist20/mp3s-32k/u2/War/10-_40_.mp3, u2, 10-_40_
+/Users/traychen/Desktop/Master 1-1/DL Music/DLMusic_2023Fall/HW1/artist20/mp3s-32k/u2/War/06-The_Refugee.mp3, u2, 06-The_Refugee
+/Users/traychen/Desktop/Master 1-1/DL Music/DLMusic_2023Fall/HW1/artist20/mp3s-32k/u2/War/03-New_Year_s_Day.mp3, u2, 03-New_Year_s_Day
+/Users/traychen/Desktop/Master 1-1/DL Music/DLMusic_2023Fall/HW1/artist20/mp3s-32k/u2/War/09-Surrender.mp3, u2, 09-Surrender
+/Users/traychen/Desktop/Master 1-1/DL Music/DLMusic_2023Fall/HW1/artist20/mp3s-32k/u2/War/04-Like_A_Song_.mp3, u2, 04-Like_A_Song_
