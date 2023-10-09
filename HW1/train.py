@@ -17,6 +17,7 @@ if __name__ == "__main__":
         singers_list = list(singers_list)
         singers_list = singers_list[0]
     num_classes = len(singers_list)
+    # print(f'there are {num_classes} singers')
     # print(num_classes)
     # device_name = "mps" if torch.has_mps else "cpu"
     device_name = 'cuda' if torch.cuda.is_available() else 'cpu'
@@ -24,8 +25,8 @@ if __name__ == "__main__":
     print(device_name)
     # device = torch.device('cuda:0' if torch.cuda.is_available() else 'cpu')
 
-    select_net = 'shortchunkCNN'
-    # select_net = 'CNN'
+    # select_net = 'shortchunkCNN'
+    select_net = 'CNN'
     if select_net == 'shortchunkCNN':
         sample_interval = 3.69
         net = ShortChunkCNN(n_class=num_classes).to(device)
@@ -41,7 +42,7 @@ if __name__ == "__main__":
     loss_function = nn.CrossEntropyLoss()
     optimizer = torch.optim.Adam(net.parameters(), lr=0.001)
     valid_losses = []
-    num_epochs = 20
+    num_epochs = 100
 
     best_valid_accuracy = 0
     best_epoch = 0

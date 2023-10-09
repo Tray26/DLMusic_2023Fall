@@ -23,7 +23,7 @@ class Conv_2d(nn.Module):
 class CNN(nn.Module):
     def __init__(self, num_channels=16,
                        sample_rate=16000,
-                       n_fft=512,
+                       n_fft=1024,
                        f_min=0.0,
                        f_max=8000,
                        num_mels=128,
@@ -56,16 +56,16 @@ class CNN(nn.Module):
     def forward(self, wav):
         # print('gg')
         # input Preprocessing
-        print('audio shape',wav.shape)
+        # print('audio shape',wav.shape)
         out = self.melspec(wav)
         # print(out.shape)
         out = self.amplitude_to_db(out)
-        print(out.shape)
+        # print(out.shape)
 
         # input batch normalization
         out = out.unsqueeze(1)
 
-        print(out.shape)
+        # print(out.shape)
         out = self.input_bn(out)
 
         # convolutional layers
