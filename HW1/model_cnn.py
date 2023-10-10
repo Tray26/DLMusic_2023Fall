@@ -1,6 +1,6 @@
 from torch import nn
 import torchaudio
-from torchsummary import summary
+# from torchsummary import summary
 
 class Conv_2d(nn.Module):
     def __init__(self, input_channels, output_channels, shape=3, pooling=2, dropout=0.1):
@@ -23,7 +23,7 @@ class Conv_2d(nn.Module):
 class CNN(nn.Module):
     def __init__(self, num_channels=16,
                        sample_rate=16000,
-                       n_fft=512,
+                       n_fft=1024,
                        f_min=0.0,
                        f_max=8000,
                        num_mels=128,
@@ -54,18 +54,13 @@ class CNN(nn.Module):
         self.relu = nn.ReLU()
 
     def forward(self, wav):
-        # print('gg')
         # input Preprocessing
-        print('audio shape',wav.shape)
         out = self.melspec(wav)
-        # print(out.shape)
         out = self.amplitude_to_db(out)
-        print(out.shape)
 
         # input batch normalization
         out = out.unsqueeze(1)
 
-        print(out.shape)
         out = self.input_bn(out)
 
         # convolutional layers
@@ -89,4 +84,4 @@ class CNN(nn.Module):
     
 if __name__ == "__main__":
     cnn = CNN()
-    summary(cnn, (16, 59040))
+    # summary(cnn, (16, 59040))

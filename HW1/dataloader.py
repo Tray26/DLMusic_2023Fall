@@ -126,12 +126,13 @@ def get_dataloader(data_path='./artist20/mp3s-32k/',
                    split='train',
                    num_chunks=1,
                    batch_size=16,
-                   num_workers=0,
+                   num_workers=4,
                    is_augmentation=False,
                    sample_interval = 3.69):
     is_shuffle = True if (split == 'train') else False
     # num_chunks = int(sample_interval * 16000) 
     batch_size = batch_size if (split == 'train') else (batch_size // num_chunks)
+    # print(split, batch_size)
     data_loader = data.DataLoader(dataset=SingerDataset(data_path, 
                                                         split, 
                                                         num_chunks, 
