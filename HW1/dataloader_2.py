@@ -5,6 +5,7 @@ import numpy as np
 import soundfile as sf
 from torch.utils import data
 import csv
+import numpy as np
 from torchaudio_augmentations import (
     RandomResizedCrop,
     RandomApply,
@@ -25,7 +26,7 @@ class singerDataset(data.Dataset):
         self.data_path = data_path
         self.support_data_path = support_data_path
         self.split = split
-        self.num_samples = num_samples
+        self.num_samples = int(np.floor(num_samples))
         self.sample_rate = sample_rate
         self.batch_size = batch_size
         self.get_songlist()

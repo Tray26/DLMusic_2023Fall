@@ -26,6 +26,8 @@ if __name__ == "__main__":
     device = torch.device(device_name)
     print(device_name)
 
+    batch_size = 16
+
     # select_net = 'CNN'
     # select_net = 'short'
     select_net = 'FCN'
@@ -46,14 +48,15 @@ if __name__ == "__main__":
     elif select_loss == 'CrossEntropy':
         loss_function = nn.CrossEntropyLoss()
 
-    train_loader = _get_dataloader(split='train')
-    valid_loader = _get_dataloader(split='valid')
+    train_loader = _get_dataloader(split='train', num_samples=num_samples, batch_size=batch_size)
+    valid_loader = _get_dataloader(split='valid', num_samples=num_samples, batch_size=batch_size)
 
-    
     optimizer = torch.optim.Adam(net.parameters(), lr=0.001)
     valid_losses = []
     num_epochs = 1
-
+    
+    
+    
     best_valid_accuracy = 0
     best_epoch = 0
 
@@ -94,4 +97,48 @@ if __name__ == "__main__":
         y_pred = []
         losses = []
         for wav, singer_index in valid_loader:
-            print('ok')
+            # print('ok')
+            wav = wav.to(device)
+            logits = net(wav)
+            singer_index = singer_index.repeat(batch_size)
+
+            if select_loss == 'BCE':
+                label = torch.zeros(logits.shape)
+                intg = list(singer_index.shape)
+                intg = int(intg[0])
+                for index in range(intg):
+                    label[index,singer_index[index]] = 1
+                label = label.to(device)
+                loss = loss_function(logits, label)
+            elif select_loss == 'CrossEntropy':
+                singer_index = singer_index.to(device)
+                loss = loss_function(logits, singer_index)
+
+            losses.append(loss.item())
+            # logits = logits.detach().cpu()
+            _, pred = torch.max(logits.data, 1)
+
+            # append labels and predictions
+            y_true.extend(singer_index.tolist())
+            y_pred.extend(pred.tolist())
+        accuracy = accuracy_score(y_true, y_pred)
+        valid_loss = np.mean(losses)
+        print('Epoch: [%d/%d], Valid loss: %.4f, Valid accuracy: %.4f' % (epoch+1, num_epochs, valid_loss, accuracy))
+
+        # Save model
+        valid_losses.append(valid_loss.item())
+        # if np.argmin(valid_losses) == epoch:
+        #     print('Saving the best model at %d epochs!' % epoch)
+        #     torch.save(net.state_dict(), 'best_model.ckpt')
+
+        if accuracy > best_valid_accuracy:
+            print('Saving the best model at %d epochs!' % epoch)
+            torch.save(net.state_dict(), f'{save_model_path}best_model_{select_net}_{select_loss}_{num_epochs}epochs.ckpt')
+            # torch.save(net.state_dict(), 'best_model.ckpt')
+            best_valid_accuracy = accuracy
+            best_epoch = epoch
+
+    print(f'Best Valid Accuracy: {best_valid_accuracy}, Get at Epoch {best_epoch+1}')    
+
+
+
