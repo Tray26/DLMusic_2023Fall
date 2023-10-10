@@ -17,7 +17,7 @@ if __name__ == "__main__":
         singers_list = list(singers_list)
         singers_list = singers_list[0]
     num_classes = len(singers_list)
-    # print(num_classes)
+    print(f'there are {num_classes} singers')
     # device_name = "mps" if torch.has_mps else "cpu"
     device_name = 'cuda' if torch.cuda.is_available() else 'cpu'
     device = torch.device(device_name)
@@ -41,7 +41,7 @@ if __name__ == "__main__":
     loss_function = nn.CrossEntropyLoss()
     optimizer = torch.optim.Adam(net.parameters(), lr=0.001)
     valid_losses = []
-    num_epochs = 20
+    num_epochs = 1
 
     best_valid_accuracy = 0
     best_epoch = 0

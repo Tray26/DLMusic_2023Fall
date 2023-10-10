@@ -1,4 +1,4 @@
-
+import matplotlib.pyplot as plt
 import os
 import random
 import torch
@@ -90,7 +90,7 @@ class SingerDataset(data.Dataset):
         audio_filename = line.split(', ')[0]
         # audio_filename = audio_filename[:-1]
         wav, fs = sf.read(audio_filename)
-        # print(type(wav))
+        # print(type(wav), wav.shape)
         if len(wav) < self.num_samples:
             print('Audio not long enough:', line.split(', ')[2])
             len_mul = self.num_samples // len(wav)
@@ -105,6 +105,10 @@ class SingerDataset(data.Dataset):
         # print(wav.shape, singer_index)
         wav = self._adjust_audio_length(wav).astype('float32')
 
+        # plt.figure()
+        # plt.plot(wav)
+        # plt.show()
+
         # print(wav.shape, singer_index)
 
         # data augmentation
@@ -112,7 +116,7 @@ class SingerDataset(data.Dataset):
             wav = self.augmentation(torch.from_numpy(wav).unsqueeze(0)).squeeze(0).numpy()
 
         
-        # print(singer_name, singer_index, song_name)
+        # print(singer_index, singer_name, song_name)
         return wav, singer_index
 
     def __len__(self):
@@ -126,7 +130,7 @@ def get_dataloader(data_path='./artist20/mp3s-32k/',
                    is_augmentation=False,
                    sample_interval = 3.69):
     is_shuffle = True if (split == 'train') else False
-    num_chunks = int(sample_interval * 16000) 
+    # num_chunks = int(sample_interval * 16000) 
     batch_size = batch_size if (split == 'train') else (batch_size // num_chunks)
     data_loader = data.DataLoader(dataset=SingerDataset(data_path, 
                                                         split, 
@@ -142,7 +146,7 @@ def get_dataloader(data_path='./artist20/mp3s-32k/',
 
 
 if __name__ == "__main__":
-    train_loader = get_dataloader(split='train', is_augmentation=True)
+    train_loader = get_dataloader(split='train', is_augmentation=False)
     iter_train_loader = iter(train_loader)
     train_wav, train_singer = next(iter_train_loader)
 
