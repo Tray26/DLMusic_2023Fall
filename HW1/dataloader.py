@@ -118,6 +118,7 @@ class SingerDataset(data.Dataset):
 
         
         # print(singer_index, singer_name, song_name)
+        print(type(singer_index))
         return wav, singer_index
 
     def __len__(self):

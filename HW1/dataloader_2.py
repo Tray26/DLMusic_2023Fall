@@ -61,6 +61,8 @@ class singerDataset(data.Dataset):
         if self.split == 'train':
             random_index = int(np.floor(np.random.random(1) * (len(wav)-self.num_samples)))
             wav = wav[random_index:random_index+self.num_samples]
+            wav = wav.astype('float32')
+            # print(type(wav[0]))
             return wav, singer_index
         else:
             length = len(wav)
@@ -70,12 +72,16 @@ class singerDataset(data.Dataset):
             # print(x.shape)
             for i in range(self.batch_size):
                 x[i] = torch.Tensor(wav[i*hop:i*hop+self.num_samples]).unsqueeze(0)
+            x = x.numpy().astype('float32')
+
+            # x = x.astype('float32')
             # x = x.squeeze(0)
             # print(type(singer_index))
             # singer_index = np.array(singer_index)
             # singer_index = np.repeat(singer_index, self.batch_size)
             # print(singer_index)
             # singer_index = singer_index.repea
+            # print(type(x[0][0]))
             return x, singer_index
 
         
