@@ -29,8 +29,8 @@ if __name__ == "__main__":
     batch_size = 16
 
     # select_net = 'CNN'
-    # select_net = 'short'
-    select_net = 'FCN'
+    select_net = 'short'
+    # select_net = 'FCN'
     select_loss = 'BCE'
     # select_loss = 'CrossEntropy'
     if select_net == 'short':
@@ -53,7 +53,7 @@ if __name__ == "__main__":
 
     optimizer = torch.optim.Adam(net.parameters(), lr=0.001)
     valid_losses = []
-    num_epochs = 1
+    num_epochs = 10
     
     
     
@@ -98,7 +98,9 @@ if __name__ == "__main__":
         losses = []
         for wav, singer_index in valid_loader:
             # print('ok')
+            wav = torch.squeeze(wav)
             wav = wav.to(device)
+            
             logits = net(wav)
             singer_index = singer_index.repeat(batch_size)
 
