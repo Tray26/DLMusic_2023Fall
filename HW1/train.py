@@ -3,6 +3,7 @@ from torch import nn
 from sklearn.metrics import accuracy_score, confusion_matrix
 from model_cnn import CNN
 from model_shortChunkCNN import ShortChunkCNN
+from model_FCN import FCN
 import numpy as np
 from dataloader import get_dataloader
 import os
@@ -27,16 +28,21 @@ if __name__ == "__main__":
     print(device_name)
     # device = torch.device('cuda:0' if torch.cuda.is_available() else 'cpu')
 
-    select_net = 'shortchunkCNN'
-    select_loss = 'BCE'
     # select_net = 'CNN'
-    if select_net == 'shortchunkCNN':
+    # select_net = 'short'
+    select_net = 'FCN'
+    select_loss = 'BCE'
+    # select_loss = 'CrossEntropy'
+    if select_net == 'short':
         sample_interval = 3.69
         net = ShortChunkCNN(n_class=num_classes).to(device)
         # loss_function = nn.BCELoss()
     elif select_net == 'CNN':
         sample_interval = 29.1
         net = CNN(num_classes=num_classes).to(device)
+    elif select_net == 'FCN':
+        sample_interval = 29.1
+        net = FCN(n_class=num_classes).to(device)
         # loss_function = nn.CrossEntropyLoss()
 
     train_loader = get_dataloader(split='train', is_augmentation=True, sample_interval=sample_interval)
@@ -48,7 +54,7 @@ if __name__ == "__main__":
         loss_function = nn.CrossEntropyLoss()
     optimizer = torch.optim.Adam(net.parameters(), lr=0.001)
     valid_losses = []
-    num_epochs = 1
+    num_epochs = 30
 
     best_valid_accuracy = 0
     best_epoch = 0
@@ -143,6 +149,6 @@ if __name__ == "__main__":
             best_valid_accuracy = accuracy
             best_epoch = epoch
 
-    print(f'Best Valid Accuracy: {best_valid_accuracy}, Get at Epoch {best_epoch}')    
+    print(f'Best Valid Accuracy: {best_valid_accuracy}, Get at Epoch {best_epoch+1}')    
 
 

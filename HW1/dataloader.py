@@ -1,4 +1,4 @@
-import matplotlib.pyplot as plt
+# import matplotlib.pyplot as plt
 import os
 import random
 import torch
@@ -68,7 +68,8 @@ class SingerDataset(data.Dataset):
     def _adjust_audio_length(self, wav):
         if self.split == 'train':
             # print(len(wav))
-            random_index = random.randint(0, len(wav) - self.num_samples - 1)
+            # random_index = random.randint(0, len(wav) - self.num_samples - 1)
+            random_index = int(np.floor(np.random.random(1) * (len(wav)-self.num_samples)))
             wav = wav[random_index : random_index + self.num_samples]
         else:
             chunk_number = len(wav) // self.num_samples
@@ -92,7 +93,7 @@ class SingerDataset(data.Dataset):
         wav, fs = sf.read(audio_filename)
         # print(type(wav), wav.shape)
         if len(wav) < self.num_samples:
-            print('Audio not long enough:', line.split(', ')[2])
+            # print('Audio not long enough:', line.split(', ')[2])
             len_mul = self.num_samples // len(wav)
             wav = np.repeat(wav, len_mul + 1)
 

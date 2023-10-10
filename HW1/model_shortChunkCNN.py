@@ -22,7 +22,7 @@ class ShortChunkCNN(nn.Module):
     Deeper layers, smaller pooling (2x2).
     '''
     def __init__(self,
-                n_channels=128,
+                n_channels=64,
                 sample_rate=16000,
                 n_fft=512,
                 f_min=0.0,
@@ -79,11 +79,11 @@ class ShortChunkCNN(nn.Module):
         x = x.squeeze(2)
 
         # Dense
-        x = self.dense1(x)
-        x = self.bn(x)
-        x = self.relu(x)
-        x = self.dropout(x)
         x = self.dense2(x)
+        # x = self.bn(x)
+        # x = self.relu(x)
+        x = self.dropout(x)
+        # x = self.dense2(x)
         x = nn.Sigmoid()(x)
 
         return x
