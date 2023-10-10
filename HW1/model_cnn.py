@@ -54,18 +54,13 @@ class CNN(nn.Module):
         self.relu = nn.ReLU()
 
     def forward(self, wav):
-        # print('gg')
         # input Preprocessing
-        # print('audio shape',wav.shape)
         out = self.melspec(wav)
-        # print(out.shape)
         out = self.amplitude_to_db(out)
-        # print(out.shape)
 
         # input batch normalization
         out = out.unsqueeze(1)
 
-        # print(out.shape)
         out = self.input_bn(out)
 
         # convolutional layers
