@@ -49,7 +49,10 @@ if __name__ == "__main__":
         loss_function = nn.CrossEntropyLoss()
     optimizer = torch.optim.Adam(net.parameters(), lr=0.001)
     valid_losses = []
-    num_epochs = 100
+    num_epochs = 20
+
+    best_valid_accuracy = 0
+    best_epoch = 0
 
     best_valid_accuracy = 0
     best_epoch = 0
@@ -137,6 +140,7 @@ if __name__ == "__main__":
         if accuracy > best_valid_accuracy:
             print('Saving the best model at %d epochs!' % epoch)
             torch.save(net.state_dict(), f'{save_model_path}best_model_{select_net}_{select_loss}_{num_epochs}epochs.ckpt')
+            # torch.save(net.state_dict(), 'best_model.ckpt')
             best_valid_accuracy = accuracy
             best_epoch = epoch
 
