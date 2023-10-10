@@ -120,6 +120,8 @@ if __name__ == "__main__":
     iter_valid_loader = iter(valid_loader)
     valid_wav, valid_singer = next(iter_valid_loader)
 
+    valid_singer = valid_singer.repeat(3)
+
     print('training data shape: %s' % str(train_wav.shape))
     print('valid data shape: %s' % str(valid_wav.shape))
 
