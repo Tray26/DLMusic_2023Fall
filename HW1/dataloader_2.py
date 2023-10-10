@@ -20,7 +20,7 @@ from torchaudio_augmentations import (
 )
 
 class singerDataset(data.Dataset):
-    def __init__(self, data_path, split, num_samples, sample_rate, batch_size,
+    def __init__(self, data_path, split, num_samples, sample_rate, batch_size, augmentation,
                  support_data_path = './support_data') -> None:
         super().__init__()
         self.data_path = data_path
@@ -35,6 +35,8 @@ class singerDataset(data.Dataset):
             singers_list = list(singers_list)
             singers_list = singers_list[0]
         self.singers = singers_list                                 #singers list
+        if augmentation:
+            self._get_augmentations()
     
     # get all somg info
     def get_songlist(self):
@@ -42,6 +44,19 @@ class singerDataset(data.Dataset):
         with open(list_songinfo_path) as f:
             lines = f.readlines()
         self.song_infolist = lines
+
+    def _get_augmentations(self):                             # data augmentation
+        transforms = [
+            RandomResizedCrop(n_samples=self.num_samples),
+            RandomApply([PolarityInversion()], p=0.8),
+            RandomApply([Noise(min_snr=0.3, max_snr=0.5)], p=0.3),
+            RandomApply([Gain()], p=0.2),
+            RandomApply([HighLowPass(sample_rate=self.sample_rate)], p=0.8),
+            RandomApply([Delay(sample_rate=self.sample_rate)], p=0.5),
+            RandomApply([PitchShift(n_samples=self.num_samples, sample_rate=self.sample_rate)], p=0.4),
+            RandomApply([Reverb(sample_rate=self.sample_rate)], p=0.3),
+        ]
+        self.augmentation = Compose(transforms=transforms)
 
     def get_audio(self, index):
         song_info = self.song_infolist[index].split(', ')
@@ -63,7 +78,7 @@ class singerDataset(data.Dataset):
             random_index = int(np.floor(np.random.random(1) * (len(wav)-self.num_samples)))
             wav = wav[random_index:random_index+self.num_samples]
             wav = wav.astype('float32')
-            # print(type(wav[0]))
+            wav = self.augmentation(torch.from_numpy(wav).unsqueeze(0)).squeeze(0).numpy()
             return wav, singer_index
         else:
             length = len(wav)
@@ -75,14 +90,6 @@ class singerDataset(data.Dataset):
                 x[i] = torch.Tensor(wav[i*hop:i*hop+self.num_samples]).unsqueeze(0)
             x = x.numpy().astype('float32')
 
-            # x = x.astype('float32')
-            # x = x.squeeze(0)
-            # print(type(singer_index))
-            # singer_index = np.array(singer_index)
-            # singer_index = np.repeat(singer_index, self.batch_size)
-            # print(singer_index)
-            # singer_index = singer_index.repea
-            # print(type(x[0][0]))
             return x, singer_index
 
         
@@ -96,16 +103,17 @@ def _get_dataloader(data_path='./artist20/mp3s-32k/',
                     num_samples = 59049,
                     sample_rate=16000,
                     batch_size=16,
-                    num_workers=4
+                    num_workers=4,
                     ):
     is_shuffle = True if (split == 'train') else False
-    # num_chunks = int(sample_interval * 16000) 
     real_batch_size = batch_size if (split == 'train') else (1)
+    augmentation = True if (split == 'train') else False
     data_loader = data.DataLoader(dataset=singerDataset(data_path, 
                                                         split,
                                                         num_samples,
                                                         sample_rate,
-                                                        batch_size),
+                                                        batch_size,
+                                                        augmentation),
                                 batch_size=real_batch_size,
                                 shuffle=is_shuffle,
                                 drop_last=True,

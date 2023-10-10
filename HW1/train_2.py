@@ -53,7 +53,7 @@ if __name__ == "__main__":
 
     optimizer = torch.optim.Adam(net.parameters(), lr=0.001)
     valid_losses = []
-    num_epochs = 100
+    num_epochs = 400
     
     
     
