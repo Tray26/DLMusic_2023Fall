@@ -61,14 +61,24 @@ class singerDataset(data.Dataset):
         if self.split == 'train':
             random_index = int(np.floor(np.random.random(1) * (len(wav)-self.num_samples)))
             wav = wav[random_index:random_index+self.num_samples]
+            return wav, singer_index
         else:
             length = len(wav)
             hop = (length - self.num_samples) // self.batch_size
+            # print(hop)
             x = torch.zeros(self.batch_size, self.num_samples)
+            # print(x.shape)
             for i in range(self.batch_size):
                 x[i] = torch.Tensor(wav[i*hop:i*hop+self.num_samples]).unsqueeze(0)
+            # x = x.squeeze(0)
+            # print(type(singer_index))
+            # singer_index = np.array(singer_index)
+            # singer_index = np.repeat(singer_index, self.batch_size)
+            # print(singer_index)
+            # singer_index = singer_index.repea
+            return x, singer_index
 
-        return wav, singer_index
+        
 
 
     def __len__(self):
@@ -83,20 +93,20 @@ def _get_dataloader(data_path='./artist20/mp3s-32k/',
                     ):
     is_shuffle = True if (split == 'train') else False
     # num_chunks = int(sample_interval * 16000) 
-    batch_size = batch_size if (split == 'train') else (1)
+    real_batch_size = batch_size if (split == 'train') else (1)
     data_loader = data.DataLoader(dataset=singerDataset(data_path, 
                                                         split,
                                                         num_samples,
                                                         sample_rate,
                                                         batch_size),
-                                batch_size=batch_size,
+                                batch_size=real_batch_size,
                                 shuffle=is_shuffle,
                                 drop_last=True,
                                 num_workers=num_workers)
     return data_loader
 
 if __name__ == "__main__":
-    train_loader = _get_dataloader(split='train', is_augmentation=False)
+    train_loader = _get_dataloader(split='train')
     iter_train_loader = iter(train_loader)
     train_wav, train_singer = next(iter_train_loader)
 
