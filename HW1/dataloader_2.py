@@ -26,6 +26,7 @@ class singerDataset(data.Dataset):
         self.support_data_path = support_data_path
         self.split = split
         self.num_samples = int(np.floor(num_samples))
+        self.is_augmentation = augmentation
         self.sample_rate = sample_rate
         self.batch_size = batch_size
         self.get_songlist()
@@ -77,7 +78,8 @@ class singerDataset(data.Dataset):
             random_index = int(np.floor(np.random.random(1) * (len(wav)-self.num_samples)))
             wav = wav[random_index:random_index+self.num_samples]
             wav = wav.astype('float32')
-            wav = self.augmentation(torch.from_numpy(wav).unsqueeze(0)).squeeze(0).numpy()
+            if self.is_augmentation:
+                wav = self.augmentation(torch.from_numpy(wav).unsqueeze(0)).squeeze(0).numpy()
             return wav, singer_index
         else:
             length = len(wav)
