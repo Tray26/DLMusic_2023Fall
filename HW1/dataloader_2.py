@@ -26,6 +26,7 @@ class singerDataset(data.Dataset):
         self.support_data_path = support_data_path
         self.split = split
         self.num_samples = int(np.floor(num_samples))
+        self.is_augmentation = augmentation
         self.sample_rate = sample_rate
         self.batch_size = batch_size
         self.is_augmentation = augmentation
