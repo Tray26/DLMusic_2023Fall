@@ -18,3 +18,15 @@ if __name__ == "__main__":
     net.load_state_dict(S)
     print('loaded')
 
+    net.eval()
+
+    with torch.no_grad():
+        for wav in test_loader:
+            wav = torch.squeeze(wav)
+            wav = wav.to(device)
+            logits = net(wav)
+
+            _, top3_indices = torch.topk(logits, k=3, dim=1)
+
+            
+
