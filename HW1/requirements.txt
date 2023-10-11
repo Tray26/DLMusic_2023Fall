@@ -1,0 +1,7 @@
+torch
+numpy
+soundfile
+csv
+torchaudio
+torchaudio_augmentations
+scikit-learn
