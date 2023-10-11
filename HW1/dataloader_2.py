@@ -29,6 +29,7 @@ class singerDataset(data.Dataset):
         self.num_samples = int(np.floor(num_samples))
         self.sample_rate = sample_rate
         self.batch_size = batch_size
+        self.is_augmentation = augmentation
         self.get_songlist()
         with open(os.path.join(support_data_path, 'singers.csv'), newline='') as readsingers:
             singers_list = csv.reader(readsingers)
@@ -78,7 +79,8 @@ class singerDataset(data.Dataset):
             random_index = int(np.floor(np.random.random(1) * (len(wav)-self.num_samples)))
             wav = wav[random_index:random_index+self.num_samples]
             wav = wav.astype('float32')
-            wav = self.augmentation(torch.from_numpy(wav).unsqueeze(0)).squeeze(0).numpy()
+            if self.is_augmentation:
+                wav = self.augmentation(torch.from_numpy(wav).unsqueeze(0)).squeeze(0).numpy()
             return wav, singer_index
         else:
             length = len(wav)
@@ -107,7 +109,8 @@ def _get_dataloader(data_path='./artist20/mp3s-32k/',
                     ):
     is_shuffle = True if (split == 'train') else False
     real_batch_size = batch_size if (split == 'train') else (1)
-    augmentation = True if (split == 'train') else False
+    # augmentation = True if (split == 'train') else False
+    augmentation = False
     data_loader = data.DataLoader(dataset=singerDataset(data_path, 
                                                         split,
                                                         num_samples,
