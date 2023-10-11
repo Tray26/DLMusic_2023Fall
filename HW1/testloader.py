@@ -24,13 +24,19 @@ class testDataset(data.Dataset):
         return wav
 
     def __getitem__(self, index):
+        # song index
+        song_filename = self.songlist[index]
+        song_id = song_filename.split('.')[0]
+        song_id = int(song_id)
+
+        # audio
         raw_audio = self.get_audio(index)
         audio_length = len(raw_audio)
         hop = (audio_length - self.num_samples) // self.batch_size
         wav = torch.zeros(self.batch_size, self.num_samples)
         for i in range(self.batch_size):
             wav[i] = torch.Tensor(raw_audio[i*hop:i*hop+self.num_samples]).unsqueeze(0)
-        return wav
+        return wav, song_id
     
     def __len__(self):
         return len(self.songlist)
