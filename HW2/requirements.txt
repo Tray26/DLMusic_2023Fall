@@ -1,0 +1,9 @@
+numpy
+torch
+torchaudio
+librosa
+matplotlib
+tqdm
+scipy
+auraloss
+crepe

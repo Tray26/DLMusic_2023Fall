@@ -1,0 +1,4 @@
+split,num_mels,n_fft,hop_size,win_size,sampling_rate,fmin,fmax
+train,80,2048,256,1024,48000,0,24000
+valid,80,2048,256,1024,48000,0,24000
+test,80,2048,256,1024,22050,0,11025
