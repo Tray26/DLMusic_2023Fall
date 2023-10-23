@@ -74,7 +74,6 @@ class MelDataset(Dataset):
     
     def __getitem__(self, index):
         wav_path = self.wav_list[index]
-        # print(wav_path)
         wav_segment = self.get_audio_segment(wav_path)
         mel_tensor = mel_spectrogram(
             wav_segment, self.n_fft, self.num_mels, self.sampling_rate, 
