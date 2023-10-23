@@ -1,0 +1,1 @@
+{"split": "test", "num_mels": 80, "n_fft": 2048, "hop_size": 256, "win_size": 1024, "sampling_rate": 22050, "fmin": 0, "fmax": 11025}
