@@ -94,6 +94,8 @@ class MelDataset(Dataset):
 
         
 if __name__ == '__main__':
+    print('gg')
+
     with open('train_config.json') as f:
         train_config = f.read()
 
