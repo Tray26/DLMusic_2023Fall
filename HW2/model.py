@@ -43,9 +43,9 @@ class ResBlock(torch.nn.Module):
         return x
     
     def remove_weight_norm(self):
-        for l in self.convs1:
+        for l in self.conv_list1:
             remove_weight_norm(l)
-        for l in self.convs2:
+        for l in self.conv_list2:
             remove_weight_norm(l)
 
 class Generator(torch.nn.Module):
