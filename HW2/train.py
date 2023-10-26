@@ -122,6 +122,8 @@ if __name__ == '__main__':
     discriminatorp.train()
     discriminators.train()
 
+    torch.cuda.empty_cache()
+
     for epoch in range(max(0, last_epoch), a.training_epochs):
         start = time.time()
         print("Epoch: {}".format(epoch+1))
@@ -132,6 +134,8 @@ if __name__ == '__main__':
             mel = torch.autograd.Variable(mel.to(device, non_blocking=True))
 
             print(wav_segment.shape, mel.shape)
+
+            print(mel.shape)
 
             gen_wav = generator(mel)
             gen_wav_mel = mel_spectrogram(gen_wav, spec_config.n_fft, spec_config.num_mels,

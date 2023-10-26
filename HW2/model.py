@@ -37,7 +37,7 @@ class ResBlock(torch.nn.Module):
         for conv1, conv2 in zip(self.conv_list1, self.conv_list2):
             xt = F.leaky_relu(x, LRELU_SLOPE)
             xt = conv1(xt)
-            xt = F.leaky_relu(x, LRELU_SLOPE)
+            xt = F.leaky_relu(xt, LRELU_SLOPE)
             xt = conv2(xt)
             x = xt + x
         return x
@@ -74,9 +74,13 @@ class Generator(torch.nn.Module):
         self.conv_post.apply(init_weights)
 
     def forward(self, x):
+        print(x.shape)
         x = self.conv_pre(x)
+        print(x.shape)
         for i in range(self.num_upsamples):
+            print(x.shape)
             x = F.leaky_relu(x, LRELU_SLOPE)
+            print(x.shape)
             x = self.ups[i](x)
             xs = None
             for j in range(self.num_kernels):
