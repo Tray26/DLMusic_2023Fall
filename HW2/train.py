@@ -6,6 +6,7 @@ import torchaudio
 import argparse
 import itertools
 import time
+from copy import deepcopy
 
 import torch.nn.functional as F
 from torch.utils.tensorboard import SummaryWriter
@@ -125,6 +126,8 @@ if __name__ == '__main__':
         start = time.time()
         print("Epoch: {}".format(epoch+1))
         for wav_segment, mel in train_loader:
+            start_b = time.time()
+            gt_mel = deepcopy(mel)
             wav_segment = torch.autograd.Variable(wav_segment.to(device, non_blocking=True))
             mel = torch.autograd.Variable(mel.to(device, non_blocking=True))
 
@@ -152,7 +155,91 @@ if __name__ == '__main__':
             loss_disc_all.backward()
             optim_d.step()
 
-            print('ok')
+            optim_g.zero_grad()
+
+            # L1 Mel-Spectrogram Loss
+            loss_mel = F.l1_loss(gt_mel, gen_wav_mel) * 45
+
+            y_df_hat_r, y_df_hat_g, fmap_f_r, fmap_f_g = discriminatorp(wav_segment, gen_wav)
+            y_ds_hat_r, y_ds_hat_g, fmap_s_r, fmap_s_g = discriminators(wav_segment, gen_wav)
+            loss_fm_f = feature_loss(fmap_f_r, fmap_f_g)
+            loss_fm_s = feature_loss(fmap_s_r, fmap_s_g)
+            loss_gen_f, losses_gen_f = generator_loss(y_df_hat_g)
+            loss_gen_s, losses_gen_s = generator_loss(y_ds_hat_g)
+            loss_gen_all = loss_gen_s + loss_gen_f + loss_fm_s + loss_fm_f + loss_mel
+
+            loss_gen_all.backward()
+            optim_g.step()
+
+            # STDOUT logging
+            if steps % a.stdout_interval == 0:
+                with torch.no_grad():
+                    mel_error = F.l1_loss(gt_mel, gen_wav_mel).item()
+
+                print('Steps : {:d}, Gen Loss Total : {:4.3f}, Mel-Spec. Error : {:4.3f}, s/b : {:4.3f}'.
+                        format(steps, loss_gen_all, mel_error, time.time() - start_b))
+
+            # checkpointing
+            if steps % a.checkpoint_interval == 0 and steps != 0:
+                checkpoint_path = "{}/g_{:08d}".format(a.checkpoint_path, steps)
+                save_checkpoint(checkpoint_path,
+                                {'generator': (generator.module if train_config.num_gpus > 1 else generator).state_dict()})
+                checkpoint_path = "{}/do_{:08d}".format(a.checkpoint_path, steps)
+                save_checkpoint(checkpoint_path, 
+                                {'mpd': (discriminatorp.module if train_config.num_gpus > 1
+                                                        else discriminatorp).state_dict(),
+                                    'msd': (discriminators.module if train_config.num_gpus > 1
+                                                        else discriminators).state_dict(),
+                                    'optim_g': optim_g.state_dict(), 'optim_d': optim_d.state_dict(), 'steps': steps,
+                                    'epoch': epoch})
+            
+            # Tensorboard summary logging
+            if steps % a.summary_interval == 0:
+                sw.add_scalar("training/gen_loss_total", loss_gen_all, steps)
+                sw.add_scalar("training/mel_spec_error", mel_error, steps)
+            
+            # Validation
+            if steps % a.validation_interval == 0:  # and steps != 0:
+                generator.eval()
+                torch.cuda.empty_cache()
+                val_err_tot = 0
+                with torch.no_grad():
+                    for j, batch in enumerate(valid_loader):
+                        x, y, _, y_mel = batch
+                        y_g_hat = generator(x.to(device))
+                        y_mel = torch.autograd.Variable(y_mel.to(device, non_blocking=True))
+                        y_g_hat_mel = mel_spectrogram(y_g_hat.squeeze(1), spec_config.n_fft, spec_config.num_mels, spec_config.sampling_rate,
+                                                        spec_config.hop_size, spec_config.win_size,
+                                                        spec_config.fmin, train_config.fmax_for_loss)
+                        val_err_tot += F.l1_loss(y_mel, y_g_hat_mel).item()
+
+                        if j <= 4:
+                            if steps == 0:
+                                sw.add_audio('gt/y_{}'.format(j), y[0], steps, spec_config.sampling_rate)
+                                sw.add_figure('gt/y_spec_{}'.format(j), plot_spectrogram(x[0]), steps)
+
+                            sw.add_audio('generated/y_hat_{}'.format(j), y_g_hat[0], steps, spec_config.sampling_rate)
+                            y_hat_spec = mel_spectrogram(y_g_hat.squeeze(1), spec_config.n_fft, spec_config.num_mels, spec_config.sampling_rate,
+                                                        spec_config.hop_size, spec_config.win_size,
+                                                        spec_config.fmin, spec_config.fmax)
+                            sw.add_figure('generated/y_hat_spec_{}'.format(j),
+                                            plot_spectrogram(y_hat_spec.squeeze(0).cpu().numpy()), steps)
+
+                    val_err = val_err_tot / (j+1)
+                    sw.add_scalar("validation/mel_spec_error", val_err, steps)
+
+                generator.train()
+
+            steps += 1
+
+        scheduler_g.step()
+        scheduler_d.step()
+
+        print('Time taken for epoch {} is {} sec\n'.format(epoch + 1, int(time.time() - start)))
+
+            
+
+        # print('ok')
 
 
 
