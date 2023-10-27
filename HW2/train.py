@@ -122,7 +122,9 @@ if __name__ == '__main__':
     discriminatorp.train()
     discriminators.train()
 
-    torch.cuda.empty_cache()
+    # torch.cuda.empty_cache()
+
+    os.environ['PYTORCH_CUDA_ALLOC_CONF'] = 'max_split_size_mb=1024'
 
     for epoch in range(max(0, last_epoch), a.training_epochs):
         start = time.time()
@@ -132,10 +134,11 @@ if __name__ == '__main__':
             gt_mel = deepcopy(mel)
             wav_segment = torch.autograd.Variable(wav_segment.to(device, non_blocking=True))
             mel = torch.autograd.Variable(mel.to(device, non_blocking=True))
+            gt_mel = torch.autograd.Variable(gt_mel.to(device, non_blocking=True))
 
             print(wav_segment.shape, mel.shape)
 
-            print(mel.shape)
+            # print(mel.shape)
 
             gen_wav = generator(mel)
             gen_wav_mel = mel_spectrogram(gen_wav, spec_config.n_fft, spec_config.num_mels,
