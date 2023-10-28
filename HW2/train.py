@@ -99,7 +99,7 @@ if __name__ == '__main__':
     scheduler_d = torch.optim.lr_scheduler.ExponentialLR(optim_d, gamma=train_config.lr_decay, last_epoch=last_epoch)
 
     train_dataset = MelDataset(
-        data_path='./m4singer', sampling_period=5, real_batch_size=train_config.batch_size
+        data_path='./m4singer', sampling_size=train_config.segment_size, sampling_rate=train_config.sampling_rate
     )
 
     train_loader = DataLoader(
@@ -108,7 +108,7 @@ if __name__ == '__main__':
     )
 
     valid_dataset = MelDataset(
-        data_path='./m4singer_valid', sampling_period=5, real_batch_size=train_config.batch_size, split='valid'
+        data_path='./m4singer_valid', sampling_size=train_config.segment_size, sampling_rate=train_config.sampling_rate, split='valid'
     )
 
     valid_loader = DataLoader(

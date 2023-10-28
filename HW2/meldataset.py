@@ -19,12 +19,14 @@ class AttrDict(dict):
         self.__dict__ = self
 
 class MelDataset(Dataset):
-    def __init__(self, data_path, sampling_period, real_batch_size,
+    def __init__(self, data_path, sampling_size, sampling_rate, 
                  split = 'train', spec_config_path='./spec_config.csv') -> None:
         super().__init__()
         self.data_path = data_path
-        self.sampling_period = sampling_period
-        self.real_batch_size = real_batch_size
+        self.sampling_size = sampling_size
+
+        self.sampling_rate = sampling_rate
+        # self.real_batch_size = real_batch_size
         # self.segments_per_song = segments_per_song
 
         self.spec_config = readSpecConfig(spec_config_path, split)
@@ -32,7 +34,6 @@ class MelDataset(Dataset):
         self.n_fft = int(self.spec_config['n_fft'])
         self.hop_size = int(self.spec_config['hop_size'])
         self.win_size = int(self.spec_config['win_size'])
-        self.sampling_rate = int(self.spec_config['sampling_rate'])
         self.fmin = int(self.spec_config['fmin'])
         self.fmax = int(self.spec_config['fmax'])
 
@@ -59,8 +60,8 @@ class MelDataset(Dataset):
         # return wav_list, mid_list, textGrid_list
 
     def get_audio_segment(self, wav_path):
-        sample_num = int(self.sampling_period * self.sampling_rate)
-        raw_wav = load_audio(audio_path=wav_path)
+        sample_num = self.sampling_size
+        raw_wav = load_audio(audio_path=wav_path, sr=self.sampling_rate)
         if raw_wav.shape[1] >= sample_num:
             random_index = int(np.floor(np.random.random(1) * (raw_wav.shape[1]-sample_num)))
             wav_segment = raw_wav[:, random_index:random_index+sample_num]
@@ -102,7 +103,7 @@ if __name__ == '__main__':
     train_config = json.loads(train_config)
     train_config = AttrDict(train_config)
     train_dataset = MelDataset(
-        data_path='./m4singer', sampling_period=5, real_batch_size=train_config.batch_size
+        data_path='./m4singer', sampling_period=5,
     )
 
     train_loader = DataLoader(
