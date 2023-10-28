@@ -87,7 +87,7 @@ class MelDataset(Dataset):
         #     wav_segment = self.get_audio_segment(wav_path)
             
 
-        return wav_segment, mel
+        return wav_segment, mel, mel
     
 
     def __len__(self):
