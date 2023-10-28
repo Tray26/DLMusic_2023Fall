@@ -103,7 +103,7 @@ if __name__ == '__main__':
     train_config = json.loads(train_config)
     train_config = AttrDict(train_config)
     train_dataset = MelDataset(
-        data_path='./m4singer', sampling_period=5,
+        data_path='./m4singer', sampling_size=train_config.segment_size, sampling_rate=train_config.sampling_rate
     )
 
     train_loader = DataLoader(
