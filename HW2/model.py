@@ -2,8 +2,9 @@ import torch
 import torch.nn.functional as F
 import torch.nn as nn
 from torch.nn import Conv1d, ConvTranspose1d, AvgPool1d, Conv2d
-from torch.nn.utils import weight_norm, remove_weight_norm, spectral_norm
+from torch.nn.utils import remove_weight_norm, spectral_norm
 from utils import init_weights, get_padding
+from torch.nn.utils.parametrizations import weight_norm
 
 LRELU_SLOPE = 0.1
 
@@ -74,14 +75,15 @@ class Generator(torch.nn.Module):
         self.conv_post.apply(init_weights)
 
     def forward(self, x):
-        print(x.shape)
+        # print(x.shape)
         x = self.conv_pre(x)
-        print(x.shape)
+        # print(x.shape)
         for i in range(self.num_upsamples):
-            print(x.shape)
+            # print('before leaky', x.shape)
             x = F.leaky_relu(x, LRELU_SLOPE)
-            print(x.shape)
+            # print('before upsample',x.shape)
             x = self.ups[i](x)
+            # print('after up', x.shape)
             xs = None
             for j in range(self.num_kernels):
                 if xs is None:
@@ -89,6 +91,7 @@ class Generator(torch.nn.Module):
                 else:
                     xs += self.resblocks[i*self.num_kernels+j](x)
             x = xs / self.num_kernels
+            # xs = None
         x = F.leaky_relu(x)
         x = self.conv_post(x)
         x = torch.tanh(x)

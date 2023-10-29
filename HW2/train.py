@@ -33,7 +33,7 @@ if __name__ == '__main__':
     parser.add_argument('--input_mels_dir', default='ft_dataset')
     parser.add_argument('--input_training_file', default='LJSpeech-1.1/training.txt')
     parser.add_argument('--input_validation_file', default='LJSpeech-1.1/validation.txt')
-    parser.add_argument('--checkpoint_path', default='cp_hifigan')
+    parser.add_argument('--checkpoint_path', default='./checkpoints/cp_hifigan_self')
     parser.add_argument('--config', default='')
     parser.add_argument('--training_epochs', default=3100, type=int)
     parser.add_argument('--stdout_interval', default=5, type=int)
@@ -61,7 +61,6 @@ if __name__ == '__main__':
     torch.cuda.manual_seed(train_config.seed)
 
     device_name = 'cuda' if torch.cuda.is_available() else 'cpu'
-    # device_name = 'mps' if torch.has_mps else 'cpu'
     print(device_name)
     device = torch.device(device_name)
 
@@ -99,7 +98,7 @@ if __name__ == '__main__':
     scheduler_d = torch.optim.lr_scheduler.ExponentialLR(optim_d, gamma=train_config.lr_decay, last_epoch=last_epoch)
 
     train_dataset = MelDataset(
-        data_path='./m4singer', sampling_period=5, real_batch_size=train_config.batch_size
+        data_path='./m4singer', sampling_size=train_config.segment_size, sampling_rate=train_config.sampling_rate
     )
 
     train_loader = DataLoader(
@@ -108,12 +107,12 @@ if __name__ == '__main__':
     )
 
     valid_dataset = MelDataset(
-        data_path='./m4singer_valid', sampling_period=5, real_batch_size=train_config.batch_size, split='valid'
+        data_path='./m4singer_valid', sampling_size=train_config.segment_size, sampling_rate=train_config.sampling_rate, split='valid'
     )
 
     valid_loader = DataLoader(
-        valid_dataset, num_workers=train_config.num_workers,
-        shuffle=False, batch_size=train_config.batch_size, drop_last=True
+        valid_dataset, num_workers=1,
+        shuffle=False, batch_size=1, drop_last=True
     )
 
     sw = SummaryWriter(os.path.join(a.checkpoint_path, 'logs'))
@@ -122,27 +121,20 @@ if __name__ == '__main__':
     discriminatorp.train()
     discriminators.train()
 
-    torch.cuda.empty_cache()
-
     for epoch in range(max(0, last_epoch), a.training_epochs):
         start = time.time()
         print("Epoch: {}".format(epoch+1))
-        for wav_segment, mel in train_loader:
+        for wav_segment, mel, gt_mel in train_loader:
             start_b = time.time()
-            gt_mel = deepcopy(mel)
             wav_segment = torch.autograd.Variable(wav_segment.to(device, non_blocking=True))
             mel = torch.autograd.Variable(mel.to(device, non_blocking=True))
-
-            print(wav_segment.shape, mel.shape)
-
-            print(mel.shape)
+            gt_mel = torch.autograd.Variable(gt_mel.to(device, non_blocking=True))
 
             gen_wav = generator(mel)
             gen_wav_mel = mel_spectrogram(gen_wav, spec_config.n_fft, spec_config.num_mels,
                                           spec_config.sampling_rate, spec_config.hop_size, 
                                           spec_config.win_size, spec_config.fmin, spec_config.fmax)
-            
-            print(gen_wav.shape, gen_wav_mel.shape)
+            gen_wav_mel = gen_wav_mel.squeeze()
             
             optim_d.zero_grad()
 
@@ -209,21 +201,21 @@ if __name__ == '__main__':
                 val_err_tot = 0
                 with torch.no_grad():
                     for j, batch in enumerate(valid_loader):
-                        x, y, _, y_mel = batch
-                        y_g_hat = generator(x.to(device))
-                        y_mel = torch.autograd.Variable(y_mel.to(device, non_blocking=True))
-                        y_g_hat_mel = mel_spectrogram(y_g_hat.squeeze(1), spec_config.n_fft, spec_config.num_mels, spec_config.sampling_rate,
+                        wav_segment, mel, gt_mel = batch
+                        gen_wav = generator(mel.to(device))
+                        gt_mel = torch.autograd.Variable(gt_mel.to(device, non_blocking=True))
+                        gen_wav_mel = mel_spectrogram(gen_wav.squeeze(1), spec_config.n_fft, spec_config.num_mels, spec_config.sampling_rate,
                                                         spec_config.hop_size, spec_config.win_size,
                                                         spec_config.fmin, train_config.fmax_for_loss)
-                        val_err_tot += F.l1_loss(y_mel, y_g_hat_mel).item()
+                        val_err_tot += F.l1_loss(gt_mel, gen_wav_mel).item()
 
                         if j <= 4:
                             if steps == 0:
-                                sw.add_audio('gt/y_{}'.format(j), y[0], steps, spec_config.sampling_rate)
-                                sw.add_figure('gt/y_spec_{}'.format(j), plot_spectrogram(x[0]), steps)
+                                sw.add_audio('gt/y_{}'.format(j), wav_segment[0], steps, spec_config.sampling_rate)
+                                sw.add_figure('gt/y_spec_{}'.format(j), plot_spectrogram(mel[0]), steps)
 
-                            sw.add_audio('generated/y_hat_{}'.format(j), y_g_hat[0], steps, spec_config.sampling_rate)
-                            y_hat_spec = mel_spectrogram(y_g_hat.squeeze(1), spec_config.n_fft, spec_config.num_mels, spec_config.sampling_rate,
+                            sw.add_audio('generated/y_hat_{}'.format(j), gen_wav[0], steps, spec_config.sampling_rate)
+                            y_hat_spec = mel_spectrogram(gen_wav.squeeze(1), spec_config.n_fft, spec_config.num_mels, spec_config.sampling_rate,
                                                         spec_config.hop_size, spec_config.win_size,
                                                         spec_config.fmin, spec_config.fmax)
                             sw.add_figure('generated/y_hat_spec_{}'.format(j),

@@ -21,19 +21,20 @@ if __name__ == '__main__':
         textGrid_list = sorted(glob.glob(os.path.join(valid_path, song, "*.TextGrid")))
         for wav in wav_list:
             # audio_path = os.path.join(valid_path, song, wav)
-            audio = load_audio(audio_path=wav)
-            print(audio.shape)
-            # mel_tensor = mel_spectrogram(
-            #     audio, n_fft, num_mels, sampling_rate, hop_size, win_size, fmin, fmax
-            # )
-            # mel = mel_tensor.squeeze().cpu().numpy()
+            audio = load_audio(audio_path=wav, sr=sampling_rate)
+            mel_tensor = mel_spectrogram(
+                audio, n_fft, num_mels, sampling_rate, hop_size, win_size, fmin, fmax
+            )
+            mel = mel_tensor.squeeze().cpu().numpy()
 
-            # print(mel.shape)
+            print('Done Generating spec')
 
-            # recon_audio = librosa.feature.inverse.mel_to_audio(
-            #     mel, sr=sampling_rate, n_fft=n_fft,
-            #     hop_length=hop_size, win_length=win_size
-            # )
+            recon_audio = librosa.feature.inverse.mel_to_audio(
+                mel, sr=sampling_rate, n_fft=n_fft,
+                hop_length=hop_size, win_length=win_size
+            )
+
+
 
 
 
