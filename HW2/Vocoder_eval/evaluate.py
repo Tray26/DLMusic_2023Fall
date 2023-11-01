@@ -51,6 +51,7 @@ def Log2f0_mean(frequency_true, frequency_pred):
 def evaluate(gt_dir, synth_dir):
     """Perform objective evaluation"""
     files = [file for file in os.listdir(synth_dir) if file.endswith('.wav')]
+    # print(files)
     gpu = 0 if torch.cuda.is_available() else None    
     device = torch.device('cpu' if gpu is None else f'cuda:{gpu}')
     print(f'Using {device}')
@@ -77,7 +78,7 @@ def evaluate(gt_dir, synth_dir):
             ###############
             # you can modify this line to find the Corresponding answer audio
             # for example, the wav_path is Alto-1#newboy_0004.wav
-            y_path = os.path.join(gt_dir, wav_path.split('_')[0]+'/'+wav_path.split('_')[1])
+            y_path = os.path.join(gt_dir, wav_path.split('%')[0]+'/'+wav_path.split('%')[1])
             ###############
             y_g_hat_path = os.path.join(synth_dir, wav_path)
             y_path_list.append(y_path)
@@ -111,6 +112,7 @@ def evaluate(gt_dir, synth_dir):
         RETURN['log2f0_mean'] = f0_mean_tot / len(files)
         
     if _FAD:
+        torch.multiprocessing.set_sharing_strategy('file_system')
         frechet = FrechetAudioDistance(
             use_pca=False,
             use_activation=False,
@@ -126,8 +128,10 @@ def main():
     parser.add_argument('--model', default=None)
     a = parser.parse_args()
 
-    gt_dir = '/path/to/m4singer_valid'
-    synth_dir = '/path/to/your/vocoder_output_dir'+a.model
+    os.environ['TF_ENABLE_ONEDNN_OPTS'] = '0'
+
+    gt_dir = '../m4singer_valid'
+    synth_dir = '../recon_results/'+a.model
 
     results = evaluate(gt_dir, synth_dir)
     print(results)

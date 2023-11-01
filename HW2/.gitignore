@@ -1,4 +1,8 @@
 m4singer
 m4singer_valid
 checkpoints
-hifi-gan
+hifigan
+recon_results
+m4singer_mel
+m4singer_1
+testing_gen_wav
