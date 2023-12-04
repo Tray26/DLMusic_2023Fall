@@ -1,0 +1,9 @@
+numpy == 1.23.5
+miditoolkit
+transformers
+torch
+scipy
+pandas
+scikit-learn
+librosa
+matplotlib>=3.0.0
